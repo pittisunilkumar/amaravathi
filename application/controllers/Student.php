@@ -916,6 +916,7 @@ class Student extends Admin_Controller
                 $transport_feemaster_id = $this->input->post('transport_feemaster_id');
                 
                 $this->student_model->add_student_reference($reference_array);
+
                 $this->student_model->admi_no_add($admi_no_array);
                 
                 
@@ -1350,11 +1351,23 @@ class Student extends Admin_Controller
                                     $insert = "";
                                 } else {
                                     $insert_id = $this->student_model->add($student_data[$i], $data_setting);
+                                    $admi_no_array = array(
+                                        'student_id' =>  $insert_id,
+                                        'admi_status'=> 0,
+                                    );
+                                        
+                                    $this->student_model->admi_no_add($admi_no_array);
                                 }
                             } else {
 
                                 if ($this->form_validation->is_unique($adm_no, 'students.admission_no')) {
                                     $insert_id = $this->student_model->add($student_data[$i], $data_setting);
+                                    $admi_no_array = array(
+                                        'student_id' =>  $insert_id,
+                                        'admi_status'=> 0,
+                                    );
+                                        
+                                    $this->student_model->admi_no_add($admi_no_array);
                                 } else {
                                     $insert_id = "";
                                 }

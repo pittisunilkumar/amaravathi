@@ -81,7 +81,8 @@ class Studentfeemaster_model extends MY_Model
             $message   = INSERT_RECORD_CONSTANT . " On student fees master id " . $id;
             $action    = "Insert";
             $record_id = $id;
-            $this->log($message, $record_id, $action);            
+            $this->log($message, $record_id, $action); 
+                     
         } 
     }
 

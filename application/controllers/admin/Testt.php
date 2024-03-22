@@ -345,11 +345,23 @@ class Testt extends Admin_Controller
                                     $insert = "";
                                 } else {
                                     $insert_id = $this->student_model->add($student_data[$i], $data_setting);
+                                    $admi_no_array = array(
+                                        'student_id' =>  $insert_id,
+                                        'admi_status'=> 0,
+                                    );
+                                        
+                                    $this->student_model->admi_no_add($admi_no_array);
                                 }
                             } else {
 
                                 if ($this->form_validation->is_unique($adm_no, 'students.admission_no')) {
                                     $insert_id = $this->student_model->add($student_data[$i], $data_setting);
+                                    $admi_no_array = array(
+                                        'student_id' =>  $insert_id,
+                                        'admi_status'=> 0,
+                                    );
+                                        
+                                    $this->student_model->admi_no_add($admi_no_array);
                                 } else {
                                     $insert_id = "";
                                 }
@@ -456,7 +468,7 @@ class Testt extends Admin_Controller
         } else { 
             
             
-
+            $failed_admission_numbers = array();
             
 
             if (isset($_FILES["file"]) && !empty($_FILES['file']['name'])) {
@@ -468,6 +480,7 @@ class Testt extends Admin_Controller
 
                     if (!empty($result)) {
                         $rowcount = 0;
+                        $notrow  = '';
                         for ($i = 1; $i <= count($result); $i++) {
 
                             $student_data[$i] = array();
@@ -544,11 +557,29 @@ class Testt extends Admin_Controller
                                     $insert = "";
                                 } else {
                                     $insert_id = $this->student_model->add($student_data[$i], $data_setting);
+
+                                    
+                                    $admi_no_array = array(
+                                        'student_id' =>  $insert_id,
+                                        'admi_status'=> 0,
+                                    );
+                                        
+                                    $this->student_model->admi_no_add($admi_no_array);
+                                    
                                 }
                             } else {
 
                                 if ($this->form_validation->is_unique($adm_no, 'students.admission_no')) {
                                     $insert_id = $this->student_model->add($student_data[$i], $data_setting);
+
+                                    $admi_no_array = array(
+                                        'student_id' =>  $insert_id,
+                                        'admi_status'=> 0,
+                                    );
+                                        
+                                    $this->student_model->admi_no_add($admi_no_array);
+
+
                                 } else {
                                     $insert_id = "";
                                 }
@@ -607,11 +638,12 @@ class Testt extends Admin_Controller
                                 $this->session->set_flashdata('msg', '<div class="alert alert-success text-center">' . $this->lang->line('students_imported_successfully') . '</div>');
 
                                 $rowcount++;
-                                $this->session->set_flashdata('msg', '<div class="alert alert-success text-center">' . $this->lang->line('total') . ' ' . count($result) . $this->lang->line('records_found_in_csv_file_total') . $rowcount . ' ' . $this->lang->line('records_imported_successfully') . '</div>');
+                                $this->session->set_flashdata('msg', '<div class="alert alert-success text-center">' . $this->lang->line('total') . ' ' . count($result) . $this->lang->line('records_found_in_csv_file_total') . $rowcount . ' ' . $this->lang->line('records_imported_successfully') . $notrow .'</div>');
 
                             } else {
 
-                                $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center">' . $this->lang->line('record_already_exist') . '</div>');
+                                $notrow=$notrow . ',' . $adm_no;
+                                $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center">' . $this->lang->line('record_already_exist') .'</div>');
                             }
                         }
                     } else {
@@ -884,6 +916,244 @@ class Testt extends Admin_Controller
     }
 
 
+    // public function addstudentfee()
+    // {
+    //     $data['title']      = $this->lang->line('import_student');
+    //     $data['title_list'] = $this->lang->line('recently_added_student');
+    //     $session            = $this->setting_model->getCurrentSession();
+    //     // $class              = $this->class_model->get('', $classteacher = 'yes');
+
+    //     $class   = $this->test_model->get_fee_group();
+
+    //     $data['classlist']  = $class;
+    //     $userdata           = $this->customlib->getUserData();
+
+    //     $category = $this->category_model->get();
+
+    //     $fields = array('admission_no', 'roll_no', 'firstname', 'middlename', 'lastname', 'gender', 'dob', 'category_id', 'religion', 'cast', 'mobileno', 'email', 'admission_date', 'blood_group', 'school_house_id', 'height', 'weight', 'measurement_date', 'father_name', 'father_phone', 'father_occupation', 'mother_name', 'mother_phone', 'mother_occupation', 'guardian_is', 'guardian_name', 'guardian_relation', 'guardian_email', 'guardian_phone', 'guardian_occupation', 'guardian_address', 'current_address', 'permanent_address', 'bank_account_no', 'bank_name', 'ifsc_code', 'adhar_no', 'samagra_id', 'rte', 'previous_school', 'note');
+
+    //     $data["fields"]       = $fields;
+    //     $data['categorylist'] = $category;
+        
+
+
+    //     // $this->form_validation->set_rules('class_id', $this->lang->line('class'), 'trim|required|xss_clean');
+    //     // $this->form_validation->set_rules('section_id', $this->lang->line('section'), 'trim|required|xss_clean');
+    //     $this->form_validation->set_rules('file', $this->lang->line('image'), 'callback_handle_csv_upload');
+        
+        
+    //     if ($this->form_validation->run() == false) {
+    //         $this->load->view('layout/header', $data);
+    //         $this->load->view('admin/test/importfee', $data);
+    //         $this->load->view('layout/footer', $data);
+    //     }else {
+
+    //         // $class_id   = $this->input->post('class_id');
+    //         // $section_id = $this->input->post('section_id');
+
+    //         // $feessionggropid = $this->test_model->feesiongroupid($class_id);
+    //         // $fee_groups_feetype_id=$this->test_model->fee_groups_feetypeid($feessionggropid,$class_id,$section_id);
+
+    //         $session = $this->setting_model->getCurrentSession();
+
+    //         if (isset($_FILES["file"]) && !empty($_FILES['file']['name'])) {
+    //             $ext = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
+    //             if ($ext == 'csv') {
+    //                 $file = $_FILES['file']['tmp_name'];
+    //                 $this->load->library('CSVReader');
+    //                 $result = $this->csvreader->parse_file($file);
+
+    //                 if (!empty($result)) {
+    //                     $rowcount = 0;
+    //                     for ($i = 1; $i <= count($result); $i++) {
+
+    //                         $student_data[$i] = array();
+    //                         $n                = 0;
+
+    //                         // $class_id   = $this->input->post('class_id');
+    //                         $class_id = $this->test_model->get_fee_group_id($result[$i]['fee_group']);
+    //                         $section_id = $this->test_model->fee_type_id($result[$i]['fee_type']);
+
+
+    //                         $feessionggropid = $this->test_model->feesiongroupid($class_id);
+    //                         $fee_groups_feetype_id=$this->test_model->fee_groups_feetypeid($feessionggropid,$class_id,$section_id);
+
+
+
+    //                         $studentsessionid = $this->test_model->getstudentid($result[$i]['application_no']);
+
+                            
+    //                         $student_fees_master_id=$this->test_model->student_fee_master_id($studentsessionid,$feessionggropid);
+
+    //                         $student_fees_discount_id = '';
+                            
+
+    //                         $json_array               = array(
+    //                             'amount'          => convertCurrencyFormatToBaseAmount($result[$i]['amount']),
+    //                             'amount_discount' => convertCurrencyFormatToBaseAmount($result[$i]['amount_discount']),
+    //                             'amount_fine'     => convertCurrencyFormatToBaseAmount($result[$i]['amount_fine']),
+    //                             'date'            => date('Y-m-d', $this->customlib->datetostrtotime($result[$i]['date'])),
+    //                             'description'     => $result[$i]['description'],
+    //                             'collected_by'    => $result[$i]['collected_by'],
+    //                             'payment_mode'    => $result[$i]['payment_mode'],
+    //                             'received_by'     => $result[$i]['received_by'],
+    //                         );
+
+    //                         // $transport_fees_id      = $this->input->post('transport_fees_id');
+    //                         // $fee_category           = $this->input->post('fee_category');
+
+    //                         $data = array(
+    //                             'fee_category'           => $result[$i]['fee_category'],
+    //                             'student_fees_master_id' => $student_fees_master_id,
+    //                             'fee_groups_feetype_id'  => $fee_groups_feetype_id,
+    //                             'amount_detail'          => $json_array,
+    //                             'status'                 => $result[$i]['receipt_id'],
+    //                         );
+
+                        
+    //                         $send_to            = '';
+
+    //                         $inserted_id        = $this->test_model->fee_deposit($data, $send_to, $student_fees_discount_id);
+
+    //                         // $this->session->set_flashdata('msg', '<div class="alert alert-success text-center">' . $this->lang->line('no_record_found') . '</div>');
+
+                        
+    //                     }
+
+
+    //                 }
+                    
+    //                 else {
+
+    //                     $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center">' . $this->lang->line('no_record_found') . '</div>');
+    //                 }
+                
+    //             } else {
+
+    //                 $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center">' . $this->lang->line('please_upload_csv_file_only') . '</div>');
+    //             }
+    //         }
+
+    //         redirect('admin/testt/importfee');
+    //     }
+    // }
+
+
+
+    // public function addstudentfee()
+    // {
+    //     $data['title']      = $this->lang->line('import_student');
+    //     $data['title_list'] = $this->lang->line('recently_added_student');
+        
+    //     $class   = $this->test_model->get_fee_group();
+
+    //     $data['classlist']  = $class;
+    //     $userdata           = $this->customlib->getUserData();
+
+    //     $category = $this->category_model->get();
+
+    //     $fields = array('admission_no', 'roll_no', 'firstname', 'middlename', 'lastname', 'gender', 'dob', 'category_id', 'religion', 'cast', 'mobileno', 'email', 'admission_date', 'blood_group', 'school_house_id', 'height', 'weight', 'measurement_date', 'father_name', 'father_phone', 'father_occupation', 'mother_name', 'mother_phone', 'mother_occupation', 'guardian_is', 'guardian_name', 'guardian_relation', 'guardian_email', 'guardian_phone', 'guardian_occupation', 'guardian_address', 'current_address', 'permanent_address', 'bank_account_no', 'bank_name', 'ifsc_code', 'adhar_no', 'samagra_id', 'rte', 'previous_school', 'note');
+
+    //     $data["fields"]       = $fields;
+    //     $data['categorylist'] = $category;
+    //     $this->form_validation->set_rules('file', $this->lang->line('image'), 'callback_handle_csv_upload');
+        
+        
+    //     if ($this->form_validation->run() == false) {
+    //         $this->load->view('layout/header', $data);
+    //         $this->load->view('admin/test/importfee', $data);
+    //         $this->load->view('layout/footer', $data);
+    //     }else {
+
+            
+            
+
+    //         if (isset($_FILES["file"]) && !empty($_FILES['file']['name'])) {
+    //             $ext = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
+    //             if ($ext == 'csv') {
+    //                 $file = $_FILES['file']['tmp_name'];
+    //                 $this->load->library('CSVReader');
+    //                 $result = $this->csvreader->parse_file($file);
+
+    //                 if (!empty($result)) {
+    //                     $rowcount = 0;
+    //                     $feessionggropid = '';
+    //                     $fee_groups_feetype_id='';
+    //                     $studentsessionid='';
+    //                     $student_fees_master_id='';
+    //                     $send_to            = '';
+    //                     for ($i = 1; $i <= count($result); $i++) {
+                            
+
+    //                         // $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center">' . $result[$i]['application_no'] .',' . $result[$i]['amount'] .',' . $result[$i]['date'] .',' . $result[$i]['amount_fine'] .',' . $result[$i]['amount_discount'] .',' . $result[$i]['description'] .',' . $result[$i]['collected_by'] .',' . $result[$i]['payment_mode'] .',' . $result[$i]['received_by'] .',' . $result[$i]['fee_category'] .',' . $result[$i]['fee_group'] .','. $result[$i]['fee_type'] .','. $result[$i]['receipt_id'] .','. '</div>');
+
+                            
+
+
+    //                         $class_id = $this->test_model->get_fee_group_id($result[$i]['fee_group']);
+    //                         $section_id = $this->test_model->fee_type_id($result[$i]['fee_type']);
+
+
+    //                         $feessionggropid = $this->test_model->feesiongroupid($class_id);
+    //                         $fee_groups_feetype_id=$this->test_model->fee_groups_feetypeid($feessionggropid,$class_id,$section_id);
+
+
+
+    //                         $studentsessionid = $this->test_model->getstudentid($result[$i]['application_no']);
+
+                            
+    //                         $student_fees_master_id=$this->test_model->student_fee_master_id($studentsessionid,$feessionggropid);
+
+                        
+    //                         $student_fees_discount_id = '';
+                            
+
+    //                         $json_array               = array(
+    //                             'amount'          => convertCurrencyFormatToBaseAmount($result[$i]['amount']),
+    //                             'amount_discount' => convertCurrencyFormatToBaseAmount($result[$i]['amount_discount']),
+    //                             'amount_fine'     => convertCurrencyFormatToBaseAmount($result[$i]['amount_fine']),
+    //                             'date'            => date('Y-m-d', $this->customlib->datetostrtotime($result[$i]['date'])),
+    //                             'description'     => $result[$i]['description'],
+    //                             'collected_by'    => $result[$i]['collected_by'],
+    //                             'payment_mode'    => $result[$i]['payment_mode'],
+    //                             'received_by'     => $result[$i]['received_by'],
+    //                         );
+
+                            
+    //                         $data = array(
+    //                             'fee_category'           => $result[$i]['fee_category'],
+    //                             'student_fees_master_id' => $student_fees_master_id,
+    //                             'fee_groups_feetype_id'  => $fee_groups_feetype_id,
+    //                             'amount_detail'          => $json_array,
+    //                             'status'                 => $result[$i]['receipt_id'],
+    //                         );
+
+                        
+    //                         // $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center">' . $result[$i]['application_no'] .',' . $result[$i]['amount'] .',' . $result[$i]['date'] .',' . $result[$i]['amount_fine'] .',' . $result[$i]['amount_discount'] .',' . $result[$i]['description'] .',' . $result[$i]['collected_by'] .',' . $result[$i]['payment_mode'] .',' . $result[$i]['received_by'] .',' . $result[$i]['fee_category'] .',' . $result[$i]['fee_group'] .','. $result[$i]['fee_type'] .','. $result[$i]['receipt_id'] .','. $fee_groups_feetype_id . '</div>');
+    //                         $this->test_model->fee_deposit($data, $send_to, $student_fees_discount_id);
+    //                         // $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center">' . $student_fees_master_id . $result[$i]['fee_type'] .','. '</div>');
+
+    //                     }
+
+
+    //                 }
+                    
+    //                 else {
+
+    //                     $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center">' . $this->lang->line('no_record_found') . '</div>');
+    //                 }
+                
+    //             } else {
+
+    //                 $this->session->set_flashdata('msg', '<div class="alert alert-danger text-center">' . $this->lang->line('please_upload_csv_file_only') . '</div>');
+    //             }
+    //         }
+
+    //         redirect('admin/testt/importfee');
+    //     }
+    // }
+
+
 
     public function addstudentfee()
     {
@@ -906,8 +1176,6 @@ class Testt extends Admin_Controller
         
 
 
-        // $this->form_validation->set_rules('class_id', $this->lang->line('class'), 'trim|required|xss_clean');
-        // $this->form_validation->set_rules('section_id', $this->lang->line('section'), 'trim|required|xss_clean');
         $this->form_validation->set_rules('file', $this->lang->line('image'), 'callback_handle_csv_upload');
         
         
@@ -916,12 +1184,6 @@ class Testt extends Admin_Controller
             $this->load->view('admin/test/importfee', $data);
             $this->load->view('layout/footer', $data);
         }else {
-
-            // $class_id   = $this->input->post('class_id');
-            // $section_id = $this->input->post('section_id');
-
-            // $feessionggropid = $this->test_model->feesiongroupid($class_id);
-            // $fee_groups_feetype_id=$this->test_model->fee_groups_feetypeid($feessionggropid,$class_id,$section_id);
 
             $session = $this->setting_model->getCurrentSession();
 
@@ -943,25 +1205,31 @@ class Testt extends Admin_Controller
                             $class_id = $this->test_model->get_fee_group_id($result[$i]['fee_group']);
                             $section_id = $this->test_model->fee_type_id($result[$i]['fee_type']);
 
-
                             $feessionggropid = $this->test_model->feesiongroupid($class_id);
-                            $fee_groups_feetype_id=$this->test_model->fee_groups_feetypeid($feessionggropid,$class_id,$section_id);
-
-
-
                             $studentsessionid = $this->test_model->getstudentid($result[$i]['application_no']);
 
+                            $assigfeestatus     = $this->test_model->assignfeecheck($studentsessionid,$feessionggropid);
+
+                            if(!$assigfeestatus){
+                                $feeimport = array(
+                                    'student_session_id' => $studentsessionid,
+                                    'fee_session_group_id' => $feessionggropid,
+                                );
+                                $this->test_model->feemasterimport($feeimport);
+                                    
+                            }
                             
+                            $fee_groups_feetype_id=$this->test_model->fee_groups_feetypeid($feessionggropid,$class_id,$section_id);
+
                             $student_fees_master_id=$this->test_model->student_fee_master_id($studentsessionid,$feessionggropid);
 
                             $student_fees_discount_id = '';
                             
-
                             $json_array               = array(
                                 'amount'          => convertCurrencyFormatToBaseAmount($result[$i]['amount']),
                                 'amount_discount' => convertCurrencyFormatToBaseAmount($result[$i]['amount_discount']),
                                 'amount_fine'     => convertCurrencyFormatToBaseAmount($result[$i]['amount_fine']),
-                                'date'            => date('Y-m-d', $this->customlib->datetostrtotime($result[$i]['date'])),
+                                'date'            => $result[$i]['date'],
                                 'description'     => $result[$i]['description'],
                                 'collected_by'    => $result[$i]['collected_by'],
                                 'payment_mode'    => $result[$i]['payment_mode'],
@@ -970,7 +1238,6 @@ class Testt extends Admin_Controller
 
                             // $transport_fees_id      = $this->input->post('transport_fees_id');
                             // $fee_category           = $this->input->post('fee_category');
-
                             $data = array(
                                 'fee_category'           => $result[$i]['fee_category'],
                                 'student_fees_master_id' => $student_fees_master_id,
@@ -978,15 +1245,17 @@ class Testt extends Admin_Controller
                                 'amount_detail'          => $json_array,
                                 'status'                 => $result[$i]['receipt_id'],
                             );
-
-                        
+                            
                             $send_to            = '';
 
                             $inserted_id        = $this->test_model->fee_deposit($data, $send_to, $student_fees_discount_id);
+                            if($inserted_id){
+                                $rowcount++;
+                            }
 
-
-                        
                         }
+                        $this->session->set_flashdata('msg', '<div class="alert alert-success text-center">' . $this->lang->line('total') . ' ' . count($result) . $this->lang->line('records_found_in_csv_file_total') . $rowcount .'</div>');
+
                     }
                     
                     else {
@@ -1003,6 +1272,12 @@ class Testt extends Admin_Controller
             redirect('admin/testt/importfee');
         }
     }
+
+
+
+
+
+
 
 
     public function feeexportformat()

@@ -133,8 +133,10 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
                                                         </h4>
                                                         <table class="table">
                                                             <thead>
+                                                                <th><?php echo $this->lang->line('fee_type');?></th>
+
                                                                 <th><?php echo $this->lang->line('fees_code');?></th>
-                                                                <th class="text-right"><?php echo $this->lang->line('amount');?></th>
+                                                                <!-- <th class="text-right"><?php echo $this->lang->line('amount');?></th> -->
                                                             
                                                             </thead>                                                     
                                                             
@@ -148,19 +150,24 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
                                                             } else {
                                                                 foreach ($feegroup->feetypes as $feetype_key => $feetype_value) {
                                                                     ?>
+
                                                                     <tr class="mailbox-name">
+                                                                        <td>
+                                                                            <?php echo $feetype_value->type; ?>
+                                                                        </td>
                                                                         <td>
                                                                             <?php echo $feetype_value->code; ?>
                                                                         </td>
-                                                                        <td class="text-right">
+                                                                        <!-- <td class="text-right">
                                                                             <?php echo $currency_symbol . amountFormat($feetype_value->amount); ?>
-                                                                        </td>
+                                                                        </td> -->
                                                                     </tr>
+
                                                                     <?php
                                                                 }
                                                             }
                                                             ?>
-                                                            </tr>
+                                                            
                                                             </tbody></table>
                                                         <?php
                                                     }
@@ -227,7 +234,8 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
                                                                 $count++;
                                                             }
                                                             ?>
-                                                        </tbody></table>
+                                                        </tbody>
+                                                    </table>
                                                 </div>
                                                 <?php if (!empty($resultlist)) {   ?>
                                                 <button type="submit" class="allot-fees btn btn-primary btn-sm pull-right" id="load" data-loading-text="<i class='fa fa-spinner fa-spin '></i> <?php echo $this->lang->line('please_wait'); ?>"><?php echo $this->lang->line('save'); ?>

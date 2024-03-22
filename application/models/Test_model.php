@@ -231,21 +231,43 @@ class Test_model extends MY_Model
 
     public function student_fee_master_id($studentsessionid,$feegroupid){
 
-        $this->db->select('id');
-        $this->db->from('student_fees_master');
-        $this->db->where('student_fees_master.student_session_id',$studentsessionid);
-        $this->db->where('student_fees_master.fee_session_group_id',$feegroupid);
+        // $this->db->select('id');
+        // $this->db->from('student_fees_master');
+        // $this->db->where('student_fees_master.student_session_id',$studentsessionid);
+        // $this->db->where('student_fees_master.fee_session_group_id',$feegroupid);
 
-        $query = $this->db->get();
+        // $query = $this->db->get();
     
-        // Check if there is a result
-        if ($query->num_rows() > 0) {
-            // Return the first row's ID
-            return $query->row()->id;
+        // // Check if there is a result
+        // if ($query->num_rows() > 0) {
+        //     // Return the first row's ID
+        //     return $query->row()->id;
+        // } else {
+        //     // Return null or false, indicating no record found
+        //     return null;
+        // }
+
+
+        $this->db->where('student_session_id', $studentsessionid);
+        $this->db->where('fee_session_group_id', $feegroupid);
+        $q = $this->db->get('student_fees_master');
+
+        if ($q->num_rows() > 0) {
+            return $q->row()->id;
         } else {
-            // Return null or false, indicating no record found
-            return null;
-        }
+            $insert_array = array(
+                'student_session_id'   => $studentsessionid,
+                'fee_session_group_id' => $feegroupid,
+            );
+            $this->db->insert('student_fees_master', $insert_array);
+            $id = $this->db->insert_id();            
+            $message   = INSERT_RECORD_CONSTANT . " On student fees master id " . $id;
+            $action    = "Insert";
+            $record_id = $id;
+            $this->log($message, $record_id, $action);
+            return $id;
+                     
+        } 
     }
 
     public function fee_groups_feetypeid($feessessiongroupid,$feegroupid,$feetypeid){
@@ -326,8 +348,31 @@ class Test_model extends MY_Model
     
 
 
+    public function assignfeecheck($stid,$feegroupid){
+        $this->db->select();
+        $this->db->from('student_fees_master');
+        $this->db->where('student_fees_master.student_session_id',$stid);
+        $this->db->where('student_fees_master.fee_session_group_id',$feegroupid);
+
+        $query = $this->db->get();
+        if ($query->num_rows() > 0) {            
+            return true;
+        } else {
+            return false;
+        }
+
+    }
 
 
+    
+    public function feemasterimport($data) {
+        if ($this->db->insert('student_fees_master', $data)) {
+            $insert_id = $this->db->insert_id();
+            return true;
+        } else {
+            return false;
+        }
+    }
 
 
     public function getclassid($classname) {
@@ -371,7 +416,24 @@ class Test_model extends MY_Model
 
 
 
+    public function getfeematerid($data)
+    {       
+        $this->db->where('student_session_id', $data['student_session_id']);
+        $this->db->where('fee_session_group_id', $data['fee_session_group_id']);
+        $q = $this->db->get('student_fees_master');
 
+        if ($q->num_rows() > 0) {
+            return $q->row()->id;
+        } else {
+            $this->db->insert('student_fees_master', $data);
+            $id = $this->db->insert_id();            
+            $message   = INSERT_RECORD_CONSTANT . " On student fees master id " . $id;
+            $action    = "Insert";
+            $record_id = $id;
+            $this->log($message, $record_id, $action); 
+                     
+        } 
+    }
     
 
 }

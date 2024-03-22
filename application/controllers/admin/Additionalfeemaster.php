@@ -167,8 +167,10 @@ class Additionalfeemaster extends Admin_Controller
         $data['title']           = $this->lang->line('student_fees');
         $class                   = $this->class_model->get();
         $data['classlist']       = $class;
+        
         $feegroup_result         = $this->additionalfeesessiongroup_model->getFeesByGroup($id);
         $data['feegroupList']    = $feegroup_result;
+
         $data['adm_auto_insert'] = $this->sch_setting_detail->adm_auto_insert;
         $data['sch_setting']     = $this->sch_setting_detail;
         $genderList            = $this->customlib->getGender();
