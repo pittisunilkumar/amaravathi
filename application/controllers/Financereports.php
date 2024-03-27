@@ -670,7 +670,7 @@ class Financereports extends Admin_Controller
             $data['student_remain_fees'] = $students;
 
         }
-  $data['start_month'] = $this->sch_setting_detail->start_month;
+        $data['start_month'] = $this->sch_setting_detail->start_month;
         $this->load->view('layout/header', $data);
         $this->load->view('financereports/duefeesremark', $data);
         $this->load->view('layout/footer', $data);
@@ -1303,6 +1303,106 @@ class Financereports extends Admin_Controller
         $data['sch_setting'] = $this->sch_setting_detail;
         $this->load->view('layout/header', $data);
         $this->load->view('financereports/onlineadmission', $data);
+        $this->load->view('layout/footer', $data);
+    }
+
+
+    public function totalcollection_report()
+    {
+        if (!$this->rbac->hasPrivilege('collect_fees', 'can_view')) {
+            access_denied();
+        }
+
+        $data['collect_by']  = $this->studentfeemaster_model->get_feesreceived_by();
+        $data['searchlist']  = $this->customlib->get_searchtype();
+        $data['group_by']    = $this->customlib->get_groupby();
+        $feetype             = $this->feetype_model->get();
+        $tnumber=count($feetype);
+        $feetype[$tnumber]=array('id'=>'transport_fees','type'=>'Transport Fees');
+        
+        $data['feetypeList'] = $feetype;
+        $this->session->set_userdata('top_menu', 'Reports');
+        $this->session->set_userdata('sub_menu', 'Reports/finance');
+        $this->session->set_userdata('subsub_menu', 'Reports/finance/collection_report');
+        $subtotal = false;
+        
+        if (isset($_POST['search_type']) && $_POST['search_type'] != '') {
+            $dates               = $this->customlib->get_betweendate($_POST['search_type']);
+            $data['search_type'] = $_POST['search_type'];
+        } else {
+            $dates               = $this->customlib->get_betweendate('this_year');
+            $data['search_type'] = '';
+        }
+
+        if (isset($_POST['collect_by']) && $_POST['collect_by'] != '') {
+            $data['received_by'] = $received_by = $_POST['collect_by'];
+        } else {
+            $data['received_by'] = $received_by = '';
+        }
+
+        if (isset($_POST['feetype_id']) && $_POST['feetype_id'] != '') {
+            $feetype_id = $_POST['feetype_id'];
+        } else {
+            $feetype_id = "";
+        }
+
+        if (isset($_POST['group']) && $_POST['group'] != '') {
+            $data['group_byid'] = $group = $_POST['group'];
+            $subtotal           = true;
+        } else {
+            $data['group_byid'] = $group = '';
+        }
+
+        $collect_by = array();
+        $collection = array();
+        $start_date = date('Y-m-d', strtotime($dates['from_date']));
+        $end_date   = date('Y-m-d', strtotime($dates['to_date']));
+
+        $this->form_validation->set_rules('search_type', $this->lang->line('search_duration'), 'trim|required|xss_clean');
+
+        $data['classlist']        = $this->class_model->get();
+        $data['selected_section'] = '';
+
+        if ($this->form_validation->run() == false) {
+            $data['results'] = array();
+        } else {
+
+            $class_id   = $this->input->post('class_id');
+            $section_id = $this->input->post('section_id');
+
+            $data['selected_section'] = $section_id;
+
+            $data['results'] = $this->studentfeemaster_model->getTotalFeeCollectionReport($start_date, $end_date, $feetype_id, $received_by, $group, $class_id, $section_id);
+
+
+            if ($group != '') {
+
+                if ($group == 'class') {
+                    $group_by = 'class_id';
+                } elseif ($group == 'collection') {
+                    $group_by = 'received_by';
+                } elseif ($group == 'mode') {
+                    $group_by = 'payment_mode';
+                }
+
+                foreach ($data['results'] as $key => $value) {
+                    $collection[$value[$group_by]][] = $value;
+                }
+            } else {
+ 
+                $s = 0;
+                foreach ($data['results'] as $key => $value) {
+                    $collection[$s++] = array($value);
+                }
+            }
+
+            $data['results'] = $collection;
+        }
+        $data['subtotal']    = $subtotal;
+        
+        $data['sch_setting'] = $this->sch_setting_detail;
+        $this->load->view('layout/header', $data);
+        $this->load->view('financereports/totalcollection_report', $data);
         $this->load->view('layout/footer', $data);
     }
     

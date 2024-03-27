@@ -7,8 +7,30 @@
                         <h3 class="box-title titlefix pt5"> <?php echo $this->lang->line('setting') ?></h3>     
                     </div>
                     <div class="box-body">
-                        
-                        
+                        <!-- <?php          
+                            if (!$this->auth->addonchk('ssmb',false)) {
+                        ?>
+                        <div class="alert alert-danger">You are using unregistered version of Smart School Multibranch addon, please <a href="#" class="displayinline align-text-top" data-addon-version="<?php echo $version;?>" data-addon="ssmb" data-toggle="modal" data-target="#addonModal">click here</a> to register addon </div>
+                        <?php
+                            }else{
+                        ?>
+                        <button type="button"  data-toggle="modal" data-target="#addModal" class="btn btn-primary btn-sm mt10 mb10 pull-right"><i class="fa fa-plus"></i> <?php echo $this->lang->line('add_new') ?> </button>
+                        <table class="table table-striped table-bordered table-hover branch-list" data-export-title="<?php echo $this->lang->line('branch_list') ?>">
+                            <thead>
+                                <tr>
+                                    <th><?php echo $this->lang->line('branch') ?></th>
+                                    <th><?php echo $this->lang->line('url') ?></th>
+                                    <th class="noExport"><?php echo $this->lang->line('action') ?></th>                                       
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                        <?php    
+                            }
+                        ?>      -->
+
+
                         <button type="button"  data-toggle="modal" data-target="#addModal" class="btn btn-primary btn-sm mt10 mb10 pull-right"><i class="fa fa-plus"></i> <?php echo $this->lang->line('add_new') ?> </button>
                         <table class="table table-striped table-bordered table-hover branch-list" data-export-title="<?php echo $this->lang->line('branch_list') ?>">
                             <thead>
@@ -21,7 +43,6 @@
                             <tbody>
                             </tbody>
                         </table><!-- /.table -->
-                            
 
                     </div>                
                 </div>
@@ -42,7 +63,10 @@
         <div class="modal-body">
             <form method="POST" class="form_db" action="<?php echo site_url('admin/multibranch/branch/add') ?>">
             <input type="hidden" class="form-control id" name="id" value="0">
-                
+                <div class="form-group">               
+                    <label><?php echo $this->lang->line('envato_purchase_code'); ?></label><small class="req"> *</small>
+                    <input type="text" class="form-control purchase_code" name="purchase_code">
+                </div>
                 <span class="clearfix">
                     <h4 class="box-title">
                         <?php echo $this->lang->line('branch_database_detail'); ?>
@@ -87,7 +111,7 @@
     'use strict';
     
         $(document).ready(function () {
-            // initDatatable('branch-list','admin/multibranch/branch/getlist',[],[],100);
+            initDatatable('branch-list','admin/multibranch/branch/getlist',[],[],100);
         });
         
     } ( jQuery ) )
@@ -105,12 +129,12 @@
     });  
   
 
-$(document).on("click", ".delete_branch", function(e) {
+    $(document).on("click", ".delete_branch", function(e) {
 
          e.preventDefault(); // avoid to execute the actual submit of the form.
          var $this=$(this);
          let id = $(this).data('recordid');
-  var result = confirm("<?php echo $this->lang->line('delete_confirm'); ?>");
+        var result = confirm("<?php echo $this->lang->line('delete_confirm'); ?>");
     if(result){
 
     $.ajax({
@@ -224,11 +248,11 @@ $(document).on("click", ".delete_branch", function(e) {
 
 
     });
-$('input.form-check-input').on('change', function() {
-    $('input.form-check-input').not(this).prop('checked', false);  
-});
+    $('input.form-check-input').on('change', function() {
+        $('input.form-check-input').not(this).prop('checked', false);  
+    });
 
-$(document).on("click", ".check_branch", function(e) {
+    $(document).on("click", ".check_branch", function(e) {
 
           e.preventDefault(); // avoid to execute the actual submit of the form.
           let $this = $(this);
@@ -236,7 +260,7 @@ $(document).on("click", ".check_branch", function(e) {
           var database=$(this).closest('div.panel-body').find(".database").val();
           var username=$(this).closest('div.panel-body').find(".username").val();
            var password=$(this).closest('div.panel-body').find(".password").val();
-   let id=$(this).data('id');
+    let id=$(this).data('id');
     $.ajax({
            type: "POST",
            url: baseurl+"admin/multibranch/branch/verify",
@@ -261,7 +285,7 @@ $(document).on("click", ".check_branch", function(e) {
                  successMsg(data.message);                        
              
              }
- $this.button('reset');
+            $this.button('reset');
            },
              error: function(xhr) { // if error occured
         alert("Error occured.please try again");

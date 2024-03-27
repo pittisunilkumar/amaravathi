@@ -58,7 +58,10 @@
                     
                         <li class="col-lg-4 col-md-4 col-sm-6 <?php echo set_SubSubmenu('Reports/finance/onlineadmission'); ?>"><a href="<?php echo base_url(); ?>financereports/onlineadmission"><i class="fa fa-file-text-o"></i> <?php echo $this->lang->line('online_admission_fees_collection_report'); ?></a></li>
 
+                    <?php   }  if ($this->rbac->hasPrivilege('fees_collection_report', 'can_view')) {   ?>
+                        <li class="col-lg-4 col-md-4 col-sm-6 <?php echo set_SubSubmenu('Reports/finance/collection_report'); ?>"><a href="<?php echo base_url(); ?>financereports/totalcollection_report"><i class="fa fa-file-text-o"></i> <?php echo $this->lang->line('totalfees_collection_report'); ?></a></li>
                     <?php } ?>
+                    
 
                 </ul>
             </div>

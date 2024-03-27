@@ -2558,3 +2558,4 @@ $lang['student_fee_import'] = "Student Fee Import";
 
 
 
+$lang['totalfees_collection_report'] = "Total Fee Collection Report";

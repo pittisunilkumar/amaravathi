@@ -362,13 +362,13 @@ class Studentfeemaster_model extends MY_Model
       
         if (!empty($result_value2)) {
             foreach ($result_value2 as $result_key => $result_value) {
-$result_value->fees=array();
+                $result_value->fees=array();
                 $fee_session_group_id   = $result_value->fee_session_group_id;
                 $student_fees_master_id = $result_value->id;
                 if(empty($result_value->fee_session_group_id)){
-$result_value->fees[0]     = (object)array('amount_detail'=>$result_value->amount_detail,'amount'=>$result_value->amount);
+                    $result_value->fees[0]     = (object)array('amount_detail'=>$result_value->amount_detail,'amount'=>$result_value->amount);
                 }else{
-$result_value->fees     = (object)$this->getDueFeeByFeeSessionGroup($fee_session_group_id, $student_fees_master_id);
+                    $result_value->fees     = (object)$this->getDueFeeByFeeSessionGroup($fee_session_group_id, $student_fees_master_id);
                 }
                 
 
@@ -403,7 +403,7 @@ $result_value->fees     = (object)$this->getDueFeeByFeeSessionGroup($fee_session
 
         return $result;
     }
-  public function getTransDueFeeByFeeSessionGroup($fee_session_groups_id, $student_fees_master_id)
+    public function getTransDueFeeByFeeSessionGroup($fee_session_groups_id, $student_fees_master_id)
     {
         $class_id="";
         if(isset($_POST['class_id']) && !empty($_POST['class_id'])){
@@ -730,14 +730,14 @@ $result_value->fees     = (object)$this->getDueFeeByFeeSessionGroup($fee_session
 
         $query1        = $this->db->get();
         $result_value1 = $query1->result();
-    }else{
-        $result_value1=array();
-    }
-        if($feetype_id!=null){ 
-        if($feetype_id!='transport_fees'){
+        }else{
             $result_value1=array();
         }
-      }
+        if($feetype_id!=null){ 
+            if($feetype_id!='transport_fees'){
+                $result_value1=array();
+            }
+        }
         if(empty($result_value)){
             $result_value2=$result_value1;
         }elseif(empty($result_value1)){
@@ -1005,7 +1005,7 @@ $result_value->fees     = (object)$this->getDueFeeByFeeSessionGroup($fee_session
             }
         }
         }else{
-$module=$this->module_model->getPermissionByModulename('transport');
+        $module=$this->module_model->getPermissionByModulename('transport');
         if($module['is_active']){
           $this->db->select('`student_fees_deposite`.*,students.firstname,students.middlename,students.lastname,student_session.class_id,classes.class,sections.section,student_session.section_id,student_session.student_id,"Transport Fees" as name, "Transport Fees" as `type`, transport_feemaster.month as `code`,0 as is_system,student_transport_fees.student_session_id,students.admission_no')->from('student_fees_deposite');
         
@@ -1030,7 +1030,7 @@ $module=$this->module_model->getPermissionByModulename('transport');
                 }
             }
         }
-    }
+        }
         }
       
        
@@ -1378,7 +1378,7 @@ $module=$this->module_model->getPermissionByModulename('transport');
         $query                  = $this->db->query($sql);
         return $query->result();
     }
-
+    
 
     public function fees_reminder($date,$fee_groups_feetype,$student_session)
     {
@@ -1387,5 +1387,135 @@ $module=$this->module_model->getPermissionByModulename('transport');
         $query  = $this->db->query($sql);
         return $query->result();
     }
+
+    public function getTotalFeeCollectionReport($start_date, $end_date, $feetype_id= null,$received_by = null, $group = null, $class_id = null, $section_id = null)
+    {
+        $this->db->select('`student_fees_deposite`.*,students.firstname,students.middlename,students.lastname,student_session.class_id,classes.class,sections.section,student_session.section_id,student_session.student_id,`fee_groups`.`name`, `feetype`.`type`, `feetype`.`code`,feetype.is_system,student_fees_master.student_session_id,students.admission_no')->from('student_fees_deposite');
+        $this->db->join('fee_groups_feetype', 'fee_groups_feetype.id = student_fees_deposite.fee_groups_feetype_id');
+        $this->db->join('fee_groups', 'fee_groups.id = fee_groups_feetype.fee_groups_id');
+        $this->db->join('feetype', 'feetype.id = fee_groups_feetype.feetype_id');
+        $this->db->join('student_fees_master', 'student_fees_master.id=student_fees_deposite.student_fees_master_id');
+        $this->db->join('student_session', 'student_session.id= student_fees_master.student_session_id', 'left');
+        $this->db->join('classes', 'classes.id= student_session.class_id');
+        $this->db->join('sections', 'sections.id= student_session.section_id');
+        $this->db->join('students', 'students.id=student_session.student_id');
+        if($feetype_id!=null){
+            $this->db->where('fee_groups_feetype.feetype_id',$feetype_id);
+        }
+        $this->db->where('fee_groups_feetype.session_id',$this->current_session);
+        $this->db->where('student_session.session_id',$this->current_session);
+        // $this->db->order_by('student_fees_deposite.id','desc');
+
+        if($class_id!=null){
+            $this->db->where('student_session.class_id',$class_id);
+        }
+
+        if($section_id!=null){
+            $this->db->where('student_session.section_id',$section_id);
+        }
+
+        $query        = $this->db->get();
+        $result_value = $query->result();    
+        $module=$this->module_model->getPermissionByModulename('transport');
+        if($module['is_active']){
+          $this->db->select('`student_fees_deposite`.*,students.firstname,students.middlename,students.lastname,student_session.class_id,classes.class,sections.section,student_session.section_id,student_session.student_id,"Transport Fees" as name, "Transport Fees" as `type`, "" as `code`,0 as is_system,student_transport_fees.student_session_id,students.admission_no')->from('student_fees_deposite');
+        
+        $this->db->join('student_transport_fees', 'student_transport_fees.id = `student_fees_deposite`.`student_transport_fee_id`');
+        $this->db->join('transport_feemaster', '`student_transport_fees`.`transport_feemaster_id` = `transport_feemaster`.`id`');
+        $this->db->join('student_session', 'student_session.id= `student_transport_fees`.`student_session_id`', 'INNER');
+        $this->db->join('classes', 'classes.id= student_session.class_id');
+        $this->db->join('sections', 'sections.id= student_session.section_id');
+        $this->db->join('students', 'students.id=student_session.student_id');
+       
+        
+        $this->db->where('student_session.session_id',$this->current_session);
+        // $this->db->order_by('student_fees_deposite.id','desc');
+
+        if($class_id!=null){
+            $this->db->where('student_session.class_id',$class_id);
+        }
+
+        if($section_id!=null){
+            $this->db->where('student_session.section_id',$section_id);
+        }
+
+        $query1        = $this->db->get();
+        $result_value1 = $query1->result();
+        }else{
+            $result_value1=array();
+        }
+        if($feetype_id!=null){ 
+            if($feetype_id!='transport_fees'){
+                $result_value1=array();
+            }
+        }
+        if(empty($result_value)){
+            $result_value2=$result_value1;
+        }elseif(empty($result_value1)){
+            $result_value2=$result_value;
+        }else{
+            $result_value2=array_merge($result_value,$result_value1);
+        }
+        
+      
+        $return_array = array();
+        if (!empty($result_value2)) {
+            $st_date = strtotime($start_date);
+            $ed_date = strtotime($end_date);
+            foreach ($result_value2 as $key => $value) {
+                if ($received_by != null) {
+                    $return = $this->findObjectByCollectId($value, $st_date, $ed_date, $received_by);
+                } else {
+                    $return = $this->findObjectById($value, $st_date, $ed_date);
+                }
+
+                if (!empty($return)) {
+                    foreach ($return as $r_key => $r_value) {
+
+                        $a['id']                     = $value->id;
+                        $a['student_fees_master_id'] = $value->student_fees_master_id;
+                        $a['fee_groups_feetype_id']  = $value->fee_groups_feetype_id;
+                        $a['admission_no']           = $value->admission_no;
+                        $a['firstname']              = $value->firstname;
+                        $a['middlename']             = $value->middlename;
+                        $a['lastname']               = $value->lastname;
+                        $a['class_id']               = $value->class_id;
+                        $a['class']                  = $value->class;
+                        $a['section']                = $value->section;
+                        $a['section_id']             = $value->section_id;
+                        $a['student_id']             = $value->student_id;
+                        $a['name']                   = $value->name;
+                        $a['type']                   = $value->type;
+                        $a['code']                   = $value->code;
+                        $a['student_session_id']     = $value->student_session_id;
+                        $a['is_system']              = $value->is_system;
+                        $a['amount']                 = $r_value->amount;
+                        $a['date']                   = $r_value->date;
+                        $a['amount_discount']        = $r_value->amount_discount;
+                        $a['amount_fine']            = $r_value->amount_fine;
+                        $a['description']            = $r_value->description;
+                        $a['payment_mode']           = $r_value->payment_mode;
+                        $a['inv_no']                 = $r_value->inv_no;
+                        $a['received_by']            = $r_value->received_by;
+                        if (isset($r_value->received_by)) {
+
+                            $a['received_by']     = $r_value->received_by;
+                            $a['received_byname'] = $this->staff_model->get_StaffNameById($r_value->received_by);
+                        } else {
+
+                            $a['received_by']     = '';
+                            $a['received_byname'] = array('name' => '', 'employee_id' => '', 'id' => '');
+                        }                        
+                        
+                        $return_array[] = $a;                        
+                    }
+                }
+            }
+
+        }
+        
+        return $return_array;
+    }
+
 
 }
