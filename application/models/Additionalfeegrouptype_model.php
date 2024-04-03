@@ -208,4 +208,7 @@ class Additionalfeegrouptype_model extends MY_Model
         return $fee_group_type_array;
     }
 
+
+    
+
 }

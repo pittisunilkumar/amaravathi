@@ -16,6 +16,7 @@ class Additionalfeemaster extends Admin_Controller
         $this->load->model('additionalfeegroup_model');
         $this->load->model('additionalfeesessiongroup_model');
         $this->load->model('additionalfeegrouptype_model');
+        $this->load->model('additionalstudentfeemaster_model');
         
     }
 
@@ -189,7 +190,7 @@ class Additionalfeemaster extends Admin_Controller
             $data['class_id']    = $this->input->post('class_id');
             $data['section_id']  = $this->input->post('section_id');
 
-            $resultlist         = $this->studentfeemaster_model->searchAssignFeeByClassSection($data['class_id'], $data['section_id'], $id, $data['category_id'], $data['gender'], $data['rte_status']);
+            $resultlist         = $this->additionalstudentfeemaster_model->searchAssignFeeByClassSection($data['class_id'], $data['section_id'], $id, $data['category_id'], $data['gender'], $data['rte_status']);
             $data['resultlist'] = $resultlist;
         }
 
@@ -197,6 +198,158 @@ class Additionalfeemaster extends Admin_Controller
         $this->load->view('admin/additionalfeemaster/assign', $data);
         $this->load->view('layout/footer', $data);
     }
+
+
+
+    public function addfeegroup()
+    {
+        $this->form_validation->set_rules('fee_session_groups', $this->lang->line('fee_group'), 'required|trim|xss_clean');
+
+
+        if ($this->form_validation->run() == false) {
+            $data = array(
+                'fee_session_groups' => form_error('fee_session_groups'),
+            );
+            $array = array('status' => 'fail', 'error' => $data);
+            echo json_encode($array);
+        } else {
+
+            $fee_type_ids = $this->input->post('fee_type_id');
+            $groupid = $this->input->post('inputgroupid');
+            $amounts = $this->input->post('amount');
+
+            $student_session_id     = $this->input->post('student_session_id');
+            $fee_session_groups     = $this->input->post('fee_session_groups');
+            $student_sesssion_array = isset($student_session_id) ? $student_session_id : array();
+            $student_ids            = $this->input->post('student_ids');
+            $delete_student         = array_diff($student_ids, $student_sesssion_array);
+
+            $preserve_record = array();
+            if (!empty($student_sesssion_array)) {
+                foreach ($student_sesssion_array as $key => $value) {
+                    $insert_array = array(
+                        'student_session_id'   => $value,
+                        'additionalfee_session_group_id' => $fee_session_groups,
+                    );
+                    $inserted_id = $this->additionalstudentfeemaster_model->add($insert_array);
+
+
+                    for ($i = 0; $i < count($fee_type_ids); $i++) {
+                        
+                        $ins = array(
+                            'student_session_id'=> $value,
+                            'additionalfee_session_group_id' => $fee_session_groups,
+                            'additionalgroupid'=> $groupid,
+                            'additionaltypeid'=> $fee_type_ids[$i],
+                            'amount' => $amounts[$i],
+                            
+                        );
+                        
+                        // Insert data into the database
+                        $ff = $this->additionalstudentfeemaster_model->additonalfeeasign($ins); 
+                    }
+
+                    
+
+                    $preserve_record[] = $inserted_id;
+                }
+            }
+            if (!empty($delete_student)) {
+                $this->additionalstudentfeemaster_model->delete($fee_session_groups, $delete_student);
+            }
+
+            $array = array('status' => 'success', 'error' => '', 'message' => $this->lang->line('success_message'));
+            echo json_encode($array);
+            
+        }
+    }
+
+
+    // public function addfeegroup()
+    // {
+    //     $this->form_validation->set_rules('fee_session_groups', $this->lang->line('fee_group'), 'required|trim|xss_clean');
+
+    //     $che=1;
+
+    //     if ($this->form_validation->run() == false) {
+    //         $data = array(
+    //             'fee_session_groups' => form_error('fee_session_groups'),
+            
+    //         );
+    //         $array = array('status' => 'fail', 'error' => $data);
+    //         echo json_encode($array);
+    //     } else {
+
+
+    //         $fee_type_ids = $this->input->post('fee_type_id');
+    //         $groupid = $this->input->post('inputgroupid');
+    //         $amounts = $this->input->post('amount');
+
+    //         // foreach ($amounts as $amount) {
+    //         //     // Check if the amount field is empty
+    //         //     if (empty($amount)) {
+    //         //         // If empty, redirect back with an error message
+    //         //         // $this->session->set_flashdata('error', 'Amount field cannot be empty.');
+    //         //         // redirect('admin/additionalfeemaster/assign/' . $groupid);
+    //         //         $che=0;
+    //         //         break;
+    //         //     }
+    //         // }
+    //         // if($che===0){
+    //         //     $amt = array(
+    //         //         'amount' => form_error('amount'),
+    //         //     );
+    //         //     $array = array('status' => 'fail', 'error' => $amt, 'message' => $this->lang->line('success_message'));
+    //         //     echo json_encode($array);
+    //         // }else{
+    //             $student_session_id     = $this->input->post('student_session_id');
+    //             $fee_session_groups     = $this->input->post('fee_session_groups');
+    //             $student_sesssion_array = isset($student_session_id) ? $student_session_id : array();
+    //             $student_ids            = $this->input->post('student_ids');
+    //             $delete_student         = array_diff($student_ids, $student_sesssion_array);
+
+    //             $preserve_record = array();
+    //             if (!empty($student_sesssion_array)) {
+    //                 foreach ($student_sesssion_array as $key => $value) {
+    //                     $insert_array = array(
+    //                         'student_session_id'   => $value,
+    //                         'additionalfee_session_group_id' => $fee_session_groups,
+    //                     );
+    //                     // $inserted_id = $this->additionalstudentfeemaster_model->add($insert_array);
+
+
+    //                     for ($i = 0; $i < count($fee_type_ids); $i++) {
+                            
+    //                         $ins = array(
+    //                             'student_session_id'=> $value,
+    //                             'additionalfee_session_group_id' => $fee_session_groups,
+    //                             'additionalgroupid'=> $groupid,
+    //                             'additionaltypeid'=> $fee_type_ids[$i],
+    //                             'amount' => $amounts[$i],
+                                
+    //                         );
+                            
+    //                         // Insert data into the database
+    //                         // $ff = $this->additionalstudentfeemaster_model->additonalfeeasign($ins); 
+    //                     }
+
+                        
+
+    //                     $preserve_record[] = $inserted_id;
+    //                 }
+    //             }
+    //             if (!empty($delete_student)) {
+    //                 $this->additionalstudentfeemaster_model->delete($fee_session_groups, $delete_student);
+    //             }
+
+    //             $array = array('status' => 'success', 'error' => '', 'message' => $this->lang->line('success_message'));
+    //             echo json_encode($array);
+    //         // }
+    //     }
+    // }
+
+
+
 
     
 }

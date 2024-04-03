@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Tilføj Live Class";
+$lang['api_used'] ="Api brugt";
+$lang['api_used_add'] ="Api brugt Tilføj";
+$lang['awaited'] ="Afventet";
+$lang['cancelled'] ="Annulleret";
+$lang['class_date'] ="Klassedato";
+$lang['class_duration_minutes'] ="Klassevarighed (minutter)";
+$lang['class_title'] ="Klassetitel";
+$lang['client_video'] ="Klientvideo";
+$lang['created_by'] ="Lavet af";
+$lang['created_for'] ="Oprettet til";
+$lang['credential'] ="Legitimationsoplysninger";
+$lang['finished'] ="Færdig";
+$lang['global'] ="Global";
+$lang['host'] ="Vært";
+$lang['host_video'] ="Værtsvideo";
+$lang['join'] ="Tilslutte";
+$lang['live_class'] ="Live klasser";
+$lang['live_meeting'] ="Live møde";
+$lang['meeting'] ="Møde";
+$lang['meeting_duration_minutes'] ="Mødets varighed (minutter)";
+$lang['meeting_not_started'] ="Mødet er ikke startet";
+$lang['now'] ="Nu";
+$lang['online_classes'] ="Zoom live klasser";
+$lang['online_live_classes'] ="Online live klasser";
+$lang['online_meeting'] ="Zoom Live Møder";
+$lang['self'] ="Selv";
+$lang['setting'] ="Indstilling";
+$lang['started'] ="Startede";
+$lang['teacher_api_credential'] ="Lærer Api legitimationsoplysninger";
+$lang['use_zoom_client_app'] ="Brug Zoom Client-appen";
+$lang['use_zoom_client_for_staff'] ="Brug Zoom Client til personale";
+$lang['use_zoom_client_for_student'] ="Brug Zoom Client til studerende";
+$lang['viewers'] ="Seere";
+$lang['waiting'] ="Venter";
+$lang['zoom_api_key'] ="Zoom API-nøgle";
+$lang['zoom_api_secret'] ="Zoom API-hemmelighed";
+$lang['zoom_api_setting'] ="Zoom Api-indstilling";
+$lang['zoom_credential'] ="Zoom legitimationsoplysninger";
+$lang['zoom_live_classes'] ="Zoom live klasser";
+$lang['zoom_online_classes_start'] ="Zoom Live Classes Start";
+$lang['zoom_online_meeting_start'] ="Zoom Live Møder Start";

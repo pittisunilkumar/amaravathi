@@ -123,6 +123,10 @@ class Test_model extends MY_Model
     
     public function fee_deposit($data, $send_to, $student_fees_discount_id = null)
     {
+
+        
+
+
         if ($data['fee_category'] == "fees") {
             # code...
             $this->db->where('student_fees_master_id', $data['student_fees_master_id']);
@@ -210,6 +214,9 @@ class Test_model extends MY_Model
             return null;
         }
     }
+
+
+    
 
     public function feesiongroupid($grouid){
         $this->db->select('id');

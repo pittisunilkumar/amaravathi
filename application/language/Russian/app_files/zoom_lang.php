@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Добавить живой класс";
+$lang['api_used'] ="Используемый API";
+$lang['api_used_add'] ="Api Used Добавить";
+$lang['awaited'] ="Ожидал";
+$lang['cancelled'] ="Отменено";
+$lang['class_date'] ="Дата занятия";
+$lang['class_duration_minutes'] ="Продолжительность занятия (минуты)";
+$lang['class_title'] ="Название класса";
+$lang['client_video'] ="Клиентское видео";
+$lang['created_by'] ="Создан";
+$lang['created_for'] ="Создан для";
+$lang['credential'] ="Учетные данные";
+$lang['finished'] ="Законченный";
+$lang['global'] ="Глобальный";
+$lang['host'] ="Хост";
+$lang['host_video'] ="Хост видео";
+$lang['join'] ="Присоединиться";
+$lang['live_class'] ="Живые классы";
+$lang['live_meeting'] ="Живая встреча";
+$lang['meeting'] ="Встреча";
+$lang['meeting_duration_minutes'] ="Продолжительность встречи (минуты)";
+$lang['meeting_not_started'] ="Встреча не началась";
+$lang['now'] ="В настоящее время";
+$lang['online_classes'] ="Zoom Live классы";
+$lang['online_live_classes'] ="Онлайн-классы";
+$lang['online_meeting'] ="Zoom Live Meetings";
+$lang['self'] ="Я";
+$lang['setting'] ="Настройка";
+$lang['started'] ="Начал";
+$lang['teacher_api_credential'] ="Учитель Api Credential";
+$lang['use_zoom_client_app'] ="Использовать клиентское приложение Zoom";
+$lang['use_zoom_client_for_staff'] ="Используйте Zoom Client для персонала";
+$lang['use_zoom_client_for_student'] ="Используйте Zoom Client для студентов";
+$lang['viewers'] ="Зрителей";
+$lang['waiting'] ="Ожидание";
+$lang['zoom_api_key'] ="Ключ API Zoom";
+$lang['zoom_api_secret'] ="Секрет API Zoom";
+$lang['zoom_api_setting'] ="Настройка Zoom Api";
+$lang['zoom_credential'] ="Учетные данные Zoom";
+$lang['zoom_live_classes'] ="Zoom Live классы";
+$lang['zoom_online_classes_start'] ="Начало занятий Zoom Live";
+$lang['zoom_online_meeting_start'] ="Zoom Live Meetings Start";

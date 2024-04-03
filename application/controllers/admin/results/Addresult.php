@@ -159,13 +159,6 @@ class Addresult extends Admin_Controller
     }
 
 
-
-
-
-
-
-
-
     public function addmore_point()
     {
 

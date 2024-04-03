@@ -137,7 +137,7 @@ class Additionalfeetype_model extends MY_Model
 
     public function check_data_exists($name, $id)
     {
-        $this->db->where('type', $name);
+        $this->db->where('code', $name);
         $this->db->where('id !=', $id);
         $query = $this->db->get('additionalfeetype');
         if ($query->num_rows() > 0) {

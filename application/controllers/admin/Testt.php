@@ -1196,6 +1196,8 @@ class Testt extends Admin_Controller
 
                     if (!empty($result)) {
                         $rowcount = 0;
+                        $failedRows = array();
+                        $tttt = array();
                         for ($i = 1; $i <= count($result); $i++) {
 
                             $student_data[$i] = array();
@@ -1208,17 +1210,20 @@ class Testt extends Admin_Controller
                             $feessionggropid = $this->test_model->feesiongroupid($class_id);
                             $studentsessionid = $this->test_model->getstudentid($result[$i]['application_no']);
 
-                            $assigfeestatus     = $this->test_model->assignfeecheck($studentsessionid,$feessionggropid);
+                            if(!$studentsessionid || !$feessionggropid){
+                                
+                            }else{
 
-                            if(!$assigfeestatus){
-                                $feeimport = array(
-                                    'student_session_id' => $studentsessionid,
-                                    'fee_session_group_id' => $feessionggropid,
-                                );
-                                $this->test_model->feemasterimport($feeimport);
-                                    
+                                
+                                $assigfeestatus     = $this->test_model->assignfeecheck($studentsessionid,$feessionggropid);
+                                if(!$assigfeestatus){
+                                    $feeimport = array(
+                                        'student_session_id' => $studentsessionid,
+                                        'fee_session_group_id' => $feessionggropid,
+                                    );
+                                    $this->test_model->feemasterimport($feeimport);        
+                                }
                             }
-                            
                             $fee_groups_feetype_id=$this->test_model->fee_groups_feetypeid($feessionggropid,$class_id,$section_id);
 
                             $student_fees_master_id=$this->test_model->student_fee_master_id($studentsessionid,$feessionggropid);
@@ -1236,8 +1241,6 @@ class Testt extends Admin_Controller
                                 'received_by'     => $result[$i]['received_by'],
                             );
 
-                            // $transport_fees_id      = $this->input->post('transport_fees_id');
-                            // $fee_category           = $this->input->post('fee_category');
                             $data = array(
                                 'fee_category'           => $result[$i]['fee_category'],
                                 'student_fees_master_id' => $student_fees_master_id,
@@ -1248,14 +1251,40 @@ class Testt extends Admin_Controller
                             
                             $send_to            = '';
 
-                            $inserted_id        = $this->test_model->fee_deposit($data, $send_to, $student_fees_discount_id);
-                            if($inserted_id){
+                            if(!$studentsessionid || !$student_fees_master_id || !$fee_groups_feetype_id){
+                                $failedRows[] = $result[$i];
+                            }else {
+                                $inserted_id        = $this->test_model->fee_deposit($data, $send_to, $student_fees_discount_id);
                                 $rowcount++;
+                                $tttt[]  = $result[$i];
                             }
 
                         }
+
                         $this->session->set_flashdata('msg', '<div class="alert alert-success text-center">' . $this->lang->line('total') . ' ' . count($result) . $this->lang->line('records_found_in_csv_file_total') . $rowcount .'</div>');
 
+
+                        if (!empty($failedRows)) {
+                            
+                            $failedFilePath = 'C:/xampp/htdocs/test/failuredata.csv';
+                            $failedFile = fopen($failedFilePath, 'w');
+                            fputcsv($failedFile, array_keys($failedRows[0]));
+                            foreach ($failedRows as $row) {
+                                fputcsv($failedFile, $row);
+                            }
+                            fclose($failedFile);
+                        }
+
+                        // if (!empty($tttt)) {
+                            
+                        //     $failedFilePath = 'C:/xampp/htdocs/test/succes.csv';
+                        //     $failedFile = fopen($failedFilePath, 'w');
+                        //     fputcsv($failedFile, array_keys($failedRows[0]));
+                        //     foreach ($tttt as $row) {
+                        //         fputcsv($failedFile, $row);
+                        //     }
+                        //     fclose($failedFile);
+                        // }
                     }
                     
                     else {
@@ -1272,11 +1301,6 @@ class Testt extends Admin_Controller
             redirect('admin/testt/importfee');
         }
     }
-
-
-
-
-
 
 
 

@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Lägg till Live Class";
+$lang['api_used'] ="Api används";
+$lang['api_used_add'] ="Api Använd Add";
+$lang['awaited'] ="Väntade";
+$lang['cancelled'] ="Inställt";
+$lang['class_date'] ="Klass Datum";
+$lang['class_duration_minutes'] ="Klasslängd (minuter)";
+$lang['class_title'] ="Klass Titel";
+$lang['client_video'] ="Klientvideo";
+$lang['created_by'] ="Skapad av";
+$lang['created_for'] ="Skapad för";
+$lang['credential'] ="Referens";
+$lang['finished'] ="Färdiga";
+$lang['global'] ="Global";
+$lang['host'] ="Värd";
+$lang['host_video'] ="Värdvideo";
+$lang['join'] ="Ansluta sig";
+$lang['live_class'] ="Live-klasser";
+$lang['live_meeting'] ="Live möte";
+$lang['meeting'] ="Möte";
+$lang['meeting_duration_minutes'] ="Möteslängd (minuter)";
+$lang['meeting_not_started'] ="Mötet startade inte";
+$lang['now'] ="Nu";
+$lang['online_classes'] ="Zooma liveklasser";
+$lang['online_live_classes'] ="Live-klasser online";
+$lang['online_meeting'] ="Zooma live möten";
+$lang['self'] ="Själv";
+$lang['setting'] ="Miljö";
+$lang['started'] ="Satte igång";
+$lang['teacher_api_credential'] ="Lärare Api Credential";
+$lang['use_zoom_client_app'] ="Använd Zoom Client-appen";
+$lang['use_zoom_client_for_staff'] ="Använd Zoom Client för personal";
+$lang['use_zoom_client_for_student'] ="Använd Zoom Client för Student";
+$lang['viewers'] ="Tittare";
+$lang['waiting'] ="Väntar";
+$lang['zoom_api_key'] ="Zoom API-nyckel";
+$lang['zoom_api_secret'] ="Zoom API-hemlighet";
+$lang['zoom_api_setting'] ="Zoom Api-inställning";
+$lang['zoom_credential'] ="Zooma referens";
+$lang['zoom_live_classes'] ="Zooma liveklasser";
+$lang['zoom_online_classes_start'] ="Zoom Live Classes Start";
+$lang['zoom_online_meeting_start'] ="Zoom Live Meetings Start";

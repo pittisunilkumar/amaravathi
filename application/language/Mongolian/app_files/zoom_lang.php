@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Шууд анги нэмэх";
+$lang['api_used'] ="Апи ашигласан";
+$lang['api_used_add'] ="Апи ашигласан";
+$lang['awaited'] ="Хүлээгдэж байна";
+$lang['cancelled'] ="Цуцлагдсан";
+$lang['class_date'] ="Хичээлийн огноо";
+$lang['class_duration_minutes'] ="Хичээлийн үргэлжлэх хугацаа (минут)";
+$lang['class_title'] ="Ангийн нэр";
+$lang['client_video'] ="Үйлчлүүлэгчийн видео";
+$lang['created_by'] ="Бүтээсэн байгуулсан зохион бүтээсэн";
+$lang['created_for'] ="Үүсгэсэн";
+$lang['credential'] ="Итгэмжлэх жуух бичиг";
+$lang['finished'] ="Дууссан";
+$lang['global'] ="Глобал";
+$lang['host'] ="Хөтлөгч";
+$lang['host_video'] ="Хост видео";
+$lang['join'] ="Нэгдэх";
+$lang['live_class'] ="Шууд ангиуд";
+$lang['live_meeting'] ="Шууд уулзалт";
+$lang['meeting'] ="Хурал";
+$lang['meeting_duration_minutes'] ="Хурлын үргэлжлэх хугацаа (минут)";
+$lang['meeting_not_started'] ="Уулзалт эхлээгүй";
+$lang['now'] ="Одоо";
+$lang['online_classes'] ="Шууд ангиудыг томруулах";
+$lang['online_live_classes'] ="Онлайн шууд дамжаа";
+$lang['online_meeting'] ="Шууд уулзалтыг томруулах";
+$lang['self'] ="Өөрийгөө";
+$lang['setting'] ="Тохиргоо";
+$lang['started'] ="Эхэлсэн";
+$lang['teacher_api_credential'] ="Багш Апи итгэмжлэх жуух бичиг";
+$lang['use_zoom_client_app'] ="Zoom Client App ашиглах";
+$lang['use_zoom_client_for_staff'] ="Ажилтнуудад зориулж Zoom Client ашиглана уу";
+$lang['use_zoom_client_for_student'] ="Zoom Client-ийг оюутанд ашиглана уу";
+$lang['viewers'] ="Үзэгчид";
+$lang['waiting'] ="Хүлээж байна";
+$lang['zoom_api_key'] ="Zoom API түлхүүр";
+$lang['zoom_api_secret'] ="Томруулах API нууц";
+$lang['zoom_api_setting'] ="Апи тохиргоог томруулах";
+$lang['zoom_credential'] ="Итгэмжлэх жуух бичгийг томруулах";
+$lang['zoom_live_classes'] ="Шууд ангиудыг томруулах";
+$lang['zoom_online_classes_start'] ="Шууд ангиудыг томруулах";
+$lang['zoom_online_meeting_start'] ="Амьд уулзалтыг томруулах";

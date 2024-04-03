@@ -103,7 +103,12 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
                         </form>
                     </div>
 
-                    <form method="post" action="<?php echo site_url('studentfee/addfeegroup') ?>" id="assign_form">
+                    <!-- <form method="post" action="<?php echo site_url('studentfee/addfeegroup') ?>" id="assign_form"> -->
+                        
+                    <form method="post" action="<?php echo site_url('admin/additionalfeemaster/addfeegroup') ?>" id="assign_form">
+
+                        <input type="hidden" name="inputgroupid" value="<?php echo $id; ?>">
+
                         <?php
                         if (isset($resultlist)) {
                             ?>
@@ -112,6 +117,7 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
                                 <div class="box-header with-border">
                                     <h3 class="box-title"><i class="fa fa-users"></i> <?php echo $this->lang->line('assign_fees_group'); ?>
                                         <?php echo form_error('student'); ?></h3>
+
                                     <div class="box-tools pull-right">
                                     </div>
                                 </div>
@@ -238,8 +244,9 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
                                                     </table>
                                                 </div>
                                                 <?php if (!empty($resultlist)) {   ?>
-                                                <button type="submit" class="allot-fees btn btn-primary btn-sm pull-right" id="load" data-loading-text="<i class='fa fa-spinner fa-spin '></i> <?php echo $this->lang->line('please_wait'); ?>"><?php echo $this->lang->line('save'); ?>
-                                                </button>
+                                                    <a onclick="add()" class="btn btn-primary btn-sm pull-right"> <?php echo $this->lang->line('save'); ?></a>
+                                                    <!-- <button type="submit" class="btn btn-primary btn-sm pull-right"> <?php echo $this->lang->line('save'); ?></button> -->
+
                                                 <?php } ?>
                                                 <br/>
                                                 <br/>
@@ -253,21 +260,154 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
                         }
                         ?>
 
+
+
+
+
+                        <div id="add" class="modal fade " role="dialog" data-backdrop="static" data-keyboard="false">
+                            <div class="modal-dialog modal-dialog2 modal-lg">
+                                <div class="modal-content">
+
+                                <?php
+                                foreach ($feegroupList as $feegroup) {
+                                    ?>
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" >&times;</button>
+                                        <h4 class="modal-title" id="modal-title" >
+                                        <?php if($feegroup->is_system){ echo $this->lang->line($feegroup->group_name); }else{ echo $feegroup->group_name; }  ?>
+
+                                        </h4>
+                                    </div>
+                                    
+                                    <!-- <form id="form1" name="employeeform" method="post" accept-charset="utf-8"> -->
+                                    <div class="">
+                                        <div class="">
+                                            <div class="modal-body">
+
+                                                    
+                                                    <?php echo $this->customlib->getCSRF(); ?>
+                                                    <input type ="hidden" name="student_id" id="student_id">
+                                                    <input type ="hidden" name="resulttype_id" id="resulttype_id" value="">
+                                                    <!-- <div id="delete_ides"></div> -->
+
+                                                    <!-- <div class="form-group">
+                                                        <label for="exampleInputEmail1"><?php echo $this->lang->line('route_list'); ?></label><small class="req"> *</small>
+                                                        <input type="hidden" name="action_type" id="action_type">
+                                                    </div> -->
+                                                
+                                                    <div id="pickuppoint_result">
+                                                        <?php foreach ($feegroup->feetypes as $feetype_key => $feetype_value) { ?>
+                                                            <div class="row">
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1"><?php echo $this->lang->line('fee_type'); ?></label> <small class="req"> *</small>
+                                                                        <input type="hidden" name="fee_type_id[]" value="<?php echo $feetype_value->id; ?>">
+                                                                        <input type="text" disabled value="<?php echo $feetype_value->type; ?>" name="feetype[]" class="form-control"/>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1"><?php echo $this->lang->line('fees_code'); ?></label> <small class="req"> *</small>
+                                                                        <input type="text" disabled value="<?php echo $feetype_value->code; ?>" class="form-control" name="feetypecode[]" />
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-4">
+                                                                    <div class="form-group">
+                                                                        <label for="exampleInputEmail1"><?php echo $this->lang->line('amount'); ?> </label> <small class="req"> *</small>
+                                                                        <input value="" class="form-control full-width" name="amount[]" />
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        <?php } ?>
+                                                    </div>
+
+                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer bg-white relative z-index-1 bordertoplightgray">
+                                        <button class="allot-fees btn btn-primary" type="submit" data-loading-text="<?php echo $this->lang->line('saving') ?>" class="btn btn-info pull-right" id="submit" data-loading-text="<i class='fa fa-spinner fa-spin '></i> <?php echo $this->lang->line('please_wait') ?>"><?php echo $this->lang->line('save') ?></button>
+                                    </div>
+
+                                    <!-- </form> -->
+
+                                <?php }?>
+
+                                    
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+
                     </form>
+
+
                 </div>  
             </div>
         </div> 
     </section>
 </div>
 
+
+
+
+
 <script type="text/javascript">
 
-//select all checkboxes
+    $(document).ready(function() {
+        // Function to check if any amount field is empty or not an integer
+        function validateAmountFields() {
+            var valid = true;
+            $('input[name="amount[]"]').each(function() {
+                var amount = $(this).val();
+                if (amount === '' || !Number.isInteger(parseInt(amount))) {
+                    valid = false;
+                    return false; // Exit the loop if invalid field found
+                }
+            });
+            return valid;
+        }
+
+        // Function to enable/disable save button based on amount fields validation
+        function toggleSaveButton() {
+            if (!validateAmountFields()) {
+                $('.allot-fees').prop('disabled', true);
+            } else {
+                $('.allot-fees').prop('disabled', false);
+            }
+        }
+
+        // Call the toggleSaveButton function initially
+        toggleSaveButton();
+
+        // Call the toggleSaveButton function whenever amount fields are changed
+        $('input[name="amount[]"]').on('input', function() {
+            toggleSaveButton();
+        });
+    });
+
+
+    function add(){
+
+        // $('#action_type').val('add');
+        // $('#student_id').val(stid);
+        // $('#resulttype_id').val(<?php echo $result_id;?>);
+        // $('#delete_ides').html('');
+        $('#add').modal('show');
+        // $('#route_id').val('');
+        // $('#modal-title').html(studentName);
+        // $('#modal-title').html('<?php echo $this->lang->line('add') ?>');
+        // $('#pickuppoint_result').html('');
+        // add_pickuppoint();
+
+    }
+
+    //select all checkboxes
     $("#select_all").change(function () {  //"select all" change 
         $(".checkbox").prop('checked', $(this).prop("checked")); //change all ".checkbox" checked status
     });
 
-//".checkbox" change 
+    //".checkbox" change 
     $('.checkbox').change(function () {
         //uncheck "select all", if one of the listed checkbox item is unchecked
         if (false == $(this).prop("checked")) { //if this item is unchecked
@@ -332,6 +472,7 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
     $("#assign_form").submit(function (e) {
         if (confirm('<?php echo $this->lang->line('are_you_sure'); ?>')) {
             var $this = $('.allot-fees');
+            $('#add').modal('hide');
             $this.button('loading');
             $.ajax({
                 type: "POST",
@@ -357,4 +498,8 @@ $currency_symbol = $this->customlib->getSchoolCurrencyFormat();
         }
         e.preventDefault();
     });
+
 </script>
+
+
+

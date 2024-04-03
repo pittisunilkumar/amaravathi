@@ -15,6 +15,48 @@ class Additionalfeetype extends Admin_Controller
     }
 
 
+    // public function index()
+    // {
+    //     // if (!$this->rbac->hasPrivilege('fees_type', 'can_view')) {
+    //     //     access_denied();
+    //     // }
+    //     // $this->session->set_userdata('top_menu', 'Fees Collection');
+    //     // $this->session->set_userdata('sub_menu', 'feetype/index');
+
+    //     $this->form_validation->set_rules(
+    //         'code', $this->lang->line('fees_code'), array(
+    //             'required',
+    //             array('check_exists', array($this->additionalfeetype_model, 'check_exists')),
+    //         )
+    //     );
+    //     $this->form_validation->set_rules('name', $this->lang->line('name'), 'required');
+    //     if ($this->form_validation->run() == false) {
+
+    //     } else {
+    //         $data = array(
+    //             'type'        => $this->input->post('name'),
+    //             'code'        => $this->input->post('code'),
+    //             'description' => $this->input->post('description'),
+    //         );
+
+    //         $status=$this->additionalfeetype_model->add($data);
+    //         if($status==false){
+    //             $this->session->set_flashdata('msg', '<div class="alert alert-danger text-left">' . $this->lang->line('danger_message') . '</div>');
+    //         }else{
+    //             $this->session->set_flashdata('msg', '<div class="alert alert-success text-left">' . $this->lang->line('success_message') . '</div>');
+    //         }
+    //         redirect('admin/additionalfeetype/index');
+    //     }
+    //     $feegroup_result     = $this->additionalfeetype_model->get();
+    //     $data['feetypeList'] = $feegroup_result;
+
+    //     $this->load->view('layout/header', $data);
+    //     $this->load->view('admin/additionalfeetype/feetypeList', $data);
+    //     $this->load->view('layout/footer', $data);
+
+    // }
+
+
     public function index()
     {
         // if (!$this->rbac->hasPrivilege('fees_type', 'can_view')) {
@@ -40,7 +82,7 @@ class Additionalfeetype extends Admin_Controller
             );
 
             $status=$this->additionalfeetype_model->add($data);
-            if($status==false){
+            if(!$status){
                 $this->session->set_flashdata('msg', '<div class="alert alert-danger text-left">' . $this->lang->line('danger_message') . '</div>');
             }else{
                 $this->session->set_flashdata('msg', '<div class="alert alert-success text-left">' . $this->lang->line('success_message') . '</div>');
