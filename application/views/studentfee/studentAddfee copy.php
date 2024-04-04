@@ -36,8 +36,7 @@ $language_name = $language['short_code'];
                                 ?>>
                                     <a href="#section<?php echo $svalue['section_id']; ?>" data-toggle="tab">
                                         <?php print_r($svalue['section']); ?>
-                                    </a>
-                                </li>
+                                    </a></li>
                             <?php } ?>
                         </ul>
                     </div>
@@ -57,8 +56,7 @@ $language_name = $language['short_code'];
                                         <div class="studentname">
                                             <a class=""
                                                 href="<?php echo base_url() . 'studentfee/addfee/' . $stvalue['student_session_id']; ?>">
-                                                <div class="icon"><img
-                                                        src="<?php echo base_url() . $stvalue['image'] . img_time(); ?>"
+                                                <div class="icon"><img src="<?php echo base_url() . $stvalue['image'] . img_time(); ?>"
                                                         alt="User Image"></div>
                                                 <div class="student-tittle">
                                                     <?php echo $stvalue['firstname'] . ' ' . $stvalue['lastname']; ?>
