@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Magdagdag ng Live Class";
+$lang['api_used'] ="Api Ginamit";
+$lang['api_used_add'] ="Api Ginamit Idagdag";
+$lang['awaited'] ="Hinintay";
+$lang['cancelled'] ="Kinansela";
+$lang['class_date'] ="Petsa ng Klase";
+$lang['class_duration_minutes'] ="Tagal ng Klase (Minuto)";
+$lang['class_title'] ="Pamagat ng Klase";
+$lang['client_video'] ="Video ng Client";
+$lang['created_by'] ="Ginawa ni";
+$lang['created_for'] ="Nilikha Para sa";
+$lang['credential'] ="Kredensyal";
+$lang['finished'] ="Tapos na";
+$lang['global'] ="Global";
+$lang['host'] ="Host";
+$lang['host_video'] ="Video ng Host";
+$lang['join'] ="Sumali";
+$lang['live_class'] ="Mga Live na Klase";
+$lang['live_meeting'] ="Live na Pagpupulong";
+$lang['meeting'] ="Pagpupulong";
+$lang['meeting_duration_minutes'] ="Tagal ng Pagpupulong (Minuto)";
+$lang['meeting_not_started'] ="Hindi Nagsimula ang Pagpupulong";
+$lang['now'] ="Ngayon";
+$lang['online_classes'] ="Mag-zoom Live na Mga Klase";
+$lang['online_live_classes'] ="Mga Online na Klase ng Live";
+$lang['online_meeting'] ="Mag-zoom Live na Mga Pagpupulong";
+$lang['self'] ="Sarili";
+$lang['setting'] ="Pagtatakda";
+$lang['started'] ="Nagsimula";
+$lang['teacher_api_credential'] ="Kredensyal ng Teacher Api";
+$lang['use_zoom_client_app'] ="Gumamit ng Zoom Client App";
+$lang['use_zoom_client_for_staff'] ="Gumamit ng Zoom Client para sa Staff";
+$lang['use_zoom_client_for_student'] ="Gumamit ng Zoom Client para sa Mag-aaral";
+$lang['viewers'] ="Mga manonood";
+$lang['waiting'] ="Naghihintay";
+$lang['zoom_api_key'] ="Mag-zoom API Key";
+$lang['zoom_api_secret'] ="Lihim na Mag-zoom API";
+$lang['zoom_api_setting'] ="Pag-zoom sa Api Setting";
+$lang['zoom_credential'] ="Pag-zoom sa Kredensyal";
+$lang['zoom_live_classes'] ="Mag-zoom Live na Mga Klase";
+$lang['zoom_online_classes_start'] ="Mag-zoom Start ng Mga Klase";
+$lang['zoom_online_meeting_start'] ="Magsimula ng Mag-zoom ng Mga Live na Pagpupulong";

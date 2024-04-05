@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="நேரடி வகுப்பைச் சேர்க்கவும்";
+$lang['api_used'] ="அப்பி பயன்படுத்தப்பட்டது";
+$lang['api_used_add'] ="Api பயன்படுத்திய சேர்";
+$lang['awaited'] ="காத்திருந்தது";
+$lang['cancelled'] ="ரத்து செய்யப்பட்டது";
+$lang['class_date'] ="வகுப்பு தேதி";
+$lang['class_duration_minutes'] ="வகுப்பு காலம் (நிமிடங்கள்)";
+$lang['class_title'] ="வகுப்பு தலைப்பு";
+$lang['client_video'] ="வாடிக்கையாளர் வீடியோ";
+$lang['created_by'] ="உருவாக்கியது";
+$lang['created_for'] ="உருவாக்கப்பட்டது";
+$lang['credential'] ="நற்சான்றிதழ்";
+$lang['finished'] ="முடிந்தது";
+$lang['global'] ="உலகளாவிய";
+$lang['host'] ="தொகுப்பாளர்";
+$lang['host_video'] ="ஹோஸ்ட் வீடியோ";
+$lang['join'] ="சேர";
+$lang['live_class'] ="நேரடி வகுப்புகள்";
+$lang['live_meeting'] ="நேரடி கூட்டம்";
+$lang['meeting'] ="சந்தித்தல்";
+$lang['meeting_duration_minutes'] ="சந்திப்பு காலம் (நிமிடங்கள்)";
+$lang['meeting_not_started'] ="கூட்டம் தொடங்கப்படவில்லை";
+$lang['now'] ="இப்போது";
+$lang['online_classes'] ="ஜூம் லைவ் வகுப்புகள்";
+$lang['online_live_classes'] ="ஆன்லைன் நேரடி வகுப்புகள்";
+$lang['online_meeting'] ="பெரிதாக்கு நேரலை கூட்டங்கள்";
+$lang['self'] ="சுய";
+$lang['setting'] ="அமைத்தல்";
+$lang['started'] ="தொடங்கியது";
+$lang['teacher_api_credential'] ="ஆசிரியர் அப்பி நற்சான்றிதழ்";
+$lang['use_zoom_client_app'] ="பெரிதாக்கு கிளையண்ட் பயன்பாட்டைப் பயன்படுத்தவும்";
+$lang['use_zoom_client_for_staff'] ="பணியாளர்களுக்கு ஜூம் கிளையண்டைப் பயன்படுத்தவும்";
+$lang['use_zoom_client_for_student'] ="மாணவருக்கு ஜூம் கிளையண்டைப் பயன்படுத்தவும்";
+$lang['viewers'] ="பார்வையாளர்கள்";
+$lang['waiting'] ="காத்திருக்கிறது";
+$lang['zoom_api_key'] ="பெரிதாக்கு API விசை";
+$lang['zoom_api_secret'] ="பெரிதாக்கு API ரகசியம்";
+$lang['zoom_api_setting'] ="பெரிதாக்கு அப்பி அமைப்பு";
+$lang['zoom_credential'] ="பெரிதாக்கு நற்சான்றிதழ்";
+$lang['zoom_live_classes'] ="ஜூம் லைவ் வகுப்புகள்";
+$lang['zoom_online_classes_start'] ="பெரிதாக்கு நேரடி வகுப்புகள் தொடங்கும்";
+$lang['zoom_online_meeting_start'] ="பெரிதாக்கு நேரலை கூட்டங்கள் தொடங்குங்கள்";

@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="라이브 클래스 추가";
+$lang['api_used'] ="사용 된 API";
+$lang['api_used_add'] ="Api 사용 추가";
+$lang['awaited'] ="기다려";
+$lang['cancelled'] ="취소 된";
+$lang['class_date'] ="수업 날짜";
+$lang['class_duration_minutes'] ="수업 시간 (분)";
+$lang['class_title'] ="수업 제목";
+$lang['client_video'] ="클라이언트 비디오";
+$lang['created_by'] ="작성자";
+$lang['created_for'] ="생성 대상";
+$lang['credential'] ="신임장";
+$lang['finished'] ="끝마친";
+$lang['global'] ="글로벌";
+$lang['host'] ="주최자";
+$lang['host_video'] ="호스트 비디오";
+$lang['join'] ="어울리다";
+$lang['live_class'] ="라이브 클래스";
+$lang['live_meeting'] ="라이브 미팅";
+$lang['meeting'] ="모임";
+$lang['meeting_duration_minutes'] ="회의 시간 (분)";
+$lang['meeting_not_started'] ="회의가 시작되지 않았습니다.";
+$lang['now'] ="지금";
+$lang['online_classes'] ="줌 라이브 클래스";
+$lang['online_live_classes'] ="온라인 라이브 수업";
+$lang['online_meeting'] ="Zoom Live Meetings";
+$lang['self'] ="본인";
+$lang['setting'] ="환경";
+$lang['started'] ="시작";
+$lang['teacher_api_credential'] ="교사 API 자격 증명";
+$lang['use_zoom_client_app'] ="Zoom 클라이언트 앱 사용";
+$lang['use_zoom_client_for_staff'] ="직원 용 Zoom Client 사용";
+$lang['use_zoom_client_for_student'] ="학생용 Zoom Client 사용";
+$lang['viewers'] ="시청자";
+$lang['waiting'] ="기다리는";
+$lang['zoom_api_key'] ="Zoom API 키";
+$lang['zoom_api_secret'] ="Zoom API 비밀";
+$lang['zoom_api_setting'] ="줌 API 설정";
+$lang['zoom_credential'] ="Zoom 자격 증명";
+$lang['zoom_live_classes'] ="줌 라이브 클래스";
+$lang['zoom_online_classes_start'] ="줌 라이브 수업 시작";
+$lang['zoom_online_meeting_start'] ="Zoom Live Meetings 시작";

@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Tambah Kelas Langsung";
+$lang['api_used'] ="Api Digunakan";
+$lang['api_used_add'] ="Api Digunakan Tambah";
+$lang['awaited'] ="Menunggu";
+$lang['cancelled'] ="Dibatalkan";
+$lang['class_date'] ="Tarikh Kelas";
+$lang['class_duration_minutes'] ="Tempoh Kelas (Minit)";
+$lang['class_title'] ="Tajuk Kelas";
+$lang['client_video'] ="Video Pelanggan";
+$lang['created_by'] ="Dicipta oleh";
+$lang['created_for'] ="Dibuat untuk";
+$lang['credential'] ="Tauliah";
+$lang['finished'] ="Selesai";
+$lang['global'] ="Global";
+$lang['host'] ="Tuan rumah";
+$lang['host_video'] ="Hoskan Video";
+$lang['join'] ="Sertailah";
+$lang['live_class'] ="Kelas Langsung";
+$lang['live_meeting'] ="Pertemuan Langsung";
+$lang['meeting'] ="Mesyuarat";
+$lang['meeting_duration_minutes'] ="Tempoh Mesyuarat (Minit)";
+$lang['meeting_not_started'] ="Mesyuarat Tidak Bermula";
+$lang['now'] ="Sekarang";
+$lang['online_classes'] ="Zum Kelas Langsung";
+$lang['online_live_classes'] ="Kelas Langsung Dalam Talian";
+$lang['online_meeting'] ="Zum Pertemuan Langsung";
+$lang['self'] ="Diri";
+$lang['setting'] ="Menetapkan";
+$lang['started'] ="Dimulakan";
+$lang['teacher_api_credential'] ="Kelayakan Guru Api";
+$lang['use_zoom_client_app'] ="Gunakan Aplikasi Pelanggan Zoom";
+$lang['use_zoom_client_for_staff'] ="Gunakan Pelanggan Zoom untuk Kakitangan";
+$lang['use_zoom_client_for_student'] ="Gunakan Pelanggan Zoom untuk Pelajar";
+$lang['viewers'] ="Penonton";
+$lang['waiting'] ="Menunggu";
+$lang['zoom_api_key'] ="Kekunci API Zum";
+$lang['zoom_api_secret'] ="Zum API Rahsia";
+$lang['zoom_api_setting'] ="Tetapan Zum Api";
+$lang['zoom_credential'] ="Kelayakan Zum";
+$lang['zoom_live_classes'] ="Zum Kelas Langsung";
+$lang['zoom_online_classes_start'] ="Zum Langsung Kelas Bermula";
+$lang['zoom_online_meeting_start'] ="Zum Hidup Mesyuarat Bermula";

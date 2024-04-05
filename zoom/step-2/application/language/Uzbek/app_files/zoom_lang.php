@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Jonli sinf qo&#39;shish";
+$lang['api_used'] ="Api ishlatilgan";
+$lang['api_used_add'] ="Api ishlatilgan qo&#39;shish";
+$lang['awaited'] ="Kutilgan";
+$lang['cancelled'] ="Bekor qilindi";
+$lang['class_date'] ="Dars sanasi";
+$lang['class_duration_minutes'] ="Dars davomiyligi (daqiqa)";
+$lang['class_title'] ="Sinf nomi";
+$lang['client_video'] ="Mijozlar videosi";
+$lang['created_by'] ="Tomonidan yaratilgan";
+$lang['created_for'] ="Uchun yaratilgan";
+$lang['credential'] ="Ishonch yorlig&#39;i";
+$lang['finished'] ="Tugadi";
+$lang['global'] ="Global";
+$lang['host'] ="Xost";
+$lang['host_video'] ="Xost videosi";
+$lang['join'] ="Qo&#39;shiling";
+$lang['live_class'] ="Jonli mashg&#39;ulotlar";
+$lang['live_meeting'] ="Jonli uchrashuv";
+$lang['meeting'] ="Uchrashuv";
+$lang['meeting_duration_minutes'] ="Uchrashuv davomiyligi (daqiqa)";
+$lang['meeting_not_started'] ="Uchrashuv boshlanmadi";
+$lang['now'] ="Endi";
+$lang['online_classes'] ="Jonli mashg&#39;ulotlarni kattalashtirish";
+$lang['online_live_classes'] ="Onlayn jonli mashg&#39;ulotlar";
+$lang['online_meeting'] ="Jonli uchrashuvlarni kattalashtiring";
+$lang['self'] ="O&#39;zi";
+$lang['setting'] ="O&#39;rnatish";
+$lang['started'] ="Boshlandi";
+$lang['teacher_api_credential'] ="O&#39;qituvchi Api yorlig&#39;i";
+$lang['use_zoom_client_app'] ="Zoom Client ilovasidan foydalaning";
+$lang['use_zoom_client_for_staff'] ="Xodimlar uchun Zoom Client-dan foydalaning";
+$lang['use_zoom_client_for_student'] ="Student for Zoom Client-dan foydalaning";
+$lang['viewers'] ="Tomoshabinlar";
+$lang['waiting'] ="Kutish";
+$lang['zoom_api_key'] ="Zoom API kaliti";
+$lang['zoom_api_secret'] ="Zoom API Secret";
+$lang['zoom_api_setting'] ="Kattalashtirish Api sozlamalari";
+$lang['zoom_credential'] ="Kattalashtirish ma&#39;lumotlari";
+$lang['zoom_live_classes'] ="Jonli mashg&#39;ulotlarni kattalashtirish";
+$lang['zoom_online_classes_start'] ="Jonli mashg&#39;ulotlarni kattalashtirish";
+$lang['zoom_online_meeting_start'] ="Zoom jonli uchrashuvlar boshlang";
