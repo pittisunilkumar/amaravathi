@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Tambah baru";
+$lang['add_new_branch'] ="Tambahkan Cabang Baru";
+$lang['alumni_students'] ="Mahasiswa Alumni";
+$lang['branch'] ="Cabang";
+$lang['branch_database_detail'] ="Detail Database Cabang";
+$lang['branch_list'] ="Daftar Cabang";
+$lang['branch_name'] ="Nama cabang";
+$lang['click_here'] ="klik disini";
+$lang['current_session'] ="Sesi Sekarang";
+$lang['database'] ="Basis data";
+$lang['database_name'] ="Nama Basis Data";
+$lang['edit_branch'] ="Sunting Cabang";
+$lang['envato_purchase_code'] ="Kode Pembelian Envato";
+$lang['fees_details'] ="Rincian Biaya";
+$lang['home_branch'] ="Cabang Rumah";
+$lang['hostname'] ="Nama host";
+$lang['invoice_no'] ="Nomor tagihan";
+$lang['library_details'] ="Detail Perpustakaan";
+$lang['login_date_time'] ="Tanggal Masuk Waktu";
+$lang['make_default_login'] ="Jadikan Login Default";
+$lang['multi_branch'] ="Multi Cabang";
+$lang['net_amount'] ="Jumlah bersih";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="No More Branch found, jika ingin menambahkan cabang baru silahkan";
+$lang['offline_admission'] ="Penerimaan Luring";
+$lang['overview'] ="Gambaran";
+$lang['payroll_generated'] ="Penggajian Dihasilkan";
+$lang['payroll_not_generated'] ="Daftar Gaji Tidak Dihasilkan";
+$lang['payroll_paid'] ="Gaji Dibayar";
+$lang['report'] ="Laporan";
+$lang['staff_attendance_details'] ="Rincian Kehadiran Staf Di";
+$lang['staff_payroll_of'] ="Gaji Staf dari";
+$lang['switch_branch'] ="Beralih Cabang";
+$lang['total_balance_fees'] ="Total Biaya Saldo";
+$lang['total_books'] ="Jumlah Buku";
+$lang['total_paid_fees'] ="Total Biaya Dibayar";
+$lang['total_staff'] ="Jumlah Staf";
+$lang['total_user_log'] ="Log Pengguna Total";
+$lang['transport_fees_details'] ="Rincian Biaya Transportasi";
+$lang['user_log_details'] ="Detail Log Pengguna";
+$lang['user_log_report'] ="Laporan Log Pengguna";
+$lang['verify_save'] ="Verifikasi &amp; Simpan";

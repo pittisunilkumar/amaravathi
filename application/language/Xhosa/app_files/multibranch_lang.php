@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Yongeza Okutsha";
+$lang['add_new_branch'] ="Yongeza iSebe elitsha";
+$lang['alumni_students'] ="Abafundi Alumni";
+$lang['branch'] ="Isebe";
+$lang['branch_database_detail'] ="Iinkcukacha zeDatha yeSebe";
+$lang['branch_list'] ="Uludwe Lwesebe";
+$lang['branch_name'] ="Igama leSebe";
+$lang['click_here'] ="Cofa apha";
+$lang['current_session'] ="Iseshoni yangoku";
+$lang['database'] ="Uvimba weenkcukacha";
+$lang['database_name'] ="Igama lesiseko sedatha";
+$lang['edit_branch'] ="Hlela iSebe";
+$lang['envato_purchase_code'] ="Envato Purchase Code";
+$lang['fees_details'] ="IiNkcukacha zoMrhumo";
+$lang['home_branch'] ="Isebe Lasekhaya";
+$lang['hostname'] ="Igama lomamkeli";
+$lang['invoice_no'] ="Inombolo ye-invoyisi";
+$lang['library_details'] ="Iinkcukacha zeThala leeNcwadi";
+$lang['login_date_time'] ="Login Umhla Ixesha";
+$lang['make_default_login'] ="Yenza iNgeno ehlala ikho";
+$lang['multi_branch'] ="Multi Branch";
+$lang['net_amount'] ="Isixa esipheleleyo";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Alisekho iSebe elifunyenweyo, ukuba ufuna ukongeza isebe elitsha nceda";
+$lang['offline_admission'] ="Ukwamkelwa ngaphandle kweintanethi";
+$lang['overview'] ="Isishwankathelo";
+$lang['payroll_generated'] ="Umvuzo owenziweyo";
+$lang['payroll_not_generated'] ="Umvuzo awuveliswanga";
+$lang['payroll_paid'] ="Umvuzo ohlawulwayo";
+$lang['report'] ="Ingxelo";
+$lang['staff_attendance_details'] ="Iinkcukacha zokuma kwabasebenzi Kwa";
+$lang['staff_payroll_of'] ="Umvuzo wabasebenzi be";
+$lang['switch_branch'] ="Tshintsha iSebe";
+$lang['total_balance_fees'] ="Iyonke imirhumo yoMncono";
+$lang['total_books'] ="Iincwadi zizonke";
+$lang['total_paid_fees'] ="Iintlawulo eziHlawulweyo zizonke";
+$lang['total_staff'] ="Abasebenzi bebonke";
+$lang['total_user_log'] ="Ilog yomsebenzisi iyonke";
+$lang['transport_fees_details'] ="Iinkcukacha zoMrhumo wezoThutho";
+$lang['user_log_details'] ="Iinkcukacha zokuNgena komsebenzisi";
+$lang['user_log_report'] ="Ingxelo yelog yomsebenzisi";
+$lang['verify_save'] ="Qinisekisa &amp; Gcina";

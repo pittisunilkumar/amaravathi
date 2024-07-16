@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="לייג ניו";
+$lang['add_new_branch'] ="לייג ניו בראַנטש";
+$lang['alumni_students'] ="אַלאַמניי סטודענטן";
+$lang['branch'] ="צווייַג";
+$lang['branch_database_detail'] ="צווייַג דאַטאַבאַסע דעטאַל";
+$lang['branch_list'] ="צווייַג רשימה";
+$lang['branch_name'] ="צווייַג נאָמען";
+$lang['click_here'] ="קליקט דא";
+$lang['current_session'] ="קראַנט סעסיע";
+$lang['database'] ="דאַטאַבאַסע";
+$lang['database_name'] ="דאַטאַבאַסע נאָמען";
+$lang['edit_branch'] ="רעדאַגירן בראַנטש";
+$lang['envato_purchase_code'] ="Envato קויפן קאָד";
+$lang['fees_details'] ="פיז דעטאַילס";
+$lang['home_branch'] ="היים צווייַג";
+$lang['hostname'] ="האָסטנאַמע";
+$lang['invoice_no'] ="ינווויס נומ";
+$lang['library_details'] ="ביבליאָטעק דעטאַילס";
+$lang['login_date_time'] ="לאָגין טאָג צייט";
+$lang['make_default_login'] ="מאַכן דיפאָלט לאָגין";
+$lang['multi_branch'] ="מולטי בראַנטש";
+$lang['net_amount'] ="נעץ סומע";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="ניט מער צווייַג געפֿונען, אויב איר ווילן צו לייגן נייַ צווייַג ביטע";
+$lang['offline_admission'] ="אָפפלינע אַרייַנטרעטן";
+$lang['overview'] ="איבערבליק";
+$lang['payroll_generated'] ="פּייראָול דזשענערייטאַד";
+$lang['payroll_not_generated'] ="פּייראָול ניט דזשענערייטאַד";
+$lang['payroll_paid'] ="פּייראָול באַצאָלט";
+$lang['report'] ="באַריכט";
+$lang['staff_attendance_details'] ="שטעקן באַדינגונג דעטאַילס ביי";
+$lang['staff_payroll_of'] ="שטעקן פּייראָול פון";
+$lang['switch_branch'] ="באַשטימען בראַנטש";
+$lang['total_balance_fees'] ="גאַנץ באַלאַנס פיז";
+$lang['total_books'] ="גאַנץ ספר";
+$lang['total_paid_fees'] ="גאַנץ באַצאָלט פיז";
+$lang['total_staff'] ="גאַנץ שטעקן";
+$lang['total_user_log'] ="גאַנץ באַניצער קלאָץ";
+$lang['transport_fees_details'] ="אַריבערפירן פיז דעטאַילס";
+$lang['user_log_details'] ="באַניצער לאָג דעטאַילס";
+$lang['user_log_report'] ="באַניצער לאָג באריכט";
+$lang['verify_save'] ="באַשטעטיקן &amp; היט";

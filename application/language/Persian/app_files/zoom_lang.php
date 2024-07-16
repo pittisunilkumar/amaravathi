@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="کلاس زنده اضافه کنید";
+$lang['api_used'] ="Api دست دوم";
+$lang['api_used_add'] ="Api استفاده شده اضافه کنید";
+$lang['awaited'] ="منتظر";
+$lang['cancelled'] ="لغو شد";
+$lang['class_date'] ="تاریخ کلاس";
+$lang['class_duration_minutes'] ="مدت زمان کلاس (دقیقه)";
+$lang['class_title'] ="عنوان کلاس";
+$lang['client_video'] ="فیلم مشتری";
+$lang['created_by'] ="خلق شده توسط";
+$lang['created_for'] ="ایجاد شده برای";
+$lang['credential'] ="اعتبارنامه";
+$lang['finished'] ="تمام شده";
+$lang['global'] ="جهانی";
+$lang['host'] ="میزبان";
+$lang['host_video'] ="ویدئو میزبان";
+$lang['join'] ="پیوستن";
+$lang['live_class'] ="کلاسهای زنده";
+$lang['live_meeting'] ="ملاقات زنده";
+$lang['meeting'] ="ملاقات";
+$lang['meeting_duration_minutes'] ="مدت زمان جلسه (دقیقه)";
+$lang['meeting_not_started'] ="جلسه شروع نشده است";
+$lang['now'] ="اکنون";
+$lang['online_classes'] ="بزرگنمایی کلاسهای زنده";
+$lang['online_live_classes'] ="کلاسهای آنلاین زنده";
+$lang['online_meeting'] ="بزرگنمایی جلسات زنده";
+$lang['self'] ="خود";
+$lang['setting'] ="تنظیمات";
+$lang['started'] ="آغاز شده";
+$lang['teacher_api_credential'] ="اعتبارنامه API معلم";
+$lang['use_zoom_client_app'] ="از برنامه مشتری بزرگنمایی استفاده کنید";
+$lang['use_zoom_client_for_staff'] ="برای کارمندان از Zoom Client استفاده کنید";
+$lang['use_zoom_client_for_student'] ="از Zoom Client برای دانشجو استفاده کنید";
+$lang['viewers'] ="بینندگان";
+$lang['waiting'] ="در انتظار";
+$lang['zoom_api_key'] ="بزرگنمایی کلید API";
+$lang['zoom_api_secret'] ="بزرگنمایی API Secret";
+$lang['zoom_api_setting'] ="تنظیمات Api Zoom";
+$lang['zoom_credential'] ="اعتبار زوم";
+$lang['zoom_live_classes'] ="بزرگنمایی کلاسهای زنده";
+$lang['zoom_online_classes_start'] ="بزرگنمایی کلاسهای زنده شروع می شود";
+$lang['zoom_online_meeting_start'] ="بزرگنمایی جلسات زنده آغاز می شود";

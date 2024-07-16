@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="새로운 걸 더하다";
+$lang['add_new_branch'] ="새 지점 추가";
+$lang['alumni_students'] ="졸업생";
+$lang['branch'] ="나뭇가지";
+$lang['branch_database_detail'] ="분기 데이터베이스 세부 정보";
+$lang['branch_list'] ="지점 목록";
+$lang['branch_name'] ="지점명";
+$lang['click_here'] ="여기를 클릭";
+$lang['current_session'] ="현재 세션";
+$lang['database'] ="데이터 베이스";
+$lang['database_name'] ="데이터베이스 이름";
+$lang['edit_branch'] ="분기 편집";
+$lang['envato_purchase_code'] ="Envato 구매 코드";
+$lang['fees_details'] ="수수료 내역";
+$lang['home_branch'] ="홈 브랜치";
+$lang['hostname'] ="호스트 이름";
+$lang['invoice_no'] ="송장 번호";
+$lang['library_details'] ="라이브러리 세부 정보";
+$lang['login_date_time'] ="로그인 날짜 시간";
+$lang['make_default_login'] ="기본 로그인으로 만들기";
+$lang['multi_branch'] ="멀티 브랜치";
+$lang['net_amount'] ="순액";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="더 이상 지점을 찾을 수 없습니다. 새 지점을 추가하려면";
+$lang['offline_admission'] ="오프라인 입장";
+$lang['overview'] ="개요";
+$lang['payroll_generated'] ="급여 생성";
+$lang['payroll_not_generated'] ="급여가 생성되지 않음";
+$lang['payroll_paid'] ="급여 지불";
+$lang['report'] ="보고서";
+$lang['staff_attendance_details'] ="직원 출석 세부 정보";
+$lang['staff_payroll_of'] ="직원 급여";
+$lang['switch_branch'] ="분기 전환";
+$lang['total_balance_fees'] ="총 잔액 수수료";
+$lang['total_books'] ="총 도서";
+$lang['total_paid_fees'] ="총 지불 수수료";
+$lang['total_staff'] ="총 직원";
+$lang['total_user_log'] ="총 사용자 로그";
+$lang['transport_fees_details'] ="교통비 내역";
+$lang['user_log_details'] ="사용자 로그 세부 정보";
+$lang['user_log_report'] ="사용자 로그 보고서";
+$lang['verify_save'] ="확인 및 저장";

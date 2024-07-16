@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="ਨਵਾਂ ਸ਼ਾਮਲ ਕਰੋ";
+$lang['add_new_branch'] ="ਨਵੀਂ ਸ਼ਾਖਾ ਸ਼ਾਮਲ ਕਰੋ";
+$lang['alumni_students'] ="ਸਾਬਕਾ ਵਿਦਿਆਰਥੀ";
+$lang['branch'] ="ਸ਼ਾਖਾ";
+$lang['branch_database_detail'] ="ਬ੍ਰਾਂਚ ਡਾਟਾਬੇਸ ਦਾ ਵੇਰਵਾ";
+$lang['branch_list'] ="ਸ਼ਾਖਾ ਸੂਚੀ";
+$lang['branch_name'] ="ਸ਼ਾਖਾ ਦਾ ਨਾਮ";
+$lang['click_here'] ="ਇੱਥੇ ਕਲਿੱਕ ਕਰੋ";
+$lang['current_session'] ="ਮੌਜੂਦਾ ਸੈਸ਼ਨ";
+$lang['database'] ="ਡਾਟਾਬੇਸ";
+$lang['database_name'] ="ਡਾਟਾਬੇਸ ਦਾ ਨਾਮ";
+$lang['edit_branch'] ="ਸੰਪਾਦਨ ਸ਼ਾਖਾ";
+$lang['envato_purchase_code'] ="Envato ਖਰੀਦ ਕੋਡ";
+$lang['fees_details'] ="ਫੀਸਾਂ ਦੇ ਵੇਰਵੇ";
+$lang['home_branch'] ="ਹੋਮ ਬ੍ਰਾਂਚ";
+$lang['hostname'] ="ਹੋਸਟਨਾਮ";
+$lang['invoice_no'] ="ਚਲਾਨ ਨੰ";
+$lang['library_details'] ="ਲਾਇਬ੍ਰੇਰੀ ਵੇਰਵੇ";
+$lang['login_date_time'] ="ਲੌਗਇਨ ਮਿਤੀ ਸਮਾਂ";
+$lang['make_default_login'] ="ਡਿਫੌਲਟ ਲੌਗਇਨ ਕਰੋ";
+$lang['multi_branch'] ="ਮਲਟੀ ਬ੍ਰਾਂਚ";
+$lang['net_amount'] ="ਕੁੱਲ ਰਕਮ";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="ਕੋਈ ਹੋਰ ਬ੍ਰਾਂਚ ਨਹੀਂ ਮਿਲੀ, ਜੇਕਰ ਤੁਸੀਂ ਨਵੀਂ ਸ਼ਾਖਾ ਜੋੜਨਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ";
+$lang['offline_admission'] ="ਔਫਲਾਈਨ ਦਾਖਲਾ";
+$lang['overview'] ="ਸੰਖੇਪ ਜਾਣਕਾਰੀ";
+$lang['payroll_generated'] ="ਪੇਰੋਲ ਤਿਆਰ ਕੀਤਾ ਗਿਆ";
+$lang['payroll_not_generated'] ="ਪੇਰੋਲ ਤਿਆਰ ਨਹੀਂ ਕੀਤਾ ਗਿਆ";
+$lang['payroll_paid'] ="ਪੇਰੋਲ ਦਾ ਭੁਗਤਾਨ ਕੀਤਾ";
+$lang['report'] ="ਰਿਪੋਰਟ";
+$lang['staff_attendance_details'] ="ਸਟਾਫ ਦੀ ਹਾਜ਼ਰੀ ਦੇ ਵੇਰਵੇ ਵਿਖੇ";
+$lang['staff_payroll_of'] ="ਦਾ ਸਟਾਫ਼ ਪੇਰੋਲ";
+$lang['switch_branch'] ="ਸ਼ਾਖਾ ਬਦਲੋ";
+$lang['total_balance_fees'] ="ਕੁੱਲ ਬਕਾਇਆ ਫੀਸ";
+$lang['total_books'] ="ਕੁੱਲ ਕਿਤਾਬਾਂ";
+$lang['total_paid_fees'] ="ਕੁੱਲ ਭੁਗਤਾਨ ਕੀਤੀ ਫੀਸ";
+$lang['total_staff'] ="ਕੁੱਲ ਸਟਾਫ";
+$lang['total_user_log'] ="ਕੁੱਲ ਯੂਜ਼ਰ ਲੌਗ";
+$lang['transport_fees_details'] ="ਟ੍ਰਾਂਸਪੋਰਟ ਫੀਸ ਦੇ ਵੇਰਵੇ";
+$lang['user_log_details'] ="ਉਪਭੋਗਤਾ ਲੌਗ ਵੇਰਵੇ";
+$lang['user_log_report'] ="ਯੂਜ਼ਰ ਲੌਗ ਰਿਪੋਰਟ";
+$lang['verify_save'] ="ਪੁਸ਼ਟੀ ਕਰੋ ਅਤੇ ਸੁਰੱਖਿਅਤ ਕਰੋ";

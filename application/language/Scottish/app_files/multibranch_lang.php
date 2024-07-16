@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Cuir Ùr ris";
+$lang['add_new_branch'] ="Cuir Meur Ùr ris";
+$lang['alumni_students'] ="Oileanaich Alumni";
+$lang['branch'] ="Meur";
+$lang['branch_database_detail'] ="Mion-fhiosrachadh Stòr-dàta Meur";
+$lang['branch_list'] ="Liosta Meur";
+$lang['branch_name'] ="Ainm Meur";
+$lang['click_here'] ="cliog an seo";
+$lang['current_session'] ="Seisean an-dràsta";
+$lang['database'] ="Stòr-dàta";
+$lang['database_name'] ="Ainm stòr-dàta";
+$lang['edit_branch'] ="Deasaich Meur";
+$lang['envato_purchase_code'] ="Còd Ceannach Envato";
+$lang['fees_details'] ="Mion-fhiosrachadh mu chìsean";
+$lang['home_branch'] ="Meur Dachaigh";
+$lang['hostname'] ="Ainm an òstair";
+$lang['invoice_no'] ="Fàirdeal Àir";
+$lang['library_details'] ="Fiosrachadh leabharlainn";
+$lang['login_date_time'] ="Ceann-latha Log a-steach";
+$lang['make_default_login'] ="Dèan logadh a-steach bunaiteach";
+$lang['multi_branch'] ="Ioma-mheur";
+$lang['net_amount'] ="Suim lom";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Cha deach meur eile a lorg, ma tha thu airson meur ùr a chur ris mas e do thoil e";
+$lang['offline_admission'] ="Inntrigeadh far loidhne";
+$lang['overview'] ="Ro-shealladh";
+$lang['payroll_generated'] ="Pàighidh air a chruthachadh";
+$lang['payroll_not_generated'] ="Pàighidh nach deach a chruthachadh";
+$lang['payroll_paid'] ="Pàighidh Pàighidh";
+$lang['report'] ="Aithris";
+$lang['staff_attendance_details'] ="Fiosrachadh mu làthaireachd luchd-obrach aig";
+$lang['staff_payroll_of'] ="Clàr-pàighidh luchd-obrach a";
+$lang['switch_branch'] ="Meur Switch";
+$lang['total_balance_fees'] ="Cosgaisean Cothromachaidh Iomlan";
+$lang['total_books'] ="Leabhraichean iomlan";
+$lang['total_paid_fees'] ="Cosgaisean iomlan pàighte";
+$lang['total_staff'] ="Luchd-obrach iomlan";
+$lang['total_user_log'] ="Log cleachdaiche iomlan";
+$lang['transport_fees_details'] ="Mion-fhiosrachadh mu chosgaisean còmhdhail";
+$lang['user_log_details'] ="Mion-fhiosrachadh Log Cleachdaiche";
+$lang['user_log_report'] ="Aithisg Log Luchd-cleachdaidh";
+$lang['verify_save'] ="Dearbhaich &amp; Sàbhail";

@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="కొత్తది జత పరచండి";
+$lang['add_new_branch'] ="కొత్త శాఖను జోడించండి";
+$lang['alumni_students'] ="పూర్వ విద్యార్థులు";
+$lang['branch'] ="శాఖ";
+$lang['branch_database_detail'] ="బ్రాంచ్ డేటాబేస్ వివరాలు";
+$lang['branch_list'] ="బ్రాంచ్ జాబితా";
+$lang['branch_name'] ="శాఖ పేరు";
+$lang['click_here'] ="ఇక్కడ నొక్కండి";
+$lang['current_session'] ="ప్రస్తుత సెషన్";
+$lang['database'] ="డేటాబేస్";
+$lang['database_name'] ="డేటాబేస్ పేరు";
+$lang['edit_branch'] ="శాఖను సవరించండి";
+$lang['envato_purchase_code'] ="Envato కొనుగోలు కోడ్";
+$lang['fees_details'] ="ఫీజు వివరాలు";
+$lang['home_branch'] ="హోమ్ బ్రాంచ్";
+$lang['hostname'] ="హోస్ట్ పేరు";
+$lang['invoice_no'] ="ఇన్వాయిస్ నం";
+$lang['library_details'] ="లైబ్రరీ వివరాలు";
+$lang['login_date_time'] ="లాగిన్ తేదీ సమయం";
+$lang['make_default_login'] ="డిఫాల్ట్ లాగిన్ చేయండి";
+$lang['multi_branch'] ="బహుళ శాఖ";
+$lang['net_amount'] ="నికర మొత్తం";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="మీరు కొత్త బ్రాంచ్‌ని జోడించాలనుకుంటే, దయచేసి ఏ శాఖ కనుగొనబడలేదు";
+$lang['offline_admission'] ="ఆఫ్‌లైన్ అడ్మిషన్";
+$lang['overview'] ="అవలోకనం";
+$lang['payroll_generated'] ="పేరోల్ రూపొందించబడింది";
+$lang['payroll_not_generated'] ="పేరోల్ రూపొందించబడలేదు";
+$lang['payroll_paid'] ="పేరోల్ చెల్లించబడింది";
+$lang['report'] ="నివేదించండి";
+$lang['staff_attendance_details'] ="సిబ్బంది హాజరు వివరాలు";
+$lang['staff_payroll_of'] ="యొక్క స్టాఫ్ పేరోల్";
+$lang['switch_branch'] ="శాఖను మార్చండి";
+$lang['total_balance_fees'] ="మొత్తం బ్యాలెన్స్ ఫీజు";
+$lang['total_books'] ="మొత్తం పుస్తకాలు";
+$lang['total_paid_fees'] ="మొత్తం చెల్లించిన రుసుములు";
+$lang['total_staff'] ="మొత్తం సిబ్బంది";
+$lang['total_user_log'] ="మొత్తం వినియోగదారు లాగ్";
+$lang['transport_fees_details'] ="రవాణా రుసుము వివరాలు";
+$lang['user_log_details'] ="వినియోగదారు లాగ్ వివరాలు";
+$lang['user_log_report'] ="వినియోగదారు లాగ్ నివేదిక";
+$lang['verify_save'] ="ధృవీకరించండి &amp; సేవ్ చేయండి";

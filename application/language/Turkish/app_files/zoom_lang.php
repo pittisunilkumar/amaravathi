@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Canlı Ders Ekle";
+$lang['api_used'] ="Kullanılan Api";
+$lang['api_used_add'] ="Kullanılan Api Ekle";
+$lang['awaited'] ="Beklenen";
+$lang['cancelled'] ="İptal edildi";
+$lang['class_date'] ="Sınıf Tarihi";
+$lang['class_duration_minutes'] ="Ders Süresi (Dakika)";
+$lang['class_title'] ="Sınıf Başlığı";
+$lang['client_video'] ="Müşteri Videosu";
+$lang['created_by'] ="Tarafından yaratıldı";
+$lang['created_for'] ="İçin Oluşturuldu";
+$lang['credential'] ="Kimlik";
+$lang['finished'] ="Bitti";
+$lang['global'] ="Küresel";
+$lang['host'] ="Ev sahibi";
+$lang['host_video'] ="Video Barındırma";
+$lang['join'] ="Katılmak";
+$lang['live_class'] ="Canlı Dersler";
+$lang['live_meeting'] ="Canlı toplantı";
+$lang['meeting'] ="Toplantı";
+$lang['meeting_duration_minutes'] ="Toplantı Süresi (Dakika)";
+$lang['meeting_not_started'] ="Toplantı Başlamadı";
+$lang['now'] ="Şimdi";
+$lang['online_classes'] ="Canlı Sınıfları Yakınlaştır";
+$lang['online_live_classes'] ="Çevrimiçi Canlı Dersler";
+$lang['online_meeting'] ="Yakınlaştır Canlı Toplantılar";
+$lang['self'] ="Kendisi";
+$lang['setting'] ="Ayar";
+$lang['started'] ="Başladı";
+$lang['teacher_api_credential'] ="Öğretmen Api Kimlik Bilgisi";
+$lang['use_zoom_client_app'] ="Zoom Client Uygulamasını kullanın";
+$lang['use_zoom_client_for_staff'] ="Personel için Zoom İstemcisini kullanın";
+$lang['use_zoom_client_for_student'] ="Öğrenci için Zoom İstemcisini kullanın";
+$lang['viewers'] ="Görüntüleyenler";
+$lang['waiting'] ="Bekliyorum";
+$lang['zoom_api_key'] ="Zoom API Anahtarı";
+$lang['zoom_api_secret'] ="Zoom API Sırrı";
+$lang['zoom_api_setting'] ="Zoom Api Ayarı";
+$lang['zoom_credential'] ="Yakınlaştırma Kimlik Bilgisi";
+$lang['zoom_live_classes'] ="Canlı Sınıfları Yakınlaştır";
+$lang['zoom_online_classes_start'] ="Yakınlaştır Canlı Sınıflar Başlangıcı";
+$lang['zoom_online_meeting_start'] ="Zoom Canlı Toplantı Başlangıcı";

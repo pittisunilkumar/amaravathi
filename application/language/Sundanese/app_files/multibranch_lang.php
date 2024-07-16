@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Tambahkeun Anyar";
+$lang['add_new_branch'] ="Tambahkeun Cabang Anyar";
+$lang['alumni_students'] ="Siswa Alumni";
+$lang['branch'] ="Cabang";
+$lang['branch_database_detail'] ="Rincian Database Cabang";
+$lang['branch_list'] ="Daptar Cabang";
+$lang['branch_name'] ="Ngaran Cabang";
+$lang['click_here'] ="klik di dieu";
+$lang['current_session'] ="Sidang ayeuna";
+$lang['database'] ="Pangkalan data";
+$lang['database_name'] ="Ngaran Database";
+$lang['edit_branch'] ="Édit Cabang";
+$lang['envato_purchase_code'] ="Envato Beuli Code";
+$lang['fees_details'] ="Rincian waragad";
+$lang['home_branch'] ="Cabang Imah";
+$lang['hostname'] ="Ngaran host";
+$lang['invoice_no'] ="Invoice No";
+$lang['library_details'] ="Rincian Perpustakaan";
+$lang['login_date_time'] ="Login Tanggal Time";
+$lang['make_default_login'] ="Jieun Default Login";
+$lang['multi_branch'] ="Multi Cabang";
+$lang['net_amount'] ="Jumlah Net";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Henteu aya deui Cabang anu kapendak, upami anjeun hoyong nambihan cabang énggal mangga";
+$lang['offline_admission'] ="Pangakuan Offline";
+$lang['overview'] ="Ihtisar";
+$lang['payroll_generated'] ="Payroll dihasilkeun";
+$lang['payroll_not_generated'] ="Gajih Teu Dihasilkeun";
+$lang['payroll_paid'] ="Gajih Dibayar";
+$lang['report'] ="Laporan";
+$lang['staff_attendance_details'] ="Rincian Kehadiran Staf Di";
+$lang['staff_payroll_of'] ="Gaji Staf tina";
+$lang['switch_branch'] ="Pindah Cabang";
+$lang['total_balance_fees'] ="Biaya Balance Total";
+$lang['total_books'] ="Total Buku";
+$lang['total_paid_fees'] ="Total waragad dibayar";
+$lang['total_staff'] ="Total Staf";
+$lang['total_user_log'] ="Total pamaké Log";
+$lang['transport_fees_details'] ="Rincian waragad angkutan";
+$lang['user_log_details'] ="Rincian Log pamaké";
+$lang['user_log_report'] ="Laporan Log pamaké";
+$lang['verify_save'] ="Pariksa &amp; Simpen";

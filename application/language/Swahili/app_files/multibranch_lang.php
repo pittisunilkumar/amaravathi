@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Ongeza Mpya";
+$lang['add_new_branch'] ="Ongeza Tawi Jipya";
+$lang['alumni_students'] ="Wanafunzi wa Alumni";
+$lang['branch'] ="Tawi";
+$lang['branch_database_detail'] ="Maelezo ya Hifadhidata ya Tawi";
+$lang['branch_list'] ="Orodha ya Tawi";
+$lang['branch_name'] ="Jina la tawi";
+$lang['click_here'] ="Bonyeza hapa";
+$lang['current_session'] ="Kikao cha Sasa";
+$lang['database'] ="Hifadhidata";
+$lang['database_name'] ="Jina la Hifadhidata";
+$lang['edit_branch'] ="Hariri Tawi";
+$lang['envato_purchase_code'] ="Nambari ya Ununuzi ya Envato";
+$lang['fees_details'] ="Maelezo ya Ada";
+$lang['home_branch'] ="Tawi la Nyumbani";
+$lang['hostname'] ="Jina la mwenyeji";
+$lang['invoice_no'] ="Ankara Na";
+$lang['library_details'] ="Maelezo ya Maktaba";
+$lang['login_date_time'] ="Muda wa Tarehe ya Kuingia";
+$lang['make_default_login'] ="Weka Kuingia kwa Chaguo-Msingi";
+$lang['multi_branch'] ="Multi Tawi";
+$lang['net_amount'] ="Kiasi halisi";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Hakuna Tawi Tena lililopatikana, ikiwa ungependa kuongeza tawi jipya tafadhali";
+$lang['offline_admission'] ="Kiingilio cha Nje ya Mtandao";
+$lang['overview'] ="Muhtasari";
+$lang['payroll_generated'] ="Malipo Yanayozalishwa";
+$lang['payroll_not_generated'] ="Malipo hayajazalishwa";
+$lang['payroll_paid'] ="Mishahara Imelipwa";
+$lang['report'] ="Ripoti";
+$lang['staff_attendance_details'] ="Maelezo ya Mahudhurio ya Wafanyakazi Katika";
+$lang['staff_payroll_of'] ="Malipo ya wafanyakazi wa";
+$lang['switch_branch'] ="Badilisha Tawi";
+$lang['total_balance_fees'] ="Jumla ya Ada ya Salio";
+$lang['total_books'] ="Jumla ya Vitabu";
+$lang['total_paid_fees'] ="Jumla ya Ada Zilizolipwa";
+$lang['total_staff'] ="Jumla ya Wafanyakazi";
+$lang['total_user_log'] ="Jumla ya Kumbukumbu ya Mtumiaji";
+$lang['transport_fees_details'] ="Maelezo ya Ada za Usafiri";
+$lang['user_log_details'] ="Maelezo ya Ingia ya Mtumiaji";
+$lang['user_log_report'] ="Ripoti ya Kumbukumbu ya Mtumiaji";
+$lang['verify_save'] ="Thibitisha na Uhifadhi";

@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="புதிதாக சேர்க்கவும்";
+$lang['add_new_branch'] ="புதிய கிளையைச் சேர்க்கவும்";
+$lang['alumni_students'] ="முன்னாள் மாணவர்கள்";
+$lang['branch'] ="கிளை";
+$lang['branch_database_detail'] ="கிளை தரவுத்தள விவரம்";
+$lang['branch_list'] ="கிளை பட்டியல்";
+$lang['branch_name'] ="கிளை பெயர்";
+$lang['click_here'] ="இங்கே கிளிக் செய்யவும்";
+$lang['current_session'] ="தற்போதைய அமர்வு";
+$lang['database'] ="தரவுத்தளம்";
+$lang['database_name'] ="தரவுத்தளத்தின் பெயர்";
+$lang['edit_branch'] ="கிளையைத் திருத்தவும்";
+$lang['envato_purchase_code'] ="Envato கொள்முதல் குறியீடு";
+$lang['fees_details'] ="கட்டண விவரங்கள்";
+$lang['home_branch'] ="முகப்பு கிளை";
+$lang['hostname'] ="ஹோஸ்ட் பெயர்";
+$lang['invoice_no'] ="விலைப்பட்டியல் எண்";
+$lang['library_details'] ="நூலக விவரங்கள்";
+$lang['login_date_time'] ="உள்நுழைவு தேதி நேரம்";
+$lang['make_default_login'] ="இயல்புநிலை உள்நுழைவை உருவாக்கவும்";
+$lang['multi_branch'] ="பல கிளை";
+$lang['net_amount'] ="நிகர தொகை";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="புதிய கிளையைச் சேர்க்க விரும்பினால், இனி எந்தக் கிளையும் இல்லை";
+$lang['offline_admission'] ="ஆஃப்லைன் சேர்க்கை";
+$lang['overview'] ="கண்ணோட்டம்";
+$lang['payroll_generated'] ="ஊதியம் உருவாக்கப்பட்டது";
+$lang['payroll_not_generated'] ="ஊதியம் உருவாக்கப்படவில்லை";
+$lang['payroll_paid'] ="ஊதியம் செலுத்தப்பட்டது";
+$lang['report'] ="அறிக்கை";
+$lang['staff_attendance_details'] ="ஊழியர்கள் வருகை விவரங்கள்";
+$lang['staff_payroll_of'] ="பணியாளர்களின் ஊதியம்";
+$lang['switch_branch'] ="கிளையை மாற்றவும்";
+$lang['total_balance_fees'] ="மொத்த இருப்பு கட்டணம்";
+$lang['total_books'] ="மொத்த புத்தகங்கள்";
+$lang['total_paid_fees'] ="செலுத்தப்பட்ட மொத்த கட்டணம்";
+$lang['total_staff'] ="மொத்த பணியாளர்கள்";
+$lang['total_user_log'] ="மொத்த பயனர் பதிவு";
+$lang['transport_fees_details'] ="போக்குவரத்து கட்டண விவரங்கள்";
+$lang['user_log_details'] ="பயனர் பதிவு விவரங்கள்";
+$lang['user_log_report'] ="பயனர் பதிவு அறிக்கை";
+$lang['verify_save'] ="சரிபார்த்து சேமிக்கவும்";

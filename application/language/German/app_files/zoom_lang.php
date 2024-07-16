@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Live-Klasse hinzufügen";
+$lang['api_used'] ="API verwendet";
+$lang['api_used_add'] ="API verwendet hinzufügen";
+$lang['awaited'] ="Erwartet";
+$lang['cancelled'] ="Abgesagt";
+$lang['class_date'] ="Klassendatum";
+$lang['class_duration_minutes'] ="Unterrichtsdauer (Minuten)";
+$lang['class_title'] ="Klassentitel";
+$lang['client_video'] ="Client Video";
+$lang['created_by'] ="Erstellt von";
+$lang['created_for'] ="Hergestellt für";
+$lang['credential'] ="Berechtigungsnachweis";
+$lang['finished'] ="Fertig";
+$lang['global'] ="Global";
+$lang['host'] ="Gastgeber";
+$lang['host_video'] ="Host-Video";
+$lang['join'] ="Beitreten";
+$lang['live_class'] ="Live Klassen";
+$lang['live_meeting'] ="Live-Meeting";
+$lang['meeting'] ="Treffen";
+$lang['meeting_duration_minutes'] ="Besprechungsdauer (Minuten)";
+$lang['meeting_not_started'] ="Besprechung nicht gestartet";
+$lang['now'] ="Jetzt";
+$lang['online_classes'] ="Zoom Live-Klassen";
+$lang['online_live_classes'] ="Online Live Klassen";
+$lang['online_meeting'] ="Zoom Live-Meetings";
+$lang['self'] ="Selbst";
+$lang['setting'] ="Rahmen";
+$lang['started'] ="Gestartet";
+$lang['teacher_api_credential'] ="Lehrer-API-Berechtigungsnachweis";
+$lang['use_zoom_client_app'] ="Verwenden Sie die Zoom Client App";
+$lang['use_zoom_client_for_staff'] ="Verwenden Sie Zoom Client für Mitarbeiter";
+$lang['use_zoom_client_for_student'] ="Verwenden Sie Zoom Client für Schüler";
+$lang['viewers'] ="Zuschauer";
+$lang['waiting'] ="Warten";
+$lang['zoom_api_key'] ="Zoom-API-Schlüssel";
+$lang['zoom_api_secret'] ="Zoom API Secret";
+$lang['zoom_api_setting'] ="Zoom-API-Einstellung";
+$lang['zoom_credential'] ="Zoom-Berechtigungsnachweis";
+$lang['zoom_live_classes'] ="Zoom Live-Klassen";
+$lang['zoom_online_classes_start'] ="Zoom Live Classes Start";
+$lang['zoom_online_meeting_start'] ="Zoom Live-Meetings starten";

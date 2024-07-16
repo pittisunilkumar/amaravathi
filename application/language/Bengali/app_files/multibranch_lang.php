@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="নতুন যোগ করুন";
+$lang['add_new_branch'] ="নতুন শাখা যোগ করুন";
+$lang['alumni_students'] ="প্রাক্তন ছাত্র";
+$lang['branch'] ="শাখা";
+$lang['branch_database_detail'] ="শাখা ডাটাবেস বিস্তারিত";
+$lang['branch_list'] ="শাখা তালিকা";
+$lang['branch_name'] ="শাখার নাম";
+$lang['click_here'] ="এখানে ক্লিক করুন";
+$lang['current_session'] ="বর্তমান অধিবেশন";
+$lang['database'] ="তথ্যশালা";
+$lang['database_name'] ="ডাটাবেসের নাম";
+$lang['edit_branch'] ="সম্পাদনা শাখা";
+$lang['envato_purchase_code'] ="Envato ক্রয় কোড";
+$lang['fees_details'] ="ফি বিবরণ";
+$lang['home_branch'] ="হোম শাখা";
+$lang['hostname'] ="হোস্টনাম";
+$lang['invoice_no'] ="চালান নং";
+$lang['library_details'] ="লাইব্রেরির বিবরণ";
+$lang['login_date_time'] ="লগইন তারিখ সময়";
+$lang['make_default_login'] ="ডিফল্ট লগইন করুন";
+$lang['multi_branch'] ="মাল্টি ব্রাঞ্চ";
+$lang['net_amount'] ="থোক";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="আর কোন শাখা পাওয়া যায়নি, যদি আপনি নতুন শাখা যোগ করতে চান তাহলে অনুগ্রহ করে";
+$lang['offline_admission'] ="অফলাইন ভর্তি";
+$lang['overview'] ="ওভারভিউ";
+$lang['payroll_generated'] ="বেতন উত্পন্ন";
+$lang['payroll_not_generated'] ="বেতন উত্পন্ন হয় না";
+$lang['payroll_paid'] ="বেতন প্রদান করা হয়";
+$lang['report'] ="রিপোর্ট";
+$lang['staff_attendance_details'] ="স্টাফ উপস্থিতির বিবরণ এ";
+$lang['staff_payroll_of'] ="এর স্টাফ বেতন";
+$lang['switch_branch'] ="সুইচ শাখা";
+$lang['total_balance_fees'] ="মোট ব্যালেন্স ফি";
+$lang['total_books'] ="মোট বই";
+$lang['total_paid_fees'] ="মোট প্রদত্ত ফি";
+$lang['total_staff'] ="মোট স্টাফ";
+$lang['total_user_log'] ="মোট ব্যবহারকারী লগ";
+$lang['transport_fees_details'] ="পরিবহন ফি বিবরণ";
+$lang['user_log_details'] ="ব্যবহারকারী লগ বিবরণ";
+$lang['user_log_report'] ="ব্যবহারকারী লগ রিপোর্ট";
+$lang['verify_save'] ="যাচাই করুন এবং সংরক্ষণ করুন";

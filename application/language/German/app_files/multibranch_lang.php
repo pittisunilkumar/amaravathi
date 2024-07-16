@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Neue hinzufügen";
+$lang['add_new_branch'] ="Neuen Zweig hinzufügen";
+$lang['alumni_students'] ="Alumni-Studenten";
+$lang['branch'] ="Ast";
+$lang['branch_database_detail'] ="Detail der Filialdatenbank";
+$lang['branch_list'] ="Filialliste";
+$lang['branch_name'] ="Zweigname";
+$lang['click_here'] ="klicken Sie hier";
+$lang['current_session'] ="Aktuelle Sitzung";
+$lang['database'] ="Datenbank";
+$lang['database_name'] ="Name der Datenbank";
+$lang['edit_branch'] ="Filiale bearbeiten";
+$lang['envato_purchase_code'] ="Envato-Kaufcode";
+$lang['fees_details'] ="Einzelheiten zu den Gebühren";
+$lang['home_branch'] ="Heimatzweig";
+$lang['hostname'] ="Hostname";
+$lang['invoice_no'] ="Rechnungs-Nr";
+$lang['library_details'] ="Bibliotheksdetails";
+$lang['login_date_time'] ="Anmeldedatum Uhrzeit";
+$lang['make_default_login'] ="Standard-Login festlegen";
+$lang['multi_branch'] ="Multi-Zweig";
+$lang['net_amount'] ="Netto-Betrag";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Kein weiterer Zweig gefunden, wenn Sie einen neuen Zweig hinzufügen möchten, bitte";
+$lang['offline_admission'] ="Offline-Zulassung";
+$lang['overview'] ="Überblick";
+$lang['payroll_generated'] ="Gehaltsabrechnung erstellt";
+$lang['payroll_not_generated'] ="Gehaltsabrechnung nicht erstellt";
+$lang['payroll_paid'] ="Gehaltsabrechnung bezahlt";
+$lang['report'] ="Bericht";
+$lang['staff_attendance_details'] ="Details zur Anwesenheit des Personals unter";
+$lang['staff_payroll_of'] ="Personalabrechnung von";
+$lang['switch_branch'] ="Filiale wechseln";
+$lang['total_balance_fees'] ="Gesamtbetragsgebühren";
+$lang['total_books'] ="Insgesamt Bücher";
+$lang['total_paid_fees'] ="Gesamte bezahlte Gebühren";
+$lang['total_staff'] ="Gesamtpersonal";
+$lang['total_user_log'] ="Gesamtes Benutzerprotokoll";
+$lang['transport_fees_details'] ="Einzelheiten zu den Transportgebühren";
+$lang['user_log_details'] ="Benutzerprotokolldetails";
+$lang['user_log_report'] ="Benutzerprotokollbericht";
+$lang['verify_save'] ="Bestätigen und speichern";

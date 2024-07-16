@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Yongeza iklasi ebukhoma";
+$lang['api_used'] ="Api Isetyenzisiwe";
+$lang['api_used_add'] ="Api Isetyenzisiwe Yongeza";
+$lang['awaited'] ="Lilindelwe";
+$lang['cancelled'] ="Irhoxisiwe";
+$lang['class_date'] ="Umhla weklasi";
+$lang['class_duration_minutes'] ="Ubude beklasi (imizuzu)";
+$lang['class_title'] ="Isihloko seklasi";
+$lang['client_video'] ="Ividiyo yabathengi";
+$lang['created_by'] ="Yenziwe ngu";
+$lang['created_for'] ="Yenzelwe";
+$lang['credential'] ="Ukuqinisekisa";
+$lang['finished'] ="Igqitywe tu";
+$lang['global'] ="Ehlabathini lonke";
+$lang['host'] ="Umgcini";
+$lang['host_video'] ="Umboniso weVidiyo";
+$lang['join'] ="Joyina";
+$lang['live_class'] ="Iiklasi eziPhila";
+$lang['live_meeting'] ="Intlanganiso ebukhoma";
+$lang['meeting'] ="Intlanganiso";
+$lang['meeting_duration_minutes'] ="Ixesha leNtlanganiso (imizuzu)";
+$lang['meeting_not_started'] ="Intlanganiso ayikaqalwa";
+$lang['now'] ="Ngoku";
+$lang['online_classes'] ="Zoom Live Classes";
+$lang['online_live_classes'] ="Iiklasi eziPhila ngoku kwi-Intanethi";
+$lang['online_meeting'] ="Sondeza iintlanganiso eziBukhoma";
+$lang['self'] ="Ukuzimela";
+$lang['setting'] ="Ukuseta";
+$lang['started'] ="Qalile";
+$lang['teacher_api_credential'] ="Ukuqinisekiswa kweApi yoTitshala";
+$lang['use_zoom_client_app'] ="Sebenzisa i-Zoom Client App";
+$lang['use_zoom_client_for_staff'] ="Sebenzisa iZoom Client yabasebenzi";
+$lang['use_zoom_client_for_student'] ="Sebenzisa iZoom Client yoMfundi";
+$lang['viewers'] ="Ababukeli";
+$lang['waiting'] ="Ilindile";
+$lang['zoom_api_key'] ="Zoom API Key";
+$lang['zoom_api_secret'] ="Zoom Imfihlo ye-API";
+$lang['zoom_api_setting'] ="Ukuseta ukuseta kweApi";
+$lang['zoom_credential'] ="Zoom Credential";
+$lang['zoom_live_classes'] ="Zoom Live Classes";
+$lang['zoom_online_classes_start'] ="Zoom Live Classes Start";
+$lang['zoom_online_meeting_start'] ="Zoom Live Live Meetings Start";

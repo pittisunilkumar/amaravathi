@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="नवीन जोडा";
+$lang['add_new_branch'] ="नवीन शाखा जोडा";
+$lang['alumni_students'] ="माजी विद्यार्थी";
+$lang['branch'] ="शाखा";
+$lang['branch_database_detail'] ="शाखा डेटाबेस तपशील";
+$lang['branch_list'] ="शाखा यादी";
+$lang['branch_name'] ="शाखेचे नाव";
+$lang['click_here'] ="इथे क्लिक करा";
+$lang['current_session'] ="चालू सत्र";
+$lang['database'] ="डेटाबेस";
+$lang['database_name'] ="डेटाबेस नाव";
+$lang['edit_branch'] ="शाखा संपादित करा";
+$lang['envato_purchase_code'] ="Envato खरेदी कोड";
+$lang['fees_details'] ="फी तपशील";
+$lang['home_branch'] ="गृह शाखा";
+$lang['hostname'] ="होस्टनाव";
+$lang['invoice_no'] ="चलन क्र";
+$lang['library_details'] ="लायब्ररी तपशील";
+$lang['login_date_time'] ="लॉगिन तारीख वेळ";
+$lang['make_default_login'] ="डीफॉल्ट लॉगिन करा";
+$lang['multi_branch'] ="बहु शाखा";
+$lang['net_amount'] ="निव्वळ रक्कम";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="आणखी शाखा आढळली नाही, जर तुम्हाला नवीन शाखा जोडायची असेल तर कृपया";
+$lang['offline_admission'] ="ऑफलाइन प्रवेश";
+$lang['overview'] ="आढावा";
+$lang['payroll_generated'] ="वेतन व्युत्पन्न";
+$lang['payroll_not_generated'] ="वेतन व्युत्पन्न नाही";
+$lang['payroll_paid'] ="पेरोल दिले";
+$lang['report'] ="अहवाल द्या";
+$lang['staff_attendance_details'] ="कर्मचारी उपस्थिती तपशील येथे";
+$lang['staff_payroll_of'] ="च्या कर्मचारी वेतन";
+$lang['switch_branch'] ="शाखा स्विच करा";
+$lang['total_balance_fees'] ="एकूण शिल्लक शुल्क";
+$lang['total_books'] ="एकूण पुस्तके";
+$lang['total_paid_fees'] ="एकूण दिलेली फी";
+$lang['total_staff'] ="एकूण कर्मचारी";
+$lang['total_user_log'] ="एकूण वापरकर्ता लॉग";
+$lang['transport_fees_details'] ="वाहतूक शुल्क तपशील";
+$lang['user_log_details'] ="वापरकर्ता लॉग तपशील";
+$lang['user_log_report'] ="वापरकर्ता लॉग अहवाल";
+$lang['verify_save'] ="सत्यापित करा आणि जतन करा";

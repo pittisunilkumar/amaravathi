@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="أضف فصل دراسي مباشر";
+$lang['api_used'] ="تم استخدام Api";
+$lang['api_used_add'] ="استخدم Api";
+$lang['awaited'] ="منتظر";
+$lang['cancelled'] ="ألغيت";
+$lang['class_date'] ="تاريخ الحصة";
+$lang['class_duration_minutes'] ="مدة الحصة (بالدقائق)";
+$lang['class_title'] ="عنوان الفصل";
+$lang['client_video'] ="فيديو العميل";
+$lang['created_by'] ="انشأ من قبل";
+$lang['created_for'] ="خلقت ل";
+$lang['credential'] ="الاعتماد";
+$lang['finished'] ="تم الانتهاء من";
+$lang['global'] ="عالمي";
+$lang['host'] ="مضيف";
+$lang['host_video'] ="استضافة الفيديو";
+$lang['join'] ="انضم";
+$lang['live_class'] ="دروس حية";
+$lang['live_meeting'] ="لقاء مباشر";
+$lang['meeting'] ="لقاء";
+$lang['meeting_duration_minutes'] ="مدة الاجتماع (بالدقائق)";
+$lang['meeting_not_started'] ="الاجتماع لم يبدأ";
+$lang['now'] ="الآن";
+$lang['online_classes'] ="زووم لايف كلاس";
+$lang['online_live_classes'] ="دروس مباشرة عبر الإنترنت";
+$lang['online_meeting'] ="زووم لايف الاجتماعات";
+$lang['self'] ="الذات";
+$lang['setting'] ="ضبط";
+$lang['started'] ="بدأت";
+$lang['teacher_api_credential'] ="اعتماد المعلم Api";
+$lang['use_zoom_client_app'] ="استخدم تطبيق Zoom Client";
+$lang['use_zoom_client_for_staff'] ="استخدم Zoom Client للموظفين";
+$lang['use_zoom_client_for_student'] ="استخدم برنامج Zoom Client للطالب" ;
+$lang['viewers'] ="مشاهدون";
+$lang['waiting'] ="انتظار";
+$lang['zoom_api_key'] ="مفتاح Zoom API";
+$lang['zoom_api_secret'] ="Zoom API Secret";
+$lang['zoom_api_setting'] ="إعداد Zoom Api";
+$lang['zoom_credential'] ="اعتماد التكبير";
+$lang['zoom_live_classes'] ="زووم لايف كلاس";
+$lang['zoom_online_classes_start'] ="ابدأ دروس Zoom Live";
+$lang['zoom_online_meeting_start'] ="ابدأ اجتماعات Zoom Live";

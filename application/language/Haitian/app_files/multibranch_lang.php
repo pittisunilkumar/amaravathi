@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Ajoute Nouvo";
+$lang['add_new_branch'] ="Ajoute Nouvo Branch";
+$lang['alumni_students'] ="Ansyen Elèv yo";
+$lang['branch'] ="Branch";
+$lang['branch_database_detail'] ="Detay baz done branch";
+$lang['branch_list'] ="Lis Branch";
+$lang['branch_name'] ="Non Branch";
+$lang['click_here'] ="klike la a";
+$lang['current_session'] ="Sesyon aktyèl la";
+$lang['database'] ="Baz done";
+$lang['database_name'] ="Non baz done";
+$lang['edit_branch'] ="Edit Branch";
+$lang['envato_purchase_code'] ="Kòd Acha Envato";
+$lang['fees_details'] ="Detay frè yo";
+$lang['home_branch'] ="Branch Lakay";
+$lang['hostname'] ="Non animatè";
+$lang['invoice_no'] ="No fakti";
+$lang['library_details'] ="Detay bibliyotèk";
+$lang['login_date_time'] ="Konekte Dat Lè";
+$lang['make_default_login'] ="Fè Default Login";
+$lang['multi_branch'] ="Branch milti";
+$lang['net_amount'] ="Kantite lajan nèt";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Pa gen okenn branch plis jwenn, si ou vle ajoute nouvo branch tanpri";
+$lang['offline_admission'] ="Offline Admisyon";
+$lang['overview'] ="Apèsi sou lekòl la";
+$lang['payroll_generated'] ="Pewòl Jenere";
+$lang['payroll_not_generated'] ="Pewòl pa jenere";
+$lang['payroll_paid'] ="Pewòl peye";
+$lang['report'] ="Rapò";
+$lang['staff_attendance_details'] ="Detay Prezans Anplwaye Nan";
+$lang['staff_payroll_of'] ="Pewòl anplwaye yo";
+$lang['switch_branch'] ="Chanje Branch";
+$lang['total_balance_fees'] ="Frè Balans Total";
+$lang['total_books'] ="Total Liv";
+$lang['total_paid_fees'] ="Total Frè Peye";
+$lang['total_staff'] ="Total anplwaye";
+$lang['total_user_log'] ="Total itilizatè Log";
+$lang['transport_fees_details'] ="Detay Frè Transpò";
+$lang['user_log_details'] ="Detay Log itilizatè";
+$lang['user_log_report'] ="Rapò Log itilizatè";
+$lang['verify_save'] ="Verifye &amp; Sove";

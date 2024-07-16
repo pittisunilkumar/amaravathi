@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="新しく追加する";
+$lang['add_new_branch'] ="新しいブランチを追加";
+$lang['alumni_students'] ="同窓生";
+$lang['branch'] ="ブランチ";
+$lang['branch_database_detail'] ="支店データベースの詳細";
+$lang['branch_list'] ="支店一覧";
+$lang['branch_name'] ="支店名";
+$lang['click_here'] ="ここをクリック";
+$lang['current_session'] ="現在のセッション";
+$lang['database'] ="データベース";
+$lang['database_name'] ="データベース名";
+$lang['edit_branch'] ="ブランチを編集";
+$lang['envato_purchase_code'] ="Envato 購入コード";
+$lang['fees_details'] ="料金詳細";
+$lang['home_branch'] ="ホームブランチ";
+$lang['hostname'] ="ホスト名";
+$lang['invoice_no'] ="請求書番号";
+$lang['library_details'] ="ライブラリの詳細";
+$lang['login_date_time'] ="ログイン日時";
+$lang['make_default_login'] ="デフォルトのログインを作成";
+$lang['multi_branch'] ="マルチブランチ";
+$lang['net_amount'] ="正味金額";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="これ以上ブランチが見つかりません。新しいブランチを追加したい場合は、";
+$lang['offline_admission'] ="オフライン入場";
+$lang['overview'] ="概要";
+$lang['payroll_generated'] ="給与計算が生成されました";
+$lang['payroll_not_generated'] ="給与が生成されない";
+$lang['payroll_paid'] ="給与支払済み";
+$lang['report'] ="報告する";
+$lang['staff_attendance_details'] ="スタッフ出席の詳細";
+$lang['staff_payroll_of'] ="スタッフの給与計算";
+$lang['switch_branch'] ="分岐を切り替える";
+$lang['total_balance_fees'] ="合計残高手数料";
+$lang['total_books'] ="総図書";
+$lang['total_paid_fees'] ="支払った料金の合計";
+$lang['total_staff'] ="総スタッフ";
+$lang['total_user_log'] ="総ユーザーログ";
+$lang['transport_fees_details'] ="交通費詳細";
+$lang['user_log_details'] ="ユーザーログの詳細";
+$lang['user_log_report'] ="ユーザーログレポート";
+$lang['verify_save'] ="確認して保存";

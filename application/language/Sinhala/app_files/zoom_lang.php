@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="සජීවී පන්තිය එක් කරන්න";
+$lang['api_used'] ="Api පාවිච්චි කළා";
+$lang['api_used_add'] ="Api පාවිච්චි කළ එකතු කිරීම";
+$lang['awaited'] ="බලා සිටියේය";
+$lang['cancelled'] ="අවලංගු කළා";
+$lang['class_date'] ="පන්ති දිනය";
+$lang['class_duration_minutes'] ="පන්ති කාලය (මිනිත්තු)";
+$lang['class_title'] ="පන්ති මාතෘකාව";
+$lang['client_video'] ="සේවාලාභී වීඩියෝව";
+$lang['created_by'] ="නිර්මාණය කළේ";
+$lang['created_for'] ="සඳහා නිර්මාණය කරන ලදි";
+$lang['credential'] ="අක්තපත්‍ර";
+$lang['finished'] ="අවසන්";
+$lang['global'] ="ගෝලීය";
+$lang['host'] ="සත්කාරක";
+$lang['host_video'] ="සත්කාරක වීඩියෝව";
+$lang['join'] ="එක්වන්න";
+$lang['live_class'] ="සජීවී පන්ති";
+$lang['live_meeting'] ="සජීවී රැස්වීම";
+$lang['meeting'] ="රැස්වීම";
+$lang['meeting_duration_minutes'] ="රැස්වීමේ කාලය (මිනිත්තු)";
+$lang['meeting_not_started'] ="රැස්වීම ආරම්භ කර නැත";
+$lang['now'] ="දැන්";
+$lang['online_classes'] ="සජීවී පන්ති විශාලනය කරන්න";
+$lang['online_live_classes'] ="මාර්ගගත සජීවී පන්ති";
+$lang['online_meeting'] ="සජීවී රැස්වීම් විශාලනය කරන්න";
+$lang['self'] ="ස්වයං";
+$lang['setting'] ="සැකසුම";
+$lang['started'] ="ආරම්භ කළා";
+$lang['teacher_api_credential'] ="ගුරු Api අක්තපත්‍ර";
+$lang['use_zoom_client_app'] ="විශාලන සේවාලාභී යෙදුම භාවිතා කරන්න";
+$lang['use_zoom_client_for_staff'] ="කාර්ය මණ්ඩලය සඳහා විශාලන සේවාදායකයා භාවිතා කරන්න";
+$lang['use_zoom_client_for_student'] ="ශිෂ්‍යයා සඳහා විශාලන සේවාදායකයා භාවිතා කරන්න";
+$lang['viewers'] ="නරඹන්නන්";
+$lang['waiting'] ="බලා සිටීම";
+$lang['zoom_api_key'] ="විශාලන API යතුර";
+$lang['zoom_api_secret'] ="විශාලන API රහස";
+$lang['zoom_api_setting'] ="විශාලන Api සැකසුම";
+$lang['zoom_credential'] ="විශාලන අක්තපත්‍ර";
+$lang['zoom_live_classes'] ="සජීවී පන්ති විශාලනය කරන්න";
+$lang['zoom_online_classes_start'] ="විශාලන සජීවී පන්ති ආරම්භ කරන්න";
+$lang['zoom_online_meeting_start'] ="විශාලන සජීවී රැස්වීම් ආරම්භ කරන්න";

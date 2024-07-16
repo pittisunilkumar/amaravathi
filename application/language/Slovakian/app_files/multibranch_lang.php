@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Pridať nové";
+$lang['add_new_branch'] ="Pridať novú pobočku";
+$lang['alumni_students'] ="Študenti absolventov";
+$lang['branch'] ="Pobočka";
+$lang['branch_database_detail'] ="Detail databázy pobočiek";
+$lang['branch_list'] ="Zoznam pobočiek";
+$lang['branch_name'] ="Meno pobočky";
+$lang['click_here'] ="kliknite tu";
+$lang['current_session'] ="Aktuálna relácia";
+$lang['database'] ="Databáza";
+$lang['database_name'] ="Názov databázy";
+$lang['edit_branch'] ="Upraviť pobočku";
+$lang['envato_purchase_code'] ="Kód nákupu Envato";
+$lang['fees_details'] ="Podrobnosti o poplatkoch";
+$lang['home_branch'] ="Domovská pobočka";
+$lang['hostname'] ="Meno hosťa";
+$lang['invoice_no'] ="faktúra č";
+$lang['library_details'] ="Podrobnosti o knižnici";
+$lang['login_date_time'] ="Dátum prihlásenia Čas";
+$lang['make_default_login'] ="Nastaviť predvolené prihlásenie";
+$lang['multi_branch'] ="Viacnásobná pobočka";
+$lang['net_amount'] ="Čistá čiastka";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Nenašla sa žiadna ďalšia pobočka, ak chcete pridať novú pobočku, prosím";
+$lang['offline_admission'] ="Offline vstup";
+$lang['overview'] ="Prehľad";
+$lang['payroll_generated'] ="Vygenerované mzdy";
+$lang['payroll_not_generated'] ="Mzdy neboli vygenerované";
+$lang['payroll_paid'] ="Mzdy zaplatené";
+$lang['report'] ="správa";
+$lang['staff_attendance_details'] ="Podrobnosti o dochádzke zamestnancov na";
+$lang['staff_payroll_of'] ="Mzdy zamestnancov z";
+$lang['switch_branch'] ="Switch Branch";
+$lang['total_balance_fees'] ="Poplatky za celkový zostatok";
+$lang['total_books'] ="Celkový počet kníh";
+$lang['total_paid_fees'] ="Celkové zaplatené poplatky";
+$lang['total_staff'] ="Celkový počet zamestnancov";
+$lang['total_user_log'] ="Celkový denník používateľov";
+$lang['transport_fees_details'] ="Podrobnosti o poplatkoch za dopravu";
+$lang['user_log_details'] ="Podrobnosti denníka používateľa";
+$lang['user_log_report'] ="Správa denníka používateľa";
+$lang['verify_save'] ="Overiť a uložiť";

@@ -1,0 +1,39 @@
+ *{padding: 0; margin: 0}
+    body{color: #000; font-family: Arial; line-height: 20px; font-size: 12px}
+    .denifittable table{border-collapse: collapse;}
+    .denifittable th,
+    .denifittable td{border: 1px solid #999;border-collapse: collapse;}
+    .denifittable th,
+    .denifittable td {}
+    .denifittable tr th {padding: 3px 10px; font-weight: bold;}
+    .denifittable tr td {padding: 3px 10px; font-weight: bold;}
+
+    .denifittable-small table{border-collapse: collapse text-align: center;}
+    .denifittable-small th,
+    .denifittable-small td{border: 1px solid #999;border-collapse: collapse;}
+    .denifittable-small th,
+    .denifittable-small td {}
+    .denifittable-small tr th {padding: 0px 10px; font-weight: bold; text-align: center}
+    .denifittable-small tr td {padding: 0px 10px; font-weight: bold; text-align: center}
+
+    .denifittable-big table{border-collapse: collapse text-align: center;}
+    .denifittable-big th,
+    .denifittable-big td{border: 1px solid #999;border-collapse: collapse;}
+    .denifittable-big th,
+    .denifittable-big td {}
+    .denifittable-big tr th {padding: 9px 10px; font-weight: bold; text-align: center}
+    .denifittable-big tr td {padding: 9px 10px; font-weight: bold; text-align: center}
+    .fw-bold{font-weight: bold;}
+    .text-decoration-underline{text-decoration: underline;}
+    .text-center{
+        text-align: center;
+    }
+    .text-right{
+        text-align: right;
+    }
+
+    .signature{
+        padding-top: 5px;
+        padding-bottom:  5px;
+
+    }

@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Ampio Vaovao";
+$lang['add_new_branch'] ="Ampio Sampana Vaovao";
+$lang['alumni_students'] ="Mpianatra Alumni";
+$lang['branch'] ="SAMPANA";
+$lang['branch_database_detail'] ="Sampana Database Detail";
+$lang['branch_list'] ="Lisitry ny sampana";
+$lang['branch_name'] ="Anaran&#39;ny sampana";
+$lang['click_here'] ="kitiho eto";
+$lang['current_session'] ="Fivoriana ankehitriny";
+$lang['database'] ="banky angona";
+$lang['database_name'] ="Anaran&#39;ny angona";
+$lang['edit_branch'] ="Ahitsio Sampana";
+$lang['envato_purchase_code'] ="Envato Purchase Code";
+$lang['fees_details'] ="Fees Details";
+$lang['home_branch'] ="Sampana Trano";
+$lang['hostname'] ="Hostname";
+$lang['invoice_no'] ="Faktiora No";
+$lang['library_details'] ="Ny antsipirian&#39;ny tranomboky";
+$lang['login_date_time'] ="Ora Daty fidirana";
+$lang['make_default_login'] ="Ataovy Default Login";
+$lang['multi_branch'] ="Sampana maro";
+$lang['net_amount'] ="Vola madiodio";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Tsy misy Sampana intsony hita, raha te-hanampy sampana vaovao azafady";
+$lang['offline_admission'] ="Fidirana an-tserasera";
+$lang['overview'] ="Overview";
+$lang['payroll_generated'] ="Payroll Generated";
+$lang['payroll_not_generated'] ="Karama tsy natao";
+$lang['payroll_paid'] ="Payroll";
+$lang['report'] ="TATITRA";
+$lang['staff_attendance_details'] ="Antsipirihan&#39;ny fanatrehana mpiasa At";
+$lang['staff_payroll_of'] ="Karama mpiasan&#39;ny";
+$lang['switch_branch'] ="Switch Branch";
+$lang['total_balance_fees'] ="Saram-balan&#39;ny Total";
+$lang['total_books'] ="Boky Total";
+$lang['total_paid_fees'] ="Total sara voaloa";
+$lang['total_staff'] ="Total Staff";
+$lang['total_user_log'] ="Total Log mpampiasa";
+$lang['transport_fees_details'] ="Tsipirian&#39;ny saram-pitaterana";
+$lang['user_log_details'] ="User Log Details";
+$lang['user_log_report'] ="User Log Report";
+$lang['verify_save'] ="Hamarino &amp; Tehirizo";

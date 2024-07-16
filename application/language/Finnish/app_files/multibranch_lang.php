@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Lisää uusi";
+$lang['add_new_branch'] ="Lisää uusi haara";
+$lang['alumni_students'] ="Alumni-opiskelijat";
+$lang['branch'] ="Haara";
+$lang['branch_database_detail'] ="Haaratietokannan tiedot";
+$lang['branch_list'] ="Toimialaluettelo";
+$lang['branch_name'] ="Sivukonttorin nimi";
+$lang['click_here'] ="Klikkaa tästä";
+$lang['current_session'] ="Nykyinen istunto";
+$lang['database'] ="Tietokanta";
+$lang['database_name'] ="Tietokannan nimi";
+$lang['edit_branch'] ="Muokkaa haaraa";
+$lang['envato_purchase_code'] ="Envaton ostokoodi";
+$lang['fees_details'] ="Maksujen tiedot";
+$lang['home_branch'] ="Kotisivukonttori";
+$lang['hostname'] ="Isäntänimi";
+$lang['invoice_no'] ="Lasku nro";
+$lang['library_details'] ="Kirjaston tiedot";
+$lang['login_date_time'] ="Kirjautumispäivä Aika";
+$lang['make_default_login'] ="Tee oletuskirjautuminen";
+$lang['multi_branch'] ="Monitoimiliike";
+$lang['net_amount'] ="Nettomäärä";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Enempää haaraa ei löytynyt, jos haluat lisätä uuden haaran";
+$lang['offline_admission'] ="Offline-pääsy";
+$lang['overview'] ="Yleiskatsaus";
+$lang['payroll_generated'] ="Palkkalaskenta luotu";
+$lang['payroll_not_generated'] ="Palkkalaskentaa ei luotu";
+$lang['payroll_paid'] ="Palkka maksettu";
+$lang['report'] ="Raportoi";
+$lang['staff_attendance_details'] ="Henkilökunnan läsnäolotiedot klo";
+$lang['staff_payroll_of'] ="Henkilökunnan palkanlaskenta";
+$lang['switch_branch'] ="Vaihda haaraa";
+$lang['total_balance_fees'] ="Saldomaksut yhteensä";
+$lang['total_books'] ="Kirjat yhteensä";
+$lang['total_paid_fees'] ="Maksetut maksut yhteensä";
+$lang['total_staff'] ="Henkilökunta yhteensä";
+$lang['total_user_log'] ="Käyttäjäloki yhteensä";
+$lang['transport_fees_details'] ="Kuljetusmaksujen tiedot";
+$lang['user_log_details'] ="Käyttäjälokin tiedot";
+$lang['user_log_report'] ="Käyttäjälokiraportti";
+$lang['verify_save'] ="Vahvista &amp; Tallenna";

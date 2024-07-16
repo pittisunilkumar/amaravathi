@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Pridėti naują";
+$lang['add_new_branch'] ="Pridėti naują filialą";
+$lang['alumni_students'] ="Alumnai Studentai";
+$lang['branch'] ="Filialas";
+$lang['branch_database_detail'] ="Išsami filialo duomenų bazė";
+$lang['branch_list'] ="Filialų sąrašas";
+$lang['branch_name'] ="Filialo pavadinimas";
+$lang['click_here'] ="paspauskite čia";
+$lang['current_session'] ="Dabartinė sesija";
+$lang['database'] ="Duomenų bazė";
+$lang['database_name'] ="Duomenų bazės pavadinimas";
+$lang['edit_branch'] ="Redaguoti filialą";
+$lang['envato_purchase_code'] ="Envato pirkimo kodas";
+$lang['fees_details'] ="Mokesčių detalės";
+$lang['home_branch'] ="Namų filialas";
+$lang['hostname'] ="Pagrindinio kompiuterio pavadinimas";
+$lang['invoice_no'] ="Sąskaita Nr";
+$lang['library_details'] ="Bibliotekos informacija";
+$lang['login_date_time'] ="Prisijungimo data Laikas";
+$lang['make_default_login'] ="Padaryti numatytąjį prisijungimą";
+$lang['multi_branch'] ="Daugiašakis";
+$lang['net_amount'] ="Grynoji suma";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Daugiau filialo nerasta, jei norite pridėti naują filialą";
+$lang['offline_admission'] ="Priėmimas neprisijungus";
+$lang['overview'] ="Apžvalga";
+$lang['payroll_generated'] ="Sukurtas darbo užmokestis";
+$lang['payroll_not_generated'] ="Darbo užmokestis nesukurtas";
+$lang['payroll_paid'] ="Sumokėtas darbo užmokestis";
+$lang['report'] ="Pranešimas";
+$lang['staff_attendance_details'] ="Išsami informacija apie darbuotojų lankomumą";
+$lang['staff_payroll_of'] ="Darbuotojų darbo užmokestis iš";
+$lang['switch_branch'] ="Perjungti filialą";
+$lang['total_balance_fees'] ="Iš viso balanso mokesčiai";
+$lang['total_books'] ="Iš viso knygų";
+$lang['total_paid_fees'] ="Iš viso sumokėtų mokesčių";
+$lang['total_staff'] ="Iš viso personalo";
+$lang['total_user_log'] ="Visas vartotojo žurnalas";
+$lang['transport_fees_details'] ="Transporto mokesčių informacija";
+$lang['user_log_details'] ="Vartotojo žurnalo informacija";
+$lang['user_log_report'] ="Vartotojo žurnalo ataskaita";
+$lang['verify_save'] ="Patvirtinkite ir išsaugokite";

@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Nû lê zêde bike";
+$lang['add_new_branch'] ="Şaxa Nû lê zêde bike";
+$lang['alumni_students'] ="Xwendekarên Alumni";
+$lang['branch'] ="Liq";
+$lang['branch_database_detail'] ="Detail Database Şaxa";
+$lang['branch_list'] ="Lîsteya Şaxa";
+$lang['branch_name'] ="Navê şaxê";
+$lang['click_here'] ="li vir bitikîne";
+$lang['current_session'] ="Rûniştina heyî";
+$lang['database'] ="Database";
+$lang['database_name'] ="Navê Database";
+$lang['edit_branch'] ="Edit Şaxa";
+$lang['envato_purchase_code'] ="Koda Kirînê ya Envato";
+$lang['fees_details'] ="Details Fees";
+$lang['home_branch'] ="Şaxa Malê";
+$lang['hostname'] ="Navê mêvandar";
+$lang['invoice_no'] ="Fato No";
+$lang['library_details'] ="Agahiyên Pirtûkxaneyê";
+$lang['login_date_time'] ="Dîroka Têketinê Dem";
+$lang['make_default_login'] ="Têketina Default bike";
+$lang['multi_branch'] ="Şaxa Multi";
+$lang['net_amount'] ="Mîqdara Net";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Bêhtir Şaxek nehat dîtin, ger hûn dixwazin şaxek nû lê zêde bikin ji kerema xwe";
+$lang['offline_admission'] ="Qebûlkirina Offline";
+$lang['overview'] ="Têgihiştinî";
+$lang['payroll_generated'] ="Payroll Generated";
+$lang['payroll_not_generated'] ="Payroll nehat çêkirin";
+$lang['payroll_paid'] ="Payroll Paid";
+$lang['report'] ="Nûçe";
+$lang['staff_attendance_details'] ="Details Tevlêbûn bi Staff At";
+$lang['staff_payroll_of'] ="Performansa Karmendan ya";
+$lang['switch_branch'] ="Switch Şaxa";
+$lang['total_balance_fees'] ="Tevahiya Xercên Balance";
+$lang['total_books'] ="Tevahiya Pirtûkan";
+$lang['total_paid_fees'] ="Tevahiya Xercên Paded";
+$lang['total_staff'] ="Total Staff";
+$lang['total_user_log'] ="Tevahiya Bikarhêner Log";
+$lang['transport_fees_details'] ="Details Xercên Transport";
+$lang['user_log_details'] ="Details Log Bikarhêner";
+$lang['user_log_report'] ="Rapora Têketinê ya Bikarhêner";
+$lang['verify_save'] ="Verastkirin &amp; Save";

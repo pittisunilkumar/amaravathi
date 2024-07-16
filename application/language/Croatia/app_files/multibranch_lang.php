@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Dodaj novi";
+$lang['add_new_branch'] ="Dodaj novu granu";
+$lang['alumni_students'] ="Alumni studenti";
+$lang['branch'] ="Podružnica";
+$lang['branch_database_detail'] ="Pojedinosti baze podataka podružnice";
+$lang['branch_list'] ="Popis podružnica";
+$lang['branch_name'] ="Naziv podružnice";
+$lang['click_here'] ="kliknite ovdje";
+$lang['current_session'] ="Trenutačna sesija";
+$lang['database'] ="Baza podataka";
+$lang['database_name'] ="Naziv baze podataka";
+$lang['edit_branch'] ="Uredi granu";
+$lang['envato_purchase_code'] ="Envato kod za kupnju";
+$lang['fees_details'] ="Pojedinosti o naknadama";
+$lang['home_branch'] ="Matična podružnica";
+$lang['hostname'] ="Naziv hosta";
+$lang['invoice_no'] ="Račun br";
+$lang['library_details'] ="Detalji knjižnice";
+$lang['login_date_time'] ="Datum prijave Vrijeme";
+$lang['make_default_login'] ="Postavi zadanu prijavu";
+$lang['multi_branch'] ="Multi Branch";
+$lang['net_amount'] ="Neto iznos";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Nije pronađena više grana, ako želite dodati novu granu";
+$lang['offline_admission'] ="Izvanmrežni prijem";
+$lang['overview'] ="Pregled";
+$lang['payroll_generated'] ="Generiran obračun plaća";
+$lang['payroll_not_generated'] ="Plaća nije generirana";
+$lang['payroll_paid'] ="Isplaćeni obračun plaća";
+$lang['report'] ="izvješće";
+$lang['staff_attendance_details'] ="Podaci o prisutnosti osoblja na";
+$lang['staff_payroll_of'] ="Platni spisak osoblja od";
+$lang['switch_branch'] ="Switch Branch";
+$lang['total_balance_fees'] ="Ukupne naknade za stanje";
+$lang['total_books'] ="Ukupno knjiga";
+$lang['total_paid_fees'] ="Ukupno plaćene naknade";
+$lang['total_staff'] ="Ukupno osoblje";
+$lang['total_user_log'] ="Ukupni korisnički dnevnik";
+$lang['transport_fees_details'] ="Pojedinosti o naknadama za prijevoz";
+$lang['user_log_details'] ="Detalji korisničkog dnevnika";
+$lang['user_log_report'] ="Izvješće o korisničkom dnevniku";
+$lang['verify_save'] ="Potvrdi i spremi";

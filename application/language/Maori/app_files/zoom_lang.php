@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Taapirihia te Akomanga Ora";
+$lang['api_used'] ="Api Whakamahia";
+$lang['api_used_add'] ="Api Whakamahia Taapiri";
+$lang['awaited'] ="Tatari";
+$lang['cancelled'] ="Kua whakakorea";
+$lang['class_date'] ="Ra Akomanga";
+$lang['class_duration_minutes'] ="Roanga o te Akomanga (Minute)";
+$lang['class_title'] ="Taitara Akomanga";
+$lang['client_video'] ="Riipene Ataata";
+$lang['created_by'] ="Hangaia e";
+$lang['created_for'] ="Hangaia Mo";
+$lang['credential'] ="Taipitopito Tuakiri";
+$lang['finished'] ="Kua Oti";
+$lang['global'] ="Ao";
+$lang['host'] ="Kaihautu";
+$lang['host_video'] ="Riipene Ataata";
+$lang['join'] ="Hono";
+$lang['live_class'] ="Akomanga Ora";
+$lang['live_meeting'] ="Hui Tuturu";
+$lang['meeting'] ="Hui";
+$lang['meeting_duration_minutes'] ="Roanga o te Hui (Miniti)";
+$lang['meeting_not_started'] ="Kare e Timata te Hui";
+$lang['now'] ="Na";
+$lang['online_classes'] ="Topaa Nga Akomanga Ora";
+$lang['online_live_classes'] ="Akomanga Ora Aipurangi";
+$lang['online_meeting'] ="Whakanuia nga Hui Ora";
+$lang['self'] ="Whaiaro";
+$lang['setting'] ="Whakatakoto";
+$lang['started'] ="I tiimata";
+$lang['teacher_api_credential'] ="Kaiako Api Tiwhikete";
+$lang['use_zoom_client_app'] ="Whakamahia te Tono Kaitono Tono";
+$lang['use_zoom_client_for_staff'] ="Whakamahia te Kaitono Topa mo nga Kaimahi";
+$lang['use_zoom_client_for_student'] ="Whakamahia te Kaitono Topa mo te Akonga";
+$lang['viewers'] ="Kaitiro";
+$lang['waiting'] ="Tatari ana";
+$lang['zoom_api_key'] ="Tono API Kī";
+$lang['zoom_api_secret'] ="Tapaina te API Secret";
+$lang['zoom_api_setting'] ="Whakatata Api Whakatata";
+$lang['zoom_credential'] ="Tohu Paetahi";
+$lang['zoom_live_classes'] ="Topaa Nga Akomanga Ora";
+$lang['zoom_online_classes_start'] ="Tapaa nga Akomanga Ora Tuwhera";
+$lang['zoom_online_meeting_start'] ="Tapaa te Hui Hui Ora";

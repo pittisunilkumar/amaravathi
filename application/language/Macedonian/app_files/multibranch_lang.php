@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Додади ново";
+$lang['add_new_branch'] ="Додадете нова филијала";
+$lang['alumni_students'] ="Алумни студенти";
+$lang['branch'] ="Филијала";
+$lang['branch_database_detail'] ="Детали за база на податоци за филијала";
+$lang['branch_list'] ="Список на филијали";
+$lang['branch_name'] ="Име на филијала";
+$lang['click_here'] ="Кликни тука";
+$lang['current_session'] ="Тековна сесија";
+$lang['database'] ="База на податоци";
+$lang['database_name'] ="Име на база на податоци";
+$lang['edit_branch'] ="Уреди филијала";
+$lang['envato_purchase_code'] ="Код за купување на Envato";
+$lang['fees_details'] ="Детали за такси";
+$lang['home_branch'] ="Домашна филијала";
+$lang['hostname'] ="Име на домаќин";
+$lang['invoice_no'] ="Фактура бр";
+$lang['library_details'] ="Детали за библиотека";
+$lang['login_date_time'] ="Датум на најавување Време";
+$lang['make_default_login'] ="Направете стандардно најавување";
+$lang['multi_branch'] ="Мулти гранка";
+$lang['net_amount'] ="Нето износ";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Не е пронајдена повеќе филијала, ако сакате да додадете нова гранка ве молиме";
+$lang['offline_admission'] ="Офлајн прием";
+$lang['overview'] ="Преглед";
+$lang['payroll_generated'] ="Генериран платен список";
+$lang['payroll_not_generated'] ="Платен список не е генериран";
+$lang['payroll_paid'] ="Платен список";
+$lang['report'] ="Пријави";
+$lang['staff_attendance_details'] ="Детали за присуство на персоналот на";
+$lang['staff_payroll_of'] ="Платен список на персоналот на";
+$lang['switch_branch'] ="Префрли филијала";
+$lang['total_balance_fees'] ="Надоместоци за вкупен биланс";
+$lang['total_books'] ="Вкупно книги";
+$lang['total_paid_fees'] ="Вкупно платени такси";
+$lang['total_staff'] ="Вкупен персонал";
+$lang['total_user_log'] ="Вкупен дневник на корисници";
+$lang['transport_fees_details'] ="Детали за транспортните такси";
+$lang['user_log_details'] ="Детали за дневникот на корисникот";
+$lang['user_log_report'] ="Извештај за дневник на корисници";
+$lang['verify_save'] ="Потврди и зачувај";

@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Pagdugang Live nga Klase";
+$lang['api_used'] ="Gigamit Api";
+$lang['api_used_add'] ="Api Gigamit nga Dugang";
+$lang['awaited'] ="Gipaabot";
+$lang['cancelled'] ="Nakansela";
+$lang['class_date'] ="Petsa sa Klase";
+$lang['class_duration_minutes'] ="Gidugayon sa Klase (Minuto)";
+$lang['class_title'] ="Ulohan sa Klase";
+$lang['client_video'] ="Kliyente nga Video";
+$lang['created_by'] ="Gihimo Ni";
+$lang['created_for'] ="Gihimo Alang sa";
+$lang['credential'] ="Kredensyal";
+$lang['finished'] ="Nahuman";
+$lang['global'] ="Tibuok kalibutan";
+$lang['host'] ="Tagbalay";
+$lang['host_video'] ="Video sa Tagbalay";
+$lang['join'] ="Pag-apil";
+$lang['live_class'] ="Mga Klase nga Mabuhi";
+$lang['live_meeting'] ="Live nga Tigum";
+$lang['meeting'] ="Tigum";
+$lang['meeting_duration_minutes'] ="Kadugayon sa Miting (Minuto)";
+$lang['meeting_not_started'] ="Wala Pagsugod ang Tigum";
+$lang['now'] ="Karon";
+$lang['online_classes'] ="Pag-zoom sa Live nga mga Klase";
+$lang['online_live_classes'] ="Mga Klase sa Live nga Online";
+$lang['online_meeting'] ="Pag-zoom sa Live nga mga Miting";
+$lang['self'] ="Kaugalingon";
+$lang['setting'] ="Pagpahimutang";
+$lang['started'] ="Nagsugod";
+$lang['teacher_api_credential'] ="Kredensyal nga Magtutudlo Api";
+$lang['use_zoom_client_app'] ="Paggamit Zoom Client App";
+$lang['use_zoom_client_for_staff'] ="Paggamit sa Zoom Client alang sa Staff";
+$lang['use_zoom_client_for_student'] ="Paggamit sa Zoom Client alang sa Estudyante";
+$lang['viewers'] ="Mga tumatan-aw";
+$lang['waiting'] ="Naghulat";
+$lang['zoom_api_key'] ="Pag-zoom API Key";
+$lang['zoom_api_secret'] ="Pag-zoom sa Sekreto sa API";
+$lang['zoom_api_setting'] ="Pag-zoom sa setting sa Api";
+$lang['zoom_credential'] ="Kredensyal sa Pag-zoom";
+$lang['zoom_live_classes'] ="Pag-zoom sa Live nga mga Klase";
+$lang['zoom_online_classes_start'] ="Pagsugod sa Pag-zoom sa Mga Klase sa Live";
+$lang['zoom_online_meeting_start'] ="Pagsugod sa Pag-zoom sa Mga Live nga Miting";

@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Lisage Live Class";
+$lang['api_used'] ="Api kasutatud";
+$lang['api_used_add'] ="Api kasutatud Lisa";
+$lang['awaited'] ="Oodatud";
+$lang['cancelled'] ="Tühistatud";
+$lang['class_date'] ="Klassi kuupäev";
+$lang['class_duration_minutes'] ="Kursuse kestus (minutites)";
+$lang['class_title'] ="Klassi pealkiri";
+$lang['client_video'] ="Kliendi video";
+$lang['created_by'] ="Loodud";
+$lang['created_for'] ="Loodud";
+$lang['credential'] ="Volikiri";
+$lang['finished'] ="Valmis";
+$lang['global'] ="Ülemaailmne";
+$lang['host'] ="Peremees";
+$lang['host_video'] ="Host Video";
+$lang['join'] ="Liitu";
+$lang['live_class'] ="Otsekursused";
+$lang['live_meeting'] ="Otsekohtumine";
+$lang['meeting'] ="Kohtumine";
+$lang['meeting_duration_minutes'] ="Koosoleku kestus (protokoll)";
+$lang['meeting_not_started'] ="Koosolekut ei alustatud";
+$lang['now'] ="Nüüd";
+$lang['online_classes'] ="Otsekursuste suumimine";
+$lang['online_live_classes'] ="Veebiklassid veebis";
+$lang['online_meeting'] ="Otsekoosolekute suumimine";
+$lang['self'] ="Ise";
+$lang['setting'] ="Seadistamine";
+$lang['started'] ="Alustatud";
+$lang['teacher_api_credential'] ="Õpetaja Api volikiri";
+$lang['use_zoom_client_app'] ="Kasutage rakendust Zoom Client";
+$lang['use_zoom_client_for_staff'] ="Kasutage personali jaoks suumiklienti";
+$lang['use_zoom_client_for_student'] ="Kasutage õpilase jaoks suumiklienti";
+$lang['viewers'] ="Vaatajad";
+$lang['waiting'] ="Ootan";
+$lang['zoom_api_key'] ="Suumi API võti";
+$lang['zoom_api_secret'] ="Suumi API saladus";
+$lang['zoom_api_setting'] ="Suumi Api seade";
+$lang['zoom_credential'] ="Suumi mandaat";
+$lang['zoom_live_classes'] ="Otsekursuste suumimine";
+$lang['zoom_online_classes_start'] ="Alustage otsetundide suumimist";
+$lang['zoom_online_meeting_start'] ="Alusta otseülekannete suumimist";

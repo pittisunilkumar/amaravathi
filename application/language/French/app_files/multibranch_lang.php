@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Ajouter nouveau";
+$lang['add_new_branch'] ="Ajouter une nouvelle branche";
+$lang['alumni_students'] ="Étudiants diplômés";
+$lang['branch'] ="Bifurquer";
+$lang['branch_database_detail'] ="Détail de la base de données des succursales";
+$lang['branch_list'] ="Liste des succursales";
+$lang['branch_name'] ="Nom de la filiale";
+$lang['click_here'] ="Cliquez ici";
+$lang['current_session'] ="Session actuelle";
+$lang['database'] ="Base de données";
+$lang['database_name'] ="Nom de la base de données";
+$lang['edit_branch'] ="Modifier la branche";
+$lang['envato_purchase_code'] ="Code d&#39;achat Envato";
+$lang['fees_details'] ="Détails des frais";
+$lang['home_branch'] ="Succursale d&#39;accueil";
+$lang['hostname'] ="Nom d&#39;hôte";
+$lang['invoice_no'] ="Facture n°";
+$lang['library_details'] ="Détails de la bibliothèque";
+$lang['login_date_time'] ="Date de connexion Heure";
+$lang['make_default_login'] ="Créer une connexion par défaut";
+$lang['multi_branch'] ="Multibranche";
+$lang['net_amount'] ="Montant net";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Aucune autre succursale trouvée, si vous souhaitez ajouter une nouvelle succursale, veuillez";
+$lang['offline_admission'] ="Admission hors ligne";
+$lang['overview'] ="Aperçu";
+$lang['payroll_generated'] ="Paie générée";
+$lang['payroll_not_generated'] ="Paie non générée";
+$lang['payroll_paid'] ="Paie payée";
+$lang['report'] ="Rapport";
+$lang['staff_attendance_details'] ="Détails de présence du personnel à";
+$lang['staff_payroll_of'] ="Paie du personnel de";
+$lang['switch_branch'] ="Changer de branche";
+$lang['total_balance_fees'] ="Frais de solde total";
+$lang['total_books'] ="Nombre total de livres";
+$lang['total_paid_fees'] ="Total des frais payés";
+$lang['total_staff'] ="Personnel total";
+$lang['total_user_log'] ="Journal utilisateur total";
+$lang['transport_fees_details'] ="Détails des frais de transport";
+$lang['user_log_details'] ="Détails du journal de l&#39;utilisateur";
+$lang['user_log_report'] ="Rapport du journal de l&#39;utilisateur";
+$lang['verify_save'] ="Vérifier et enregistrer";

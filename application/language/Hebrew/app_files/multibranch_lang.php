@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="הוסף חדש";
+$lang['add_new_branch'] ="הוסף סניף חדש";
+$lang['alumni_students'] ="סטודנטים בוגרים";
+$lang['branch'] ="ענף";
+$lang['branch_database_detail'] ="פירוט מסד הנתונים הסניף";
+$lang['branch_list'] ="רשימת סניפים";
+$lang['branch_name'] ="שם הסניף";
+$lang['click_here'] ="לחץ כאן";
+$lang['current_session'] ="מושב נוכחי";
+$lang['database'] ="מאגר מידע";
+$lang['database_name'] ="שם בסיס הנתונים";
+$lang['edit_branch'] ="ערוך סניף";
+$lang['envato_purchase_code'] ="קוד רכישה של Envato";
+$lang['fees_details'] ="פרטי עמלות";
+$lang['home_branch'] ="סניף בית";
+$lang['hostname'] ="שם מארח";
+$lang['invoice_no'] ="מס&#39; חשבונית";
+$lang['library_details'] ="פרטי הספרייה";
+$lang['login_date_time'] ="כניסה תאריך זמן";
+$lang['make_default_login'] ="בצע כניסה לברירת מחדל";
+$lang['multi_branch'] ="רב סניף";
+$lang['net_amount'] ="סכום נטו";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="לא נמצא עוד סניף, אם ברצונך להוסיף סניף חדש בבקשה";
+$lang['offline_admission'] ="כניסה לא מקוונת";
+$lang['overview'] ="סקירה כללית";
+$lang['payroll_generated'] ="נוצר שכר";
+$lang['payroll_not_generated'] ="לא נוצר שכר";
+$lang['payroll_paid'] ="שכר שולם";
+$lang['report'] ="להגיש תלונה";
+$lang['staff_attendance_details'] ="פרטי נוכחות הצוות ב";
+$lang['staff_payroll_of'] ="שכר עובדים של";
+$lang['switch_branch'] ="החלף סניף";
+$lang['total_balance_fees'] ="סך עמלות יתרה";
+$lang['total_books'] ="סך הכל ספרים";
+$lang['total_paid_fees'] ="סך כל העמלות ששולמו";
+$lang['total_staff'] ="סך הכל צוות";
+$lang['total_user_log'] ="יומן משתמש כולל";
+$lang['transport_fees_details'] ="פרטי דמי הובלה";
+$lang['user_log_details'] ="פרטי יומן משתמש";
+$lang['user_log_report'] ="דוח יומן משתמש";
+$lang['verify_save'] ="אמת ושמור";

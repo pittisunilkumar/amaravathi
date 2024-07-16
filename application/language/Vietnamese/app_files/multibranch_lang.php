@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Thêm mới";
+$lang['add_new_branch'] ="Thêm chi nhánh mới";
+$lang['alumni_students'] ="cựu sinh viên";
+$lang['branch'] ="Chi nhánh";
+$lang['branch_database_detail'] ="Chi tiết cơ sở dữ liệu chi nhánh";
+$lang['branch_list'] ="Danh sách chi nhánh";
+$lang['branch_name'] ="Tên chi nhánh";
+$lang['click_here'] ="bấm vào đây";
+$lang['current_session'] ="Phiên hiện tại";
+$lang['database'] ="cơ sở dữ liệu";
+$lang['database_name'] ="Tên cơ sở dữ liệu";
+$lang['edit_branch'] ="Chỉnh sửa chi nhánh";
+$lang['envato_purchase_code'] ="Mã mua hàng Envato";
+$lang['fees_details'] ="Chi tiết Phí";
+$lang['home_branch'] ="chi nhánh nhà";
+$lang['hostname'] ="tên máy chủ";
+$lang['invoice_no'] ="Hóa đơn không có";
+$lang['library_details'] ="Chi tiết thư viện";
+$lang['login_date_time'] ="Đăng nhập Ngày Giờ";
+$lang['make_default_login'] ="Đặt đăng nhập mặc định";
+$lang['multi_branch'] ="đa chi nhánh";
+$lang['net_amount'] ="Số lượng tịnh";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Không tìm thấy chi nhánh nào nữa, nếu bạn muốn thêm chi nhánh mới, vui lòng";
+$lang['offline_admission'] ="nhập học ngoại tuyến";
+$lang['overview'] ="Tổng quan";
+$lang['payroll_generated'] ="Bảng lương được tạo";
+$lang['payroll_not_generated'] ="Bảng lương không được tạo";
+$lang['payroll_paid'] ="Bảng lương đã thanh toán";
+$lang['report'] ="Bài báo cáo";
+$lang['staff_attendance_details'] ="Chi Tiết Chấm Công Của Nhân Viên Tại";
+$lang['staff_payroll_of'] ="Bảng lương nhân viên của";
+$lang['switch_branch'] ="Chuyển nhánh";
+$lang['total_balance_fees'] ="Tổng phí số dư";
+$lang['total_books'] ="Tổng số sách";
+$lang['total_paid_fees'] ="Tổng số phí đã thanh toán";
+$lang['total_staff'] ="Tổng số nhân viên";
+$lang['total_user_log'] ="Tổng nhật ký người dùng";
+$lang['transport_fees_details'] ="Chi tiết phí vận chuyển";
+$lang['user_log_details'] ="Chi tiết nhật ký người dùng";
+$lang['user_log_report'] ="Báo cáo nhật ký người dùng";
+$lang['verify_save'] ="Xác minh &amp; Lưu";

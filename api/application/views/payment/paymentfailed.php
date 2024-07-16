@@ -1,0 +1,1 @@
+<p style="color:#ff0000; font-family: arial; font-size: 18px; text-align: center;">You have cancelled this payment.</p>

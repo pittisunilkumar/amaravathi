@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="አዲስ አስገባ";
+$lang['add_new_branch'] ="አዲስ ቅርንጫፍ ያክሉ";
+$lang['alumni_students'] ="የቀድሞ ተማሪዎች";
+$lang['branch'] ="ቅርንጫፍ";
+$lang['branch_database_detail'] ="የቅርንጫፍ የውሂብ ጎታ ዝርዝር";
+$lang['branch_list'] ="የቅርንጫፍ ዝርዝር";
+$lang['branch_name'] ="የቅርንጫፉ ስም";
+$lang['click_here'] ="እዚህ ጠቅ ያድርጉ";
+$lang['current_session'] ="የአሁኑ ክፍለ ጊዜ";
+$lang['database'] ="የውሂብ ጎታ";
+$lang['database_name'] ="የውሂብ ጎታ ስም";
+$lang['edit_branch'] ="ቅርንጫፍ አርትዕ";
+$lang['envato_purchase_code'] ="የኢንቫቶ ግዢ ኮድ";
+$lang['fees_details'] ="የክፍያ ዝርዝሮች";
+$lang['home_branch'] ="የቤት ቅርንጫፍ";
+$lang['hostname'] ="የአስተናጋጅ ስም";
+$lang['invoice_no'] ="የደረሰኝ ቁጥር";
+$lang['library_details'] ="የቤተ መፃህፍት ዝርዝሮች";
+$lang['login_date_time'] ="የመግቢያ ቀን ሰዓት";
+$lang['make_default_login'] ="ነባሪ መግቢያ አድርግ";
+$lang['multi_branch'] ="ባለብዙ ቅርንጫፍ";
+$lang['net_amount'] ="የተጣራ መጠን";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="ምንም ተጨማሪ ቅርንጫፍ አልተገኘም፣ አዲስ ቅርንጫፍ ማከል ከፈለጉ እባክዎ";
+$lang['offline_admission'] ="ከመስመር ውጭ መግቢያ";
+$lang['overview'] ="አጠቃላይ እይታ";
+$lang['payroll_generated'] ="የደመወዝ ክፍያ ተፈጠረ";
+$lang['payroll_not_generated'] ="ደመወዝ አልተፈጠረም።";
+$lang['payroll_paid'] ="የደመወዝ ክፍያ ተከፍሏል።";
+$lang['report'] ="ሪፖርት አድርግ";
+$lang['staff_attendance_details'] ="የሰራተኞች መገኘት ዝርዝሮች በ";
+$lang['staff_payroll_of'] ="የሰራተኞች ደመወዝ";
+$lang['switch_branch'] ="መቀየሪያ ቅርንጫፍ";
+$lang['total_balance_fees'] ="አጠቃላይ የሂሳብ ክፍያዎች";
+$lang['total_books'] ="ጠቅላላ መጽሐፍት።";
+$lang['total_paid_fees'] ="ጠቅላላ የተከፈለባቸው ክፍያዎች";
+$lang['total_staff'] ="ጠቅላላ ሠራተኞች";
+$lang['total_user_log'] ="አጠቃላይ የተጠቃሚ ምዝግብ ማስታወሻ";
+$lang['transport_fees_details'] ="የመጓጓዣ ክፍያዎች ዝርዝሮች";
+$lang['user_log_details'] ="የተጠቃሚ ምዝግብ ማስታወሻ ዝርዝሮች";
+$lang['user_log_report'] ="የተጠቃሚ ምዝግብ ማስታወሻ";
+$lang['verify_save'] ="አረጋግጥ እና አስቀምጥ";

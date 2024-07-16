@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Dodajte predavanje v živo";
+$lang['api_used'] ="Api se uporablja";
+$lang['api_used_add'] ="Api je uporabil Add";
+$lang['awaited'] ="Pričakovano";
+$lang['cancelled'] ="Prekinjeno";
+$lang['class_date'] ="Datum predavanja";
+$lang['class_duration_minutes'] ="Trajanje predavanja (minute)";
+$lang['class_title'] ="Naslov predavanja";
+$lang['client_video'] ="Odjemalski video";
+$lang['created_by'] ="Ustvaril";
+$lang['created_for'] ="Ustvarjeno za";
+$lang['credential'] ="Poverilnica";
+$lang['finished'] ="Dokončano";
+$lang['global'] ="Globalno";
+$lang['host'] ="Voditelj";
+$lang['host_video'] ="Gostiteljski video";
+$lang['join'] ="Pridružite se";
+$lang['live_class'] ="Razredi v živo";
+$lang['live_meeting'] ="Sestanek v živo";
+$lang['meeting'] ="Sestanek";
+$lang['meeting_duration_minutes'] ="Trajanje sestanka (minute)";
+$lang['meeting_not_started'] ="Sestanek se ni začel";
+$lang['now'] ="Zdaj";
+$lang['online_classes'] ="Povečava v živo";
+$lang['online_live_classes'] ="Spletni tečaji v živo";
+$lang['online_meeting'] ="Povečaj srečanja v živo";
+$lang['self'] ="Jaz";
+$lang['setting'] ="Nastavitev";
+$lang['started'] ="Začeli";
+$lang['teacher_api_credential'] ="Poverilnica učitelja Api";
+$lang['use_zoom_client_app'] ="Uporabite aplikacijo Zoom Client";
+$lang['use_zoom_client_for_staff'] ="Uporabite Zoom Client za osebje";
+$lang['use_zoom_client_for_student'] ="Uporabite Zoom Client za študenta";
+$lang['viewers'] ="Gledalci";
+$lang['waiting'] ="Čakanje";
+$lang['zoom_api_key'] ="Zoom API Key";
+$lang['zoom_api_secret'] ="Zoom API Secret";
+$lang['zoom_api_setting'] ="Nastavitev Zoom Api";
+$lang['zoom_credential'] ="Povečanje poverilnice";
+$lang['zoom_live_classes'] ="Povečava v živo";
+$lang['zoom_online_classes_start'] ="Zoom Live Classes Začni";
+$lang['zoom_online_meeting_start'] ="Zoom Live Meetings Start";

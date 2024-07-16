@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Voeg nuwe";
+$lang['add_new_branch'] ="Voeg nuwe tak by";
+$lang['alumni_students'] ="Alumni-studente";
+$lang['branch'] ="Tak";
+$lang['branch_database_detail'] ="Tak Databasis Detail";
+$lang['branch_list'] ="Taklys";
+$lang['branch_name'] ="Tak Naam";
+$lang['click_here'] ="klik hier";
+$lang['current_session'] ="Huidige Sessie";
+$lang['database'] ="Databasis";
+$lang['database_name'] ="Databasis Naam";
+$lang['edit_branch'] ="Wysig tak";
+$lang['envato_purchase_code'] ="Envato-aankoopkode";
+$lang['fees_details'] ="Fooie Besonderhede";
+$lang['home_branch'] ="Tuistak";
+$lang['hostname'] ="Gasheernaam";
+$lang['invoice_no'] ="Kwitansie No";
+$lang['library_details'] ="Biblioteekbesonderhede";
+$lang['login_date_time'] ="Aanmelding Datum Tyd";
+$lang['make_default_login'] ="Maak verstekaanmelding";
+$lang['multi_branch'] ="Multi Tak";
+$lang['net_amount'] ="Netto bedrag";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Geen meer tak gevind nie, as jy &#39;n nuwe tak wil byvoeg asseblief";
+$lang['offline_admission'] ="Vanlyn toegang";
+$lang['overview'] ="Oorsig";
+$lang['payroll_generated'] ="Betaalstaat gegenereer";
+$lang['payroll_not_generated'] ="Betaalstaat nie gegenereer nie";
+$lang['payroll_paid'] ="Betaalstaat betaal";
+$lang['report'] ="Rapporteer";
+$lang['staff_attendance_details'] ="Personeelbywoningsbesonderhede By";
+$lang['staff_payroll_of'] ="Personeel Loonstaat van";
+$lang['switch_branch'] ="Skakel tak";
+$lang['total_balance_fees'] ="Totale balansfooie";
+$lang['total_books'] ="Totale Boeke";
+$lang['total_paid_fees'] ="Totale betaalde fooie";
+$lang['total_staff'] ="Totale Personeel";
+$lang['total_user_log'] ="Totale gebruikerslogboek";
+$lang['transport_fees_details'] ="Vervoerfooie Besonderhede";
+$lang['user_log_details'] ="Gebruiker Log Besonderhede";
+$lang['user_log_report'] ="Gebruikerslogverslag";
+$lang['verify_save'] ="Verifieer en stoor";

@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Pievieno jaunu";
+$lang['add_new_branch'] ="Pievienot jaunu filiāli";
+$lang['alumni_students'] ="Absolventi Studenti";
+$lang['branch'] ="Filiāle";
+$lang['branch_database_detail'] ="Detalizēta informācija par filiāļu datu bāzi";
+$lang['branch_list'] ="Nozaru saraksts";
+$lang['branch_name'] ="Filiāles nosaukums";
+$lang['click_here'] ="noklikšķiniet šeit";
+$lang['current_session'] ="Pašreizējā sesija";
+$lang['database'] ="Datu bāze";
+$lang['database_name'] ="Datu bāzes nosaukums";
+$lang['edit_branch'] ="Rediģēt filiāli";
+$lang['envato_purchase_code'] ="Envato pirkuma kods";
+$lang['fees_details'] ="Sīkāka informācija par maksām";
+$lang['home_branch'] ="Mājas filiāle";
+$lang['hostname'] ="Saimniekdatora nosaukums";
+$lang['invoice_no'] ="Rēķins Nr";
+$lang['library_details'] ="Bibliotēkas informācija";
+$lang['login_date_time'] ="Pieteikšanās datums Laiks";
+$lang['make_default_login'] ="Padarīt noklusējuma pieteikšanos";
+$lang['multi_branch'] ="Vairāku filiāļu";
+$lang['net_amount'] ="Neto summa";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Vairāk filiāle nav atrasta. Ja vēlaties pievienot jaunu filiāli, lūdzu";
+$lang['offline_admission'] ="Ieeja bezsaistē";
+$lang['overview'] ="Pārskats";
+$lang['payroll_generated'] ="Izveidots algu saraksts";
+$lang['payroll_not_generated'] ="Algu saraksts nav izveidots";
+$lang['payroll_paid'] ="Algas apmaksāts";
+$lang['report'] ="Ziņot";
+$lang['staff_attendance_details'] ="Informācija par darbinieku apmeklējumu plkst";
+$lang['staff_payroll_of'] ="Personāla algu saraksts";
+$lang['switch_branch'] ="Pārslēgt filiāli";
+$lang['total_balance_fees'] ="Kopējās bilances maksas";
+$lang['total_books'] ="Grāmatas kopā";
+$lang['total_paid_fees'] ="Kopējās samaksātās maksas";
+$lang['total_staff'] ="Kopējais personāls";
+$lang['total_user_log'] ="Kopējais lietotāju žurnāls";
+$lang['transport_fees_details'] ="Transporta maksas informācija";
+$lang['user_log_details'] ="Lietotāja žurnāla informācija";
+$lang['user_log_report'] ="Lietotāja žurnāla atskaite";
+$lang['verify_save'] ="Verificēt un saglabāt";

@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Live Class hozzáadása";
+$lang['api_used'] ="Api Használt";
+$lang['api_used_add'] ="Api Használt Hozzáadás";
+$lang['awaited'] ="Várta";
+$lang['cancelled'] ="Törölve";
+$lang['class_date'] ="Osztály dátuma";
+$lang['class_duration_minutes'] ="Osztály időtartama (perc)";
+$lang['class_title'] ="Osztály címe";
+$lang['client_video'] ="Kliens videó";
+$lang['created_by'] ="Készítette";
+$lang['created_for'] ="Létrehozva";
+$lang['credential'] ="Hitelesítő adatok";
+$lang['finished'] ="Befejezett";
+$lang['global'] ="Globális";
+$lang['host'] ="Házigazda";
+$lang['host_video'] ="Host Video";
+$lang['join'] ="Csatlakozik";
+$lang['live_class'] ="Élő osztályok";
+$lang['live_meeting'] ="Élő találkozó";
+$lang['meeting'] ="Találkozó";
+$lang['meeting_duration_minutes'] ="Az ülés időtartama (perc)";
+$lang['meeting_not_started'] ="Az értekezlet nem kezdődött el";
+$lang['now'] ="Most";
+$lang['online_classes'] ="Zoom Live Classes";
+$lang['online_live_classes'] ="Online élő osztályok";
+$lang['online_meeting'] ="Zoom élő találkozók";
+$lang['self'] ="Maga";
+$lang['setting'] ="Beállítás";
+$lang['started'] ="Elkezdődött";
+$lang['teacher_api_credential'] ="Api tanító tanító";
+$lang['use_zoom_client_app'] ="Használja a Zoom Client alkalmazást";
+$lang['use_zoom_client_for_staff'] ="Használja a Zoom Client for Staff alkalmazást";
+$lang['use_zoom_client_for_student'] ="Használja a Zoom Client for Student alkalmazást";
+$lang['viewers'] ="Nézők";
+$lang['waiting'] ="Várakozás";
+$lang['zoom_api_key'] ="Zoom API kulcs";
+$lang['zoom_api_secret'] ="Zoom API titkos";
+$lang['zoom_api_setting'] ="Zoom Api beállítás";
+$lang['zoom_credential'] ="Nagyítási hitelesítő adatok";
+$lang['zoom_live_classes'] ="Zoom Live Classes";
+$lang['zoom_online_classes_start'] ="Zoom Live Classes Start";
+$lang['zoom_online_meeting_start'] ="Zoom Live Meetings Start";

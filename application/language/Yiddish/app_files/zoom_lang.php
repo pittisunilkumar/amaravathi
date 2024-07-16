@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="לייג לייוו קלאַס";
+$lang['api_used'] ="אַפּי געוויינט";
+$lang['api_used_add'] ="אַפּי געוויינט צוגעבן";
+$lang['awaited'] ="אַווייטאַד";
+$lang['cancelled'] ="קאַנסאַלד";
+$lang['class_date'] ="קלאַס טאָג";
+$lang['class_duration_minutes'] ="קלאַס געדויער (מינוט)";
+$lang['class_title'] ="קלאַס טיטל";
+$lang['client_video'] ="קליענט ווידעא";
+$lang['created_by'] ="געמאכט דורך";
+$lang['created_for'] ="באשאפן פֿאַר";
+$lang['credential'] ="קרעדיטענשעל";
+$lang['finished'] ="געענדיקט";
+$lang['global'] ="גלאבאלע";
+$lang['host'] ="האָסט";
+$lang['host_video'] ="באַלעבאָס ווידעא";
+$lang['join'] ="פאַרבינדן";
+$lang['live_class'] ="לעבן קלאַססעס";
+$lang['live_meeting'] ="לעבן באַגעגעניש";
+$lang['meeting'] ="פאַרזאַמלונג";
+$lang['meeting_duration_minutes'] ="געדויער געדויער (מינוט)";
+$lang['meeting_not_started'] ="פאַרזאַמלונג ניט סטאַרטעד";
+$lang['now'] ="איצט";
+$lang['online_classes'] ="פארגרעסער לייוו קלאַססעס";
+$lang['online_live_classes'] ="אָנליין לעבן קלאַססעס";
+$lang['online_meeting'] ="פארגרעסער לייוו מעעטינגס";
+$lang['self'] ="זיך";
+$lang['setting'] ="באַשטעטיקן";
+$lang['started'] ="אנגעהויבן";
+$lang['teacher_api_credential'] ="לערער אַפּי קרעדענטיאַל";
+$lang['use_zoom_client_app'] ="ניצן Zoom קליענט אַפּ";
+$lang['use_zoom_client_for_staff'] ="ניצן Zoom קליענט פֿאַר שטעקן";
+$lang['use_zoom_client_for_student'] ="ניצן Zoom קליענט פֿאַר תּלמיד";
+$lang['viewers'] ="וויוערז";
+$lang['waiting'] ="ווארטן";
+$lang['zoom_api_key'] ="פארגרעסער API שליסל";
+$lang['zoom_api_secret'] ="Zoom API סעקרעט";
+$lang['zoom_api_setting'] ="פארגרעסער אַפּי באַשטעטיקן";
+$lang['zoom_credential'] ="פארגרעסער קרעדענטיאַל";
+$lang['zoom_live_classes'] ="פארגרעסער לייוו קלאַססעס";
+$lang['zoom_online_classes_start'] ="פארגרעסער לעבן קלאַססעס";
+$lang['zoom_online_meeting_start'] ="Zoom לעבן מעעטינגס אָנהייב";

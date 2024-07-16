@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Shto klasë të drejtpërdrejtë";
+$lang['api_used'] ="Api i perdorur";
+$lang['api_used_add'] ="Api Add Used";
+$lang['awaited'] ="Pritet";
+$lang['cancelled'] ="Anulohet";
+$lang['class_date'] ="Data e klasës";
+$lang['class_duration_minutes'] ="Kohëzgjatja e klasës (minuta)";
+$lang['class_title'] ="Titulli i klasës";
+$lang['client_video'] ="Video e klientit";
+$lang['created_by'] ="Krijuar nga";
+$lang['created_for'] ="Krijuar për";
+$lang['credential'] ="Letrat kredenciale";
+$lang['finished'] ="Mbaroi";
+$lang['global'] ="Globale";
+$lang['host'] ="Mikpritës";
+$lang['host_video'] ="Video pritëse";
+$lang['join'] ="Bashkohuni";
+$lang['live_class'] ="Klasat e drejtpërdrejta";
+$lang['live_meeting'] ="Takim i drejtpërdrejtë";
+$lang['meeting'] ="Takimi";
+$lang['meeting_duration_minutes'] ="Kohëzgjatja e Takimit (Minuta)";
+$lang['meeting_not_started'] ="Takimi nuk ka filluar";
+$lang['now'] ="Tani";
+$lang['online_classes'] ="Zmadho klasat e drejtpërdrejta";
+$lang['online_live_classes'] ="Klasat e drejtpërdrejta në internet";
+$lang['online_meeting'] ="Zmadho Takimet Drejtpërdrejt";
+$lang['self'] ="Vetë";
+$lang['setting'] ="Vendosja";
+$lang['started'] ="Filloi";
+$lang['teacher_api_credential'] ="Kredenciali i mësuesit Api";
+$lang['use_zoom_client_app'] ="Përdorni aplikacionin e klientit të zmadhimit";
+$lang['use_zoom_client_for_staff'] ="Përdorni klientin e zmadhimit për stafin";
+$lang['use_zoom_client_for_student'] ="Përdorni klientin e zmadhimit për studentin";
+$lang['viewers'] ="Shikuesit";
+$lang['waiting'] ="Ne pritje";
+$lang['zoom_api_key'] ="Zmadho çelësin API";
+$lang['zoom_api_secret'] ="Zmadho API Secret";
+$lang['zoom_api_setting'] ="Zoom Api Vendosja";
+$lang['zoom_credential'] ="Zmadhimi i letrave kredenciale";
+$lang['zoom_live_classes'] ="Zmadho klasat e drejtpërdrejta";
+$lang['zoom_online_classes_start'] ="Filloni klasat e drejtpërdrejta të zmadhimit";
+$lang['zoom_online_meeting_start'] ="Zoom Filloni Takimet Drejtpërdrejt";

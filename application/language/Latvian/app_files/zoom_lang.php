@@ -1,0 +1,45 @@
+<?php 
+#version 1.0.0
+
+$lang['add_live_class'] ="Pievienojiet Live Class";
+$lang['api_used'] ="Api Lietots";
+$lang['api_used_add'] ="Api Lietotie Pievienot";
+$lang['awaited'] ="Gaidīja";
+$lang['cancelled'] ="Atcelts";
+$lang['class_date'] ="Nodarbības datums";
+$lang['class_duration_minutes'] ="Nodarbības ilgums (minūtes)";
+$lang['class_title'] ="Klases nosaukums";
+$lang['client_video'] ="Klienta video";
+$lang['created_by'] ="Radīts";
+$lang['created_for'] ="Izveidots";
+$lang['credential'] ="Akreditācijas dati";
+$lang['finished'] ="Pabeigts";
+$lang['global'] ="Globāls";
+$lang['host'] ="Saimnieks";
+$lang['host_video'] ="Vadošais video";
+$lang['join'] ="Pievienojieties";
+$lang['live_class'] ="Live klases";
+$lang['live_meeting'] ="Tiešraides sapulce";
+$lang['meeting'] ="Tikšanās";
+$lang['meeting_duration_minutes'] ="Sanāksmes ilgums (minūtes)";
+$lang['meeting_not_started'] ="Tikšanās nav sākusies";
+$lang['now'] ="Tagad";
+$lang['online_classes'] ="Tuvināt Live klases";
+$lang['online_live_classes'] ="Tiešsaistes tiešsaistes nodarbības";
+$lang['online_meeting'] ="Tuvināt tiešraides";
+$lang['self'] ="Pats";
+$lang['setting'] ="Iestatīšana";
+$lang['started'] ="Sāka";
+$lang['teacher_api_credential'] ="Skolotāja Api akreditācijas dati";
+$lang['use_zoom_client_app'] ="Izmantojiet Zoom Client lietotni";
+$lang['use_zoom_client_for_staff'] ="Personālam izmantojiet tālummaiņas klientu";
+$lang['use_zoom_client_for_student'] ="Izmantojiet Zoom Client for Student";
+$lang['viewers'] ="Skatītāji";
+$lang['waiting'] ="Gaida";
+$lang['zoom_api_key'] ="Tālummaiņas API atslēga";
+$lang['zoom_api_secret'] ="Tuvināt API noslēpumu";
+$lang['zoom_api_setting'] ="Tālummaiņas api iestatījums";
+$lang['zoom_credential'] ="Tālummaiņas akreditācijas dati";
+$lang['zoom_live_classes'] ="Tuvināt Live klases";
+$lang['zoom_online_classes_start'] ="Sākt tālummaiņu";
+$lang['zoom_online_meeting_start'] ="Sākt tālummaiņu";

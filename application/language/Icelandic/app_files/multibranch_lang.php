@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Bæta við nýju";
+$lang['add_new_branch'] ="Bæta við nýjum útibúi";
+$lang['alumni_students'] ="Alumni Nemendur";
+$lang['branch'] ="Útibú";
+$lang['branch_database_detail'] ="Upplýsingar um útibúsgagnagrunn";
+$lang['branch_list'] ="Útibúalisti";
+$lang['branch_name'] ="Nafn útibús";
+$lang['click_here'] ="Ýttu hér";
+$lang['current_session'] ="Núverandi fundur";
+$lang['database'] ="Gagnagrunnur";
+$lang['database_name'] ="Nafn gagnagrunns";
+$lang['edit_branch'] ="Breyta útibú";
+$lang['envato_purchase_code'] ="Envato kaupkóði";
+$lang['fees_details'] ="Upplýsingar um gjöld";
+$lang['home_branch'] ="Heimaútibú";
+$lang['hostname'] ="Hostname";
+$lang['invoice_no'] ="Reikningur nr";
+$lang['library_details'] ="Upplýsingar um bókasafn";
+$lang['login_date_time'] ="Innskráning Dagsetning Tími";
+$lang['make_default_login'] ="Gerðu sjálfgefna innskráningu";
+$lang['multi_branch'] ="Fjölgrein";
+$lang['net_amount'] ="Virði";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Ekkert meira útibú fannst, ef þú vilt bæta við nýju útibúi vinsamlegast";
+$lang['offline_admission'] ="Aðgangur án nettengingar";
+$lang['overview'] ="Yfirlit";
+$lang['payroll_generated'] ="Launaskrá búin til";
+$lang['payroll_not_generated'] ="Launaskrá ekki búin til";
+$lang['payroll_paid'] ="Launaskrá greidd";
+$lang['report'] ="Skýrsla";
+$lang['staff_attendance_details'] ="Upplýsingar um mætingu starfsmanna kl";
+$lang['staff_payroll_of'] ="Launaskrá starfsmanna af";
+$lang['switch_branch'] ="Skiptu um útibú";
+$lang['total_balance_fees'] ="Heildarjöfnunargjöld";
+$lang['total_books'] ="Samtals bækur";
+$lang['total_paid_fees'] ="Heildargreidd gjöld";
+$lang['total_staff'] ="Heildarstarfsfólk";
+$lang['total_user_log'] ="Heildarnotendaskrá";
+$lang['transport_fees_details'] ="Upplýsingar um flutningsgjöld";
+$lang['user_log_details'] ="Upplýsingar um notandaskrá";
+$lang['user_log_report'] ="Notendaskrárskýrsla";
+$lang['verify_save'] ="Staðfestu og vistaðu";
