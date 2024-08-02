@@ -1,0 +1,9 @@
+application_no,amount,date,amount_fine,amount_discount,description,collected_by,payment_mode,received_by,fee_category,fee_group,fee_type,receipt_id
+1102,3000,12/4/2021,0,0,,Super Admin(9000),Cash,1,FEE,2021-202208199-SR-BIPC,1,125
+1102,5000,10/27/2021,0,0,,Super Admin(9000),Cash,1,FEE,2021-202208199-SR-BIPC,1,404
+1102,1200,11/3/2021,0,0,,Super Admin(9000),Cash,1,FEE,2021-202208199-BOOKSFEE-BIPC,5,405
+1102,900,12/7/2021,0,0,,Super Admin(9000),Cash,1,FEE,2021-202208199-SR-BIPC,2,833
+1102,2500,12/7/2021,0,0,,Super Admin(9000),Cash,1,FEE,2021-202208199-SR-BIPC,3,833
+1102,500,12/7/2021,0,0,,Super Admin(9000),Cash,1,FEE,2021-202208199-SR-BIPC,4,833
+1109,900,1/17/2022,0,0,,Super Admin(9000),Cash,1,FEE,2021-202208199-SR-BIPC,2,1705
+1109,2500,1/17/2022,0,0,,Super Admin(9000),Cash,1,FEE,2021-202208199-SR-BIPC,3,1705

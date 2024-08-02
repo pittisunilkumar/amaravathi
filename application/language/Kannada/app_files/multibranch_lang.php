@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="ಹೊಸದನ್ನು ಸೇರಿಸಿ";
+$lang['add_new_branch'] ="ಹೊಸ ಶಾಖೆಯನ್ನು ಸೇರಿಸಿ";
+$lang['alumni_students'] ="ಹಳೆಯ ವಿದ್ಯಾರ್ಥಿಗಳು";
+$lang['branch'] ="ಶಾಖೆ";
+$lang['branch_database_detail'] ="ಶಾಖೆಯ ಡೇಟಾಬೇಸ್ ವಿವರ";
+$lang['branch_list'] ="ಶಾಖೆ ಪಟ್ಟಿ";
+$lang['branch_name'] ="ಶಾಖೆಯ ಹೆಸರು";
+$lang['click_here'] ="ಇಲ್ಲಿ ಕ್ಲಿಕ್ ಮಾಡಿ";
+$lang['current_session'] ="ಪ್ರಸ್ತುತ ಅಧಿವೇಶನ";
+$lang['database'] ="ಡೇಟಾಬೇಸ್";
+$lang['database_name'] ="ಡೇಟಾಬೇಸ್ ಹೆಸರು";
+$lang['edit_branch'] ="ಶಾಖೆಯನ್ನು ಸಂಪಾದಿಸಿ";
+$lang['envato_purchase_code'] ="Envato ಖರೀದಿ ಕೋಡ್";
+$lang['fees_details'] ="ಶುಲ್ಕದ ವಿವರಗಳು";
+$lang['home_branch'] ="ಹೋಮ್ ಶಾಖೆ";
+$lang['hostname'] ="ಹೋಸ್ಟ್ ಹೆಸರು";
+$lang['invoice_no'] ="ಸರಕುಪಟ್ಟಿ ಸಂಖ್ಯೆ";
+$lang['library_details'] ="ಗ್ರಂಥಾಲಯದ ವಿವರಗಳು";
+$lang['login_date_time'] ="ಲಾಗಿನ್ ದಿನಾಂಕ ಸಮಯ";
+$lang['make_default_login'] ="ಡೀಫಾಲ್ಟ್ ಲಾಗಿನ್ ಮಾಡಿ";
+$lang['multi_branch'] ="ಬಹು ಶಾಖೆ";
+$lang['net_amount'] ="ನಿವ್ವಳ ಮೊತ್ತ";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="ಯಾವುದೇ ಹೆಚ್ಚಿನ ಶಾಖೆ ಕಂಡುಬಂದಿಲ್ಲ, ನೀವು ಹೊಸ ಶಾಖೆಯನ್ನು ಸೇರಿಸಲು ಬಯಸಿದರೆ ದಯವಿಟ್ಟು";
+$lang['offline_admission'] ="ಆಫ್ಲೈನ್ ಪ್ರವೇಶ";
+$lang['overview'] ="ಅವಲೋಕನ";
+$lang['payroll_generated'] ="ವೇತನದಾರರ ಪಟ್ಟಿಯನ್ನು ರಚಿಸಲಾಗಿದೆ";
+$lang['payroll_not_generated'] ="ವೇತನದಾರರ ಪಟ್ಟಿಯನ್ನು ರಚಿಸಲಾಗಿಲ್ಲ";
+$lang['payroll_paid'] ="ವೇತನದಾರರ ಪಾವತಿ";
+$lang['report'] ="ವರದಿ";
+$lang['staff_attendance_details'] ="ಸಿಬ್ಬಂದಿ ಹಾಜರಾತಿ ವಿವರಗಳು";
+$lang['staff_payroll_of'] ="ಸಿಬ್ಬಂದಿ ವೇತನದಾರರ ಪಟ್ಟಿ";
+$lang['switch_branch'] ="ಶಾಖೆಯನ್ನು ಬದಲಿಸಿ";
+$lang['total_balance_fees'] ="ಒಟ್ಟು ಬ್ಯಾಲೆನ್ಸ್ ಶುಲ್ಕಗಳು";
+$lang['total_books'] ="ಒಟ್ಟು ಪುಸ್ತಕಗಳು";
+$lang['total_paid_fees'] ="ಪಾವತಿಸಿದ ಒಟ್ಟು ಶುಲ್ಕಗಳು";
+$lang['total_staff'] ="ಒಟ್ಟು ಸಿಬ್ಬಂದಿ";
+$lang['total_user_log'] ="ಒಟ್ಟು ಬಳಕೆದಾರರ ಲಾಗ್";
+$lang['transport_fees_details'] ="ಸಾರಿಗೆ ಶುಲ್ಕದ ವಿವರಗಳು";
+$lang['user_log_details'] ="ಬಳಕೆದಾರರ ಲಾಗ್ ವಿವರಗಳು";
+$lang['user_log_report'] ="ಬಳಕೆದಾರರ ಲಾಗ್ ವರದಿ";
+$lang['verify_save'] ="ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಉಳಿಸಿ";

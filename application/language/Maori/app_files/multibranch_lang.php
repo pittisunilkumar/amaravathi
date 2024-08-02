@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Tāpiri Hou";
+$lang['add_new_branch'] ="Tāpiri Peka Hou";
+$lang['alumni_students'] ="Nga Tauira Alumni";
+$lang['branch'] ="Peka";
+$lang['branch_database_detail'] ="Rarangi Raraunga Raraunga Peka";
+$lang['branch_list'] ="Rarangi Peka";
+$lang['branch_name'] ="Ingoa Peka";
+$lang['click_here'] ="pāwhiri i konei";
+$lang['current_session'] ="Wātū o nāianei";
+$lang['database'] ="Pātengi Raraunga";
+$lang['database_name'] ="Ingoa Raraunga Raraunga";
+$lang['edit_branch'] ="Whakatika Peka";
+$lang['envato_purchase_code'] ="Waehere Hoko Envato";
+$lang['fees_details'] ="Nga Taipitopito Utu";
+$lang['home_branch'] ="Peka Whare";
+$lang['hostname'] ="Ingoa Kaihautū";
+$lang['invoice_no'] ="Nama Nama";
+$lang['library_details'] ="Nga Taipitopito Whare Pukapuka";
+$lang['login_date_time'] ="Wā Takiuru Rā";
+$lang['make_default_login'] ="Hanga Takiuru Taunoa";
+$lang['multi_branch'] ="Peka Maha";
+$lang['net_amount'] ="Te moni kupenga";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Kaore i kitea etahi atu Peka, mena kei te pirangi koe ki te taapiri peka hou koa";
+$lang['offline_admission'] ="Whakauru Tuimotu";
+$lang['overview'] ="Tirohanga";
+$lang['payroll_generated'] ="Utu Utu Hangaia";
+$lang['payroll_not_generated'] ="Te Utu Utu Kaore i Hangaia";
+$lang['payroll_paid'] ="Utu Utu";
+$lang['report'] ="Ripoata";
+$lang['staff_attendance_details'] ="Nga Taipitopito Haerenga Kaimahi I";
+$lang['staff_payroll_of'] ="Utu Kaimahi o";
+$lang['switch_branch'] ="Whakawhiti Manga";
+$lang['total_balance_fees'] ="Nga Utu Taurite Katoa";
+$lang['total_books'] ="Pukapuka Tapeke";
+$lang['total_paid_fees'] ="Tapeke Utu Utu";
+$lang['total_staff'] ="Katoa nga Kaimahi";
+$lang['total_user_log'] ="Takiuru Kaiwhakamahi Tapeke";
+$lang['transport_fees_details'] ="Nga Taipitopito Utu Waka";
+$lang['user_log_details'] ="Nga Taipitopito Takiuru Kaiwhakamahi";
+$lang['user_log_report'] ="Pūrongo Takiuru Kaiwhakamahi";
+$lang['verify_save'] ="Manatoko &amp; Tiaki";

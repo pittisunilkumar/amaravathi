@@ -1,0 +1,17 @@
+.box-table-card{
+    box-shadow:0 4px 8px 0 rgb(0 0 0 / 3%), 0 6px 20px 0 rgb(0 0 0 / 7%);
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+}
+.pagetitleh-box{
+    background: #f2f2f2;
+    margin: 0;
+    font-size: 16px;
+    padding: 8px 15px;
+    color: #000;
+    text-transform: capitalize;
+}
+.box-table-card .table>tbody>tr>td, 
+.box-table-card .table>thead>tr>th,
+.box-table-card .table>tbody>tr>th{padding: 8px 15px}

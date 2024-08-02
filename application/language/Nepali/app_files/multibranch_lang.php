@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="नयाँ थप्नुहोस्";
+$lang['add_new_branch'] ="नयाँ शाखा थप्नुहोस्";
+$lang['alumni_students'] ="पूर्व विद्यार्थीहरू";
+$lang['branch'] ="साखा";
+$lang['branch_database_detail'] ="शाखा डाटाबेस विवरण";
+$lang['branch_list'] ="शाखा सूची";
+$lang['branch_name'] ="शाखाको नाम";
+$lang['click_here'] ="यहाँ क्लिक गर्नुहोस्";
+$lang['current_session'] ="वर्तमान सत्र";
+$lang['database'] ="डाटाबेस";
+$lang['database_name'] ="डाटाबेस नाम";
+$lang['edit_branch'] ="शाखा सम्पादन गर्नुहोस्";
+$lang['envato_purchase_code'] ="Envato खरीद कोड";
+$lang['fees_details'] ="शुल्क विवरण";
+$lang['home_branch'] ="गृह शाखा";
+$lang['hostname'] ="होस्टनाम";
+$lang['invoice_no'] ="बिल संख्या";
+$lang['library_details'] ="पुस्तकालय विवरण";
+$lang['login_date_time'] ="लगइन मिति समय";
+$lang['make_default_login'] ="पूर्वनिर्धारित लगइन बनाउनुहोस्";
+$lang['multi_branch'] ="बहु शाखा";
+$lang['net_amount'] ="शुद्ध रकम";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="कुनै थप शाखा फेला परेन, यदि तपाइँ नयाँ शाखा थप्न चाहनुहुन्छ भने";
+$lang['offline_admission'] ="अफलाइन भर्ना";
+$lang['overview'] ="अवलोकन";
+$lang['payroll_generated'] ="पेरोल उत्पन्न";
+$lang['payroll_not_generated'] ="पेरोल उत्पन्न भएको छैन";
+$lang['payroll_paid'] ="पेरोल भुक्तान गरियो";
+$lang['report'] ="रिपोर्ट";
+$lang['staff_attendance_details'] ="कर्मचारी उपस्थिति विवरण मा";
+$lang['staff_payroll_of'] ="कर्मचारीको तलब";
+$lang['switch_branch'] ="शाखा स्विच गर्नुहोस्";
+$lang['total_balance_fees'] ="कुल ब्यालेन्स शुल्क";
+$lang['total_books'] ="कुल पुस्तकहरू";
+$lang['total_paid_fees'] ="कुल भुक्तान शुल्क";
+$lang['total_staff'] ="कुल कर्मचारी";
+$lang['total_user_log'] ="कुल प्रयोगकर्ता लग";
+$lang['transport_fees_details'] ="यातायात शुल्क विवरण";
+$lang['user_log_details'] ="प्रयोगकर्ता लग विवरणहरू";
+$lang['user_log_report'] ="प्रयोगकर्ता लग रिपोर्ट";
+$lang['verify_save'] ="प्रमाणित गर्नुहोस् र बचत गर्नुहोस्";

@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Gehitu berria";
+$lang['add_new_branch'] ="Gehitu adar berria";
+$lang['alumni_students'] ="Ikasle ohiak";
+$lang['branch'] ="Adarra";
+$lang['branch_database_detail'] ="Adarraren datu-basearen xehetasuna";
+$lang['branch_list'] ="Sukurtsalen zerrenda";
+$lang['branch_name'] ="Sukurtsalaren izena";
+$lang['click_here'] ="klikatu hemen";
+$lang['current_session'] ="Oraingo saioa";
+$lang['database'] ="Datu-basea";
+$lang['database_name'] ="Datu-basearen izena";
+$lang['edit_branch'] ="Editatu adarra";
+$lang['envato_purchase_code'] ="Envato Erosketa Kodea";
+$lang['fees_details'] ="Kuoten xehetasunak";
+$lang['home_branch'] ="Etxeko adarra";
+$lang['hostname'] ="Ostalari izena";
+$lang['invoice_no'] ="Faktura zk";
+$lang['library_details'] ="Liburutegiaren xehetasunak";
+$lang['login_date_time'] ="Saioa hasteko data Ordua";
+$lang['make_default_login'] ="Ezarri lehenetsitako saioa";
+$lang['multi_branch'] ="Adar anitzekoa";
+$lang['net_amount'] ="Zenbateko garbia";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Ez da adar gehiago aurkitu, adar berria gehitu nahi baduzu mesedez";
+$lang['offline_admission'] ="Lineaz kanpoko sarrera";
+$lang['overview'] ="Ikuspegi orokorra";
+$lang['payroll_generated'] ="Sortutako nominak";
+$lang['payroll_not_generated'] ="Nomina Ez da Sortu";
+$lang['payroll_paid'] ="Nomina Ordaindua";
+$lang['report'] ="Txostena";
+$lang['staff_attendance_details'] ="Langileen asistentziaren xehetasunak";
+$lang['staff_payroll_of'] ="Langileen nomina";
+$lang['switch_branch'] ="Aldatu adarra";
+$lang['total_balance_fees'] ="Saldoaren Kuotak guztira";
+$lang['total_books'] ="Liburuak guztira";
+$lang['total_paid_fees'] ="Ordaindutako tasak guztira";
+$lang['total_staff'] ="Langileak guztira";
+$lang['total_user_log'] ="Erabiltzaileen erregistro osoa";
+$lang['transport_fees_details'] ="Garraio tasen xehetasunak";
+$lang['user_log_details'] ="Erabiltzaileen erregistroaren xehetasunak";
+$lang['user_log_report'] ="Erabiltzaileen erregistro-txostena";
+$lang['verify_save'] ="Egiaztatu eta gorde";

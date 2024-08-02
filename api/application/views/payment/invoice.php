@@ -1,0 +1,1 @@
+<p style="color:#388e3c; font-family: arial; font-size: 18px;text-align: center;">Thank you for payment.</p>

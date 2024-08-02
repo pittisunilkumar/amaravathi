@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Aggiungere nuova";
+$lang['add_new_branch'] ="Aggiungi nuovo ramo";
+$lang['alumni_students'] ="Studenti ex studenti";
+$lang['branch'] ="Ramo";
+$lang['branch_database_detail'] ="Dettaglio del database delle filiali";
+$lang['branch_list'] ="Elenco filiali";
+$lang['branch_name'] ="Nome filiale";
+$lang['click_here'] ="clicca qui";
+$lang['current_session'] ="Sessione corrente";
+$lang['database'] ="Banca dati";
+$lang['database_name'] ="Nome del database";
+$lang['edit_branch'] ="Modifica ramo";
+$lang['envato_purchase_code'] ="Codice acquisto Envato";
+$lang['fees_details'] ="Dettagli tasse";
+$lang['home_branch'] ="Ramo domestico";
+$lang['hostname'] ="Nome host";
+$lang['invoice_no'] ="Fattura n";
+$lang['library_details'] ="Dettagli della biblioteca";
+$lang['login_date_time'] ="Accesso Data Ora";
+$lang['make_default_login'] ="Rendi accesso predefinito";
+$lang['multi_branch'] ="Ramo multiplo";
+$lang['net_amount'] ="Importo netto";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Nessun altro ramo trovato, se vuoi aggiungere un nuovo ramo per favore";
+$lang['offline_admission'] ="Ingresso offline";
+$lang['overview'] ="Panoramica";
+$lang['payroll_generated'] ="Libro paga generato";
+$lang['payroll_not_generated'] ="Libro paga non generato";
+$lang['payroll_paid'] ="Libro paga pagato";
+$lang['report'] ="Rapporto";
+$lang['staff_attendance_details'] ="Dettagli presenze del personale At";
+$lang['staff_payroll_of'] ="Libro paga del personale di";
+$lang['switch_branch'] ="Cambia ramo";
+$lang['total_balance_fees'] ="Commissioni di saldo totale";
+$lang['total_books'] ="Totale libri";
+$lang['total_paid_fees'] ="Commissioni totali pagate";
+$lang['total_staff'] ="Personale totale";
+$lang['total_user_log'] ="Registro utente totale";
+$lang['transport_fees_details'] ="Dettagli sulle spese di trasporto";
+$lang['user_log_details'] ="Dettagli registro utente";
+$lang['user_log_report'] ="Rapporto registro utenti";
+$lang['verify_save'] ="Verifica e salva";

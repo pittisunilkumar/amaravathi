@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Magdagdag ng bago";
+$lang['add_new_branch'] ="Magdagdag ng Bagong Sangay";
+$lang['alumni_students'] ="Mga Mag-aaral ng Alumni";
+$lang['branch'] ="Sangay";
+$lang['branch_database_detail'] ="Detalye ng Database ng Sangay";
+$lang['branch_list'] ="Listahan ng Sangay";
+$lang['branch_name'] ="Pangalan ng Sangay";
+$lang['click_here'] ="pindutin dito";
+$lang['current_session'] ="Kasalukuyang sesyon";
+$lang['database'] ="Database";
+$lang['database_name'] ="Pangalan ng Database";
+$lang['edit_branch'] ="I-edit ang Sangay";
+$lang['envato_purchase_code'] ="Envato Purchase Code";
+$lang['fees_details'] ="Mga Detalye ng Bayarin";
+$lang['home_branch'] ="Sangay ng Tahanan";
+$lang['hostname'] ="Hostname";
+$lang['invoice_no'] ="Invoice No";
+$lang['library_details'] ="Mga Detalye ng Aklatan";
+$lang['login_date_time'] ="Oras ng Petsa ng Pag-login";
+$lang['make_default_login'] ="Gumawa ng Default na Pag-login";
+$lang['multi_branch'] ="Maraming Sangay";
+$lang['net_amount'] ="Net na Halaga";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Wala nang nakitang Sangay, kung gusto mong magdagdag ng bagong sangay mangyaring";
+$lang['offline_admission'] ="Offline na Pagpasok";
+$lang['overview'] ="Pangkalahatang-ideya";
+$lang['payroll_generated'] ="Binuo ng Payroll";
+$lang['payroll_not_generated'] ="Hindi Binuo ang Payroll";
+$lang['payroll_paid'] ="Payroll Bayad";
+$lang['report'] ="Ulat";
+$lang['staff_attendance_details'] ="Mga Detalye ng Pagdalo ng Staff Sa";
+$lang['staff_payroll_of'] ="Payroll ng mga tauhan ng";
+$lang['switch_branch'] ="Lumipat ng Sangay";
+$lang['total_balance_fees'] ="Kabuuang Bayad sa Balanse";
+$lang['total_books'] ="Kabuuang Aklat";
+$lang['total_paid_fees'] ="Kabuuang Bayad na Bayarin";
+$lang['total_staff'] ="Kabuuang Staff";
+$lang['total_user_log'] ="Kabuuang Log ng User";
+$lang['transport_fees_details'] ="Mga Detalye ng Bayarin sa Transportasyon";
+$lang['user_log_details'] ="Mga Detalye ng Log ng User";
+$lang['user_log_report'] ="Ulat sa Log ng User";
+$lang['verify_save'] ="I-verify at I-save";

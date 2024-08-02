@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="添新";
+$lang['add_new_branch'] ="添加新分支";
+$lang['alumni_students'] ="校友学生";
+$lang['branch'] ="分支";
+$lang['branch_database_detail'] ="分支数据库详细信息";
+$lang['branch_list'] ="分行列表";
+$lang['branch_name'] ="分店名称";
+$lang['click_here'] ="点击这里";
+$lang['current_session'] ="当前会话";
+$lang['database'] ="数据库";
+$lang['database_name'] ="数据库名称";
+$lang['edit_branch'] ="编辑分支";
+$lang['envato_purchase_code'] ="Envato 购买代码";
+$lang['fees_details'] ="费用明细";
+$lang['home_branch'] ="家分行";
+$lang['hostname'] ="主机名";
+$lang['invoice_no'] ="发票号码";
+$lang['library_details'] ="图书馆详情";
+$lang['login_date_time'] ="登录日期时间";
+$lang['make_default_login'] ="默认登录";
+$lang['multi_branch'] ="多分支";
+$lang['net_amount'] ="净额";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="没有找到更多的分支，如果你想添加新的分支请";
+$lang['offline_admission'] ="线下入场";
+$lang['overview'] ="概述";
+$lang['payroll_generated'] ="工资单生成";
+$lang['payroll_not_generated'] ="未生成工资单";
+$lang['payroll_paid'] ="工资支付";
+$lang['report'] ="报告";
+$lang['staff_attendance_details'] ="工作人员出勤详情";
+$lang['staff_payroll_of'] ="员工工资单";
+$lang['switch_branch'] ="切换分支";
+$lang['total_balance_fees'] ="总余额费用";
+$lang['total_books'] ="图书总数";
+$lang['total_paid_fees'] ="总费用";
+$lang['total_staff'] ="员工总数";
+$lang['total_user_log'] ="总用户日志";
+$lang['transport_fees_details'] ="运输费用明细";
+$lang['user_log_details'] ="用户日志详细信息";
+$lang['user_log_report'] ="用户日志报告";
+$lang['verify_save'] ="验证并保存";

@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Afegir nou";
+$lang['add_new_branch'] ="Afegeix una nova sucursal";
+$lang['alumni_students'] ="Alumnes d&#39;antics alumnes";
+$lang['branch'] ="Sucursal";
+$lang['branch_database_detail'] ="Detall de la base de dades de la sucursal";
+$lang['branch_list'] ="Llista de sucursals";
+$lang['branch_name'] ="Nom de la sucursal";
+$lang['click_here'] ="clica aquí";
+$lang['current_session'] ="Sessió actual";
+$lang['database'] ="Base de dades";
+$lang['database_name'] ="Nom de la base de dades";
+$lang['edit_branch'] ="Edita sucursal";
+$lang['envato_purchase_code'] ="Codi de compra d&#39;Envato";
+$lang['fees_details'] ="Detalls de tarifes";
+$lang['home_branch'] ="Sucursal d&#39;Hogar";
+$lang['hostname'] ="Nom d&#39;amfitrió";
+$lang['invoice_no'] ="Factura núm";
+$lang['library_details'] ="Detalls de la biblioteca";
+$lang['login_date_time'] ="Data d&#39;inici de sessió Hora";
+$lang['make_default_login'] ="Establir l&#39;inici de sessió predeterminat";
+$lang['multi_branch'] ="Multi Branca";
+$lang['net_amount'] ="Import net";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="No s&#39;ha trobat cap branca més, si voleu afegir una nova branca, si us plau";
+$lang['offline_admission'] ="Admissió fora de línia";
+$lang['overview'] ="Visió general";
+$lang['payroll_generated'] ="Nómina generada";
+$lang['payroll_not_generated'] ="Nómina no generada";
+$lang['payroll_paid'] ="Nómina pagada";
+$lang['report'] ="Informeu";
+$lang['staff_attendance_details'] ="Detalls d&#39;assistència del personal a";
+$lang['staff_payroll_of'] ="Nómina del personal de";
+$lang['switch_branch'] ="Canvia de branca";
+$lang['total_balance_fees'] ="Comissions de saldo total";
+$lang['total_books'] ="Total Llibres";
+$lang['total_paid_fees'] ="Total de quotes pagades";
+$lang['total_staff'] ="Personal total";
+$lang['total_user_log'] ="Registre total d&#39;usuaris";
+$lang['transport_fees_details'] ="Detalls de tarifes de transport";
+$lang['user_log_details'] ="Detalls del registre d&#39;usuari";
+$lang['user_log_report'] ="Informe de registre d&#39;usuari";
+$lang['verify_save'] ="Verifica i desa";

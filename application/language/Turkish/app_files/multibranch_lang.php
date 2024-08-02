@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Yeni ekle";
+$lang['add_new_branch'] ="Yeni Şube Ekle";
+$lang['alumni_students'] ="Mezun Öğrencileri";
+$lang['branch'] ="Dal";
+$lang['branch_database_detail'] ="Şube Veritabanı Detayı";
+$lang['branch_list'] ="Şube Listesi";
+$lang['branch_name'] ="Şube Adı";
+$lang['click_here'] ="buraya tıklayın";
+$lang['current_session'] ="Geçerli Oturum";
+$lang['database'] ="Veri tabanı";
+$lang['database_name'] ="Veri tabanı ismi";
+$lang['edit_branch'] ="Şubeyi Düzenle";
+$lang['envato_purchase_code'] ="Envato Satın Alma Kodu";
+$lang['fees_details'] ="Ücret Ayrıntıları";
+$lang['home_branch'] ="Ana Şube";
+$lang['hostname'] ="Ana bilgisayar adı";
+$lang['invoice_no'] ="Fatura No";
+$lang['library_details'] ="Kitaplık Ayrıntıları";
+$lang['login_date_time'] ="Giriş Tarih Saat";
+$lang['make_default_login'] ="Varsayılan Giriş Yap";
+$lang['multi_branch'] ="Çoklu Şube";
+$lang['net_amount'] ="Net tutar";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Başka Şube Bulunamadı, Yeni Şube Eklemek İstiyorsanız Lütfen";
+$lang['offline_admission'] ="Çevrimdışı Kabul";
+$lang['overview'] ="genel bakış";
+$lang['payroll_generated'] ="Bordro Oluşturuldu";
+$lang['payroll_not_generated'] ="Bordro Oluşturulmadı";
+$lang['payroll_paid'] ="Bordro Ödendi";
+$lang['report'] ="Bildiri";
+$lang['staff_attendance_details'] ="Personel Devam Detayları";
+$lang['staff_payroll_of'] ="Personel Bordrosu";
+$lang['switch_branch'] ="Şube Değiştir";
+$lang['total_balance_fees'] ="Toplam Bakiye Ücretleri";
+$lang['total_books'] ="Toplam Kitap";
+$lang['total_paid_fees'] ="Toplam Ödenen Ücretler";
+$lang['total_staff'] ="Toplam Personel";
+$lang['total_user_log'] ="Toplam Kullanıcı Günlüğü";
+$lang['transport_fees_details'] ="Taşıma Ücreti Detayları";
+$lang['user_log_details'] ="Kullanıcı Günlüğü Ayrıntıları";
+$lang['user_log_report'] ="Kullanıcı Günlüğü Raporu";
+$lang['verify_save'] ="Doğrula ve Kaydet";

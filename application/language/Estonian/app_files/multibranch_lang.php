@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Lisa uus";
+$lang['add_new_branch'] ="Lisa uus haru";
+$lang['alumni_students'] ="Vilistlased üliõpilased";
+$lang['branch'] ="Filiaal";
+$lang['branch_database_detail'] ="Filiaalide andmebaasi üksikasjad";
+$lang['branch_list'] ="Filiaalide nimekiri";
+$lang['branch_name'] ="Filiaali nimi";
+$lang['click_here'] ="kliki siia";
+$lang['current_session'] ="Praegune seanss";
+$lang['database'] ="Andmebaas";
+$lang['database_name'] ="Andmebaasi nimi";
+$lang['edit_branch'] ="Muuda haru";
+$lang['envato_purchase_code'] ="Envato ostukood";
+$lang['fees_details'] ="Tasude üksikasjad";
+$lang['home_branch'] ="Kodu filiaal";
+$lang['hostname'] ="Hostinimi";
+$lang['invoice_no'] ="Arve nr";
+$lang['library_details'] ="Raamatukogu üksikasjad";
+$lang['login_date_time'] ="Sisselogimiskuupäev Kellaaeg";
+$lang['make_default_login'] ="Tee vaikimisi sisselogimine";
+$lang['multi_branch'] ="Mitu haru";
+$lang['net_amount'] ="Netokogus";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Rohkem filiaali ei leitud. Kui soovite lisada uue filiaali, palun";
+$lang['offline_admission'] ="Sissepääs võrguühenduseta";
+$lang['overview'] ="Ülevaade";
+$lang['payroll_generated'] ="Palgaarvestus loodud";
+$lang['payroll_not_generated'] ="Palgaarvestus pole loodud";
+$lang['payroll_paid'] ="Palk makstud";
+$lang['report'] ="Aruanne";
+$lang['staff_attendance_details'] ="Töötajate kohaloleku üksikasjad kl";
+$lang['staff_payroll_of'] ="Töötajate palgaarvestus";
+$lang['switch_branch'] ="Vaheta haru";
+$lang['total_balance_fees'] ="Tasud kokku";
+$lang['total_books'] ="Raamatuid kokku";
+$lang['total_paid_fees'] ="Makstud tasud kokku";
+$lang['total_staff'] ="Personal kokku";
+$lang['total_user_log'] ="Kasutaja logi kokku";
+$lang['transport_fees_details'] ="Transporditasude üksikasjad";
+$lang['user_log_details'] ="Kasutaja logi üksikasjad";
+$lang['user_log_report'] ="Kasutaja logi aruanne";
+$lang['verify_save'] ="Kinnitage ja salvestage";

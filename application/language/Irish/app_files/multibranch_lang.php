@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Cuir Nua leis";
+$lang['add_new_branch'] ="Cuir Brainse Nua leis";
+$lang['alumni_students'] ="Mic Léinn Alumni";
+$lang['branch'] ="Géaga";
+$lang['branch_database_detail'] ="Sonraí Brainse Bunachar Sonraí";
+$lang['branch_list'] ="Liosta Brainse";
+$lang['branch_name'] ="Ainm Brainse";
+$lang['click_here'] ="Cliceáil anseo";
+$lang['current_session'] ="Seisiún Reatha";
+$lang['database'] ="Bunachar Sonraí";
+$lang['database_name'] ="Ainm an Bhunachair Sonraí";
+$lang['edit_branch'] ="Cuir an Brainse in eagar";
+$lang['envato_purchase_code'] ="Cód Ceannaigh Envato";
+$lang['fees_details'] ="Sonraí Táillí";
+$lang['home_branch'] ="Brainse Baile";
+$lang['hostname'] ="Óstainm";
+$lang['invoice_no'] ="Sonrasc Uimh";
+$lang['library_details'] ="Sonraí Leabharlainne";
+$lang['login_date_time'] ="Am Dáta Logáil isteach";
+$lang['make_default_login'] ="Déan Logáil Réamhshocraithe";
+$lang['multi_branch'] ="Il-chraobh";
+$lang['net_amount'] ="Méid Glan";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Níor aimsíodh aon Chraobh eile, más mian leat brainse nua a chur leis, le do thoil";
+$lang['offline_admission'] ="Iontráil As Líne";
+$lang['overview'] ="Forbhreathnú";
+$lang['payroll_generated'] ="Párolla Ginte";
+$lang['payroll_not_generated'] ="Párolla Gan Giniúint";
+$lang['payroll_paid'] ="Párolla Íoctha";
+$lang['report'] ="Tuairisc";
+$lang['staff_attendance_details'] ="Sonraí Tinrimh Foirne Ag";
+$lang['staff_payroll_of'] ="Párolla Foirne na";
+$lang['switch_branch'] ="Athraigh Brainse";
+$lang['total_balance_fees'] ="Táillí Iarmhéid Iomlán";
+$lang['total_books'] ="Leabhair Iomlán";
+$lang['total_paid_fees'] ="Táillí Iomlána Íoctha";
+$lang['total_staff'] ="Foireann Iomlán";
+$lang['total_user_log'] ="Logchomhad Iomlán Úsáideora";
+$lang['transport_fees_details'] ="Sonraí Táillí Iompair";
+$lang['user_log_details'] ="Sonraí Logála Úsáideora";
+$lang['user_log_report'] ="Tuairisc Logála Úsáideora";
+$lang['verify_save'] ="Fíoraigh &amp; Sábháil";

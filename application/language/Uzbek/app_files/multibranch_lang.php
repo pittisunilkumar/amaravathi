@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Yangi qo&#39;shish";
+$lang['add_new_branch'] ="Yangi filial qo&#39;shing";
+$lang['alumni_students'] ="Bitiruvchi talabalar";
+$lang['branch'] ="Filial";
+$lang['branch_database_detail'] ="Filial ma&#39;lumotlar bazasi tafsilotlari";
+$lang['branch_list'] ="Filiallar ro&#39;yxati";
+$lang['branch_name'] ="Filial nomi";
+$lang['click_here'] ="bu yerni bosing";
+$lang['current_session'] ="Joriy sessiya";
+$lang['database'] ="Ma&#39;lumotlar bazasi";
+$lang['database_name'] ="Ma&#39;lumotlar bazasi nomi";
+$lang['edit_branch'] ="Filialni tahrirlash";
+$lang['envato_purchase_code'] ="Envato sotib olish kodi";
+$lang['fees_details'] ="To&#39;lovlar tafsilotlari";
+$lang['home_branch'] ="Uy filiali";
+$lang['hostname'] ="Xost nomi";
+$lang['invoice_no'] ="Hisob-faktura raqami";
+$lang['library_details'] ="Kutubxona tafsilotlari";
+$lang['login_date_time'] ="Kirish sanasi vaqti";
+$lang['make_default_login'] ="Standart login qiling";
+$lang['multi_branch'] ="Ko&#39;p tarmoqli";
+$lang['net_amount'] ="Sof miqdor";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Boshqa filial topilmadi, agar siz yangi filial qo&#39;shmoqchi bo&#39;lsangiz, iltimos";
+$lang['offline_admission'] ="Oflayn kirish";
+$lang['overview'] ="Umumiy koʻrinish";
+$lang['payroll_generated'] ="Yaratilgan ish haqi";
+$lang['payroll_not_generated'] ="Ish haqi fondi tuzilmagan";
+$lang['payroll_paid'] ="Ish haqi to&#39;langan";
+$lang['report'] ="Hisobot";
+$lang['staff_attendance_details'] ="Xodimlarning ishtiroki haqida ma&#39;lumot";
+$lang['staff_payroll_of'] ="Xodimlarning ish haqi";
+$lang['switch_branch'] ="Filialni almashtirish";
+$lang['total_balance_fees'] ="Jami balans to&#39;lovlari";
+$lang['total_books'] ="Jami kitoblar";
+$lang['total_paid_fees'] ="Jami toʻlangan toʻlovlar";
+$lang['total_staff'] ="Jami xodimlar";
+$lang['total_user_log'] ="Umumiy foydalanuvchi jurnali";
+$lang['transport_fees_details'] ="Transport to&#39;lovlari tafsilotlari";
+$lang['user_log_details'] ="Foydalanuvchi jurnali tafsilotlari";
+$lang['user_log_report'] ="Foydalanuvchi jurnali hisoboti";
+$lang['verify_save'] ="Tasdiqlash va saqlash";

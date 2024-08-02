@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="പുതിയത് ചേർക്കുക";
+$lang['add_new_branch'] ="പുതിയ ബ്രാഞ്ച് ചേർക്കുക";
+$lang['alumni_students'] ="പൂർവ്വ വിദ്യാർത്ഥി വിദ്യാർത്ഥികൾ";
+$lang['branch'] ="ശാഖ";
+$lang['branch_database_detail'] ="ബ്രാഞ്ച് ഡാറ്റാബേസ് വിശദാംശങ്ങൾ";
+$lang['branch_list'] ="ബ്രാഞ്ച് ലിസ്റ്റ്";
+$lang['branch_name'] ="ശാഖയുടെ പേര്";
+$lang['click_here'] ="ഇവിടെ ക്ലിക്ക് ചെയ്യുക";
+$lang['current_session'] ="നിലവിലെ സെഷൻ";
+$lang['database'] ="ഡാറ്റാബേസ്";
+$lang['database_name'] ="ഡാറ്റാബേസ് നാമം";
+$lang['edit_branch'] ="ബ്രാഞ്ച് എഡിറ്റ് ചെയ്യുക";
+$lang['envato_purchase_code'] ="Envato വാങ്ങൽ കോഡ്";
+$lang['fees_details'] ="ഫീസ് വിശദാംശങ്ങൾ";
+$lang['home_branch'] ="ഹോം ബ്രാഞ്ച്";
+$lang['hostname'] ="ഹോസ്റ്റിന്റെ പേര്";
+$lang['invoice_no'] ="ഇൻവോയ്സ് നമ്പർ";
+$lang['library_details'] ="ലൈബ്രറി വിശദാംശങ്ങൾ";
+$lang['login_date_time'] ="ലോഗിൻ തീയതി സമയം";
+$lang['make_default_login'] ="ഡിഫോൾട്ട് ലോഗിൻ ആക്കുക";
+$lang['multi_branch'] ="മൾട്ടി ബ്രാഞ്ച്";
+$lang['net_amount'] ="ആകെ തുക";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="കൂടുതൽ ബ്രാഞ്ച് കണ്ടെത്തിയില്ല, നിങ്ങൾക്ക് പുതിയ ശാഖ ചേർക്കണമെങ്കിൽ ദയവായി";
+$lang['offline_admission'] ="ഓഫ്‌ലൈൻ പ്രവേശനം";
+$lang['overview'] ="അവലോകനം";
+$lang['payroll_generated'] ="ശമ്പളപ്പട്ടിക സൃഷ്ടിച്ചു";
+$lang['payroll_not_generated'] ="ശമ്പളപ്പട്ടിക സൃഷ്ടിച്ചിട്ടില്ല";
+$lang['payroll_paid'] ="ശമ്പളം നൽകി";
+$lang['report'] ="റിപ്പോർട്ട് ചെയ്യുക";
+$lang['staff_attendance_details'] ="ജീവനക്കാരുടെ ഹാജർ വിശദാംശങ്ങൾ ഇവിടെ";
+$lang['staff_payroll_of'] ="സ്റ്റാഫ് പേറോൾ";
+$lang['switch_branch'] ="ബ്രാഞ്ച് മാറുക";
+$lang['total_balance_fees'] ="മൊത്തം ബാലൻസ് ഫീസ്";
+$lang['total_books'] ="ആകെ പുസ്തകങ്ങൾ";
+$lang['total_paid_fees'] ="ആകെ അടച്ച ഫീസ്";
+$lang['total_staff'] ="ആകെ സ്റ്റാഫ്";
+$lang['total_user_log'] ="മൊത്തം ഉപയോക്തൃ ലോഗ്";
+$lang['transport_fees_details'] ="ഗതാഗത ഫീസ് വിശദാംശങ്ങൾ";
+$lang['user_log_details'] ="ഉപയോക്തൃ ലോഗ് വിശദാംശങ്ങൾ";
+$lang['user_log_report'] ="ഉപയോക്തൃ ലോഗ് റിപ്പോർട്ട്";
+$lang['verify_save'] ="പരിശോധിച്ചുറപ്പിച്ച് സംരക്ഷിക്കുക";

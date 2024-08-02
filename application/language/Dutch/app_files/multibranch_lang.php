@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Nieuw toevoegen";
+$lang['add_new_branch'] ="Nieuwe tak toevoegen";
+$lang['alumni_students'] ="Alumni-studenten";
+$lang['branch'] ="Afdeling";
+$lang['branch_database_detail'] ="Filiaal Database Detail";
+$lang['branch_list'] ="Branch lijst";
+$lang['branch_name'] ="Filiaal naam";
+$lang['click_here'] ="Klik hier";
+$lang['current_session'] ="Huidige sessie";
+$lang['database'] ="Databank";
+$lang['database_name'] ="Database naam";
+$lang['edit_branch'] ="Filiaal bewerken";
+$lang['envato_purchase_code'] ="Envato-aankoopcode";
+$lang['fees_details'] ="Vergoedingen details";
+$lang['home_branch'] ="Thuis tak";
+$lang['hostname'] ="Hostnaam";
+$lang['invoice_no'] ="Factuur nr";
+$lang['library_details'] ="Bibliotheek gegevens";
+$lang['login_date_time'] ="Inloggen Datum Tijd";
+$lang['make_default_login'] ="Maak standaard login";
+$lang['multi_branch'] ="Multi-filiaal";
+$lang['net_amount'] ="Netto bedrag";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Geen filiaal meer gevonden, als u een nieuw filiaal wilt toevoegen, alstublieft";
+$lang['offline_admission'] ="Offline toegang";
+$lang['overview'] ="Overzicht";
+$lang['payroll_generated'] ="Salaris gegenereerd";
+$lang['payroll_not_generated'] ="Salaris niet gegenereerd";
+$lang['payroll_paid'] ="Salaris betaald";
+$lang['report'] ="Rapport";
+$lang['staff_attendance_details'] ="Details over de aanwezigheid van het personeel op";
+$lang['staff_payroll_of'] ="Personeelsadministratie van";
+$lang['switch_branch'] ="Schakel filiaal";
+$lang['total_balance_fees'] ="Totale saldokosten";
+$lang['total_books'] ="Totaal boeken";
+$lang['total_paid_fees'] ="Totaal betaalde vergoedingen";
+$lang['total_staff'] ="Totaal personeel";
+$lang['total_user_log'] ="Totaal gebruikerslogboek";
+$lang['transport_fees_details'] ="Details transportkosten";
+$lang['user_log_details'] ="Gegevens gebruikerslogboek";
+$lang['user_log_report'] ="Gebruikerslogboekrapport";
+$lang['verify_save'] ="Verifiëren &amp; opslaan";

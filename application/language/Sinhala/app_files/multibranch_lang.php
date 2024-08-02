@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="අලුතින් එකතු කරන්න";
+$lang['add_new_branch'] ="නව ශාඛාවක් එක් කරන්න";
+$lang['alumni_students'] ="ආදි සිසුන්";
+$lang['branch'] ="ශාඛාව";
+$lang['branch_database_detail'] ="ශාඛා දත්ත සමුදාය විස්තර";
+$lang['branch_list'] ="ශාඛා ලැයිස්තුව";
+$lang['branch_name'] ="ශාඛාවේ නම";
+$lang['click_here'] ="මෙහි ක්ලික් කරන්න";
+$lang['current_session'] ="වත්මන් සැසිය";
+$lang['database'] ="දත්ත සමුදාය";
+$lang['database_name'] ="දත්ත සමුදායේ නම";
+$lang['edit_branch'] ="ශාඛාව සංස්කරණය කරන්න";
+$lang['envato_purchase_code'] ="Envato මිලදී ගැනීමේ කේතය";
+$lang['fees_details'] ="ගාස්තු විස්තර";
+$lang['home_branch'] ="මුල් පිටුව ශාඛාව";
+$lang['hostname'] ="සත්කාරක නාමය";
+$lang['invoice_no'] ="ඉන්වොයිස් අංකය";
+$lang['library_details'] ="පුස්තකාල විස්තර";
+$lang['login_date_time'] ="පිවිසුම් දිනය වේලාව";
+$lang['make_default_login'] ="Default Login කරන්න";
+$lang['multi_branch'] ="බහු ශාඛාව";
+$lang['net_amount'] ="ශුද්ධ මුදල";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="තවත් ශාඛාවක් හමු නොවීය, ඔබට නව ශාඛාවක් එක් කිරීමට අවශ්‍ය නම් කරුණාකර";
+$lang['offline_admission'] ="නොබැඳි ප්රවේශය";
+$lang['overview'] ="දළ විශ්ලේෂණය";
+$lang['payroll_generated'] ="වැටුප් ලේඛනය ජනනය කරන ලදී";
+$lang['payroll_not_generated'] ="වැටුප් ලේඛනය ජනනය නොවේ";
+$lang['payroll_paid'] ="වැටුප් ගෙවා ඇත";
+$lang['report'] ="වාර්තාව";
+$lang['staff_attendance_details'] ="කාර්ය මණ්ඩල පැමිණීමේ විස්තර";
+$lang['staff_payroll_of'] ="කාර්ය මණ්ඩල වැටුප් ලේඛනය";
+$lang['switch_branch'] ="ශාඛාව මාරු කරන්න";
+$lang['total_balance_fees'] ="මුළු ශේෂ ගාස්තු";
+$lang['total_books'] ="මුළු පොත්";
+$lang['total_paid_fees'] ="ගෙවූ මුළු ගාස්තු";
+$lang['total_staff'] ="මුළු කාර්ය මණ්ඩලය";
+$lang['total_user_log'] ="සම්පූර්ණ පරිශීලක ලොගය";
+$lang['transport_fees_details'] ="ප්‍රවාහන ගාස්තු විස්තර";
+$lang['user_log_details'] ="පරිශීලක ලොග් විස්තර";
+$lang['user_log_report'] ="පරිශීලක ලොග් වාර්තාව";
+$lang['verify_save'] ="තහවුරු කර සුරකින්න";

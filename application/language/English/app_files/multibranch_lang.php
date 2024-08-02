@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] = "Add New"; 
+$lang['add_new_branch'] = "Add New Branch"; 
+$lang['alumni_students'] = "Alumni Students"; 
+$lang['branch'] = "Branch"; 
+$lang['branch_database_detail'] = "Branch Database Detail"; 
+$lang['branch_list'] = "Branch List";
+$lang['branch_name'] = "Branch Name"; 
+$lang['click_here'] = "click here";  
+$lang['current_session'] = "Current Session"; 
+$lang['database'] = "Database"; 
+$lang['database_name'] = "Database Name"; 
+$lang['edit_branch'] = "Edit Branch"; 
+$lang['envato_purchase_code'] = "Envato Purchase Code"; 
+$lang['fees_details'] = "Fees Details"; 
+$lang['home_branch'] = "Home Branch";  
+$lang['hostname'] = "Hostname"; 
+$lang['invoice_no'] = "Invoice No"; 
+$lang['library_details'] = "Library Details"; 
+$lang['login_date_time'] = "Login Date Time"; 
+$lang['make_default_login'] = "Make Default Login"; 
+$lang['multi_branch'] = "Multi Branch"; 
+$lang['net_amount'] = "Net Amount";  
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] = "No More Branch found, if you want to add new branch please";  
+$lang['offline_admission'] = "Offline Admission"; 
+$lang['overview'] = "Overview"; 
+$lang['payroll_generated'] = "Payroll Generated";  
+$lang['payroll_not_generated'] = "Payroll Not Generated";  
+$lang['payroll_paid'] = "Payroll Paid";  
+$lang['report'] = "Report"; 
+$lang['staff_attendance_details'] = "Staff Attendance Details At";
+$lang['staff_payroll_of'] = "Staff Payroll of"; 
+$lang['switch_branch'] = "Switch Branch"; 
+$lang['total_balance_fees'] = "Total Balance Fees"; 
+$lang['total_books'] = "Total Books"; 
+$lang['total_paid_fees'] = "Total Paid Fees"; 
+$lang['total_staff'] = "Total Staff";  
+$lang['total_user_log'] = "Total User Log";  
+$lang['transport_fees_details'] = "Transport Fees Details"; 
+$lang['user_log_details'] = "User Log Details";  
+$lang['user_log_report'] = "User Log Report"; 
+$lang['verify_save'] = "Verify & Save";

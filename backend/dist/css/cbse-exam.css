@@ -1,0 +1,10 @@
+#print_title{
+    display:none;
+}
+
+@media print{
+    #print_title{
+        text-align: center;
+        display:block !important;
+    }
+}

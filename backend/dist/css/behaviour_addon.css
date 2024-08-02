@@ -1,0 +1,186 @@
+.mb15{margin-bottom: 15px;}
+table.incident-list-table th:last-child,
+table.incident-list-table td:last-child{text-align: left !important;}
+.mt35{margin-top: 35px;}
+.page-container-fixed {
+  position: relative;
+  min-height: calc(100vh - 120px);
+  padding-bottom: 3rem;
+}
+
+.content-wrap-fixed{
+  padding-bottom: 2.5rem; 
+}
+
+.footer-fixed {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #fff; 
+  border-top: 1px solid #f4f4f4;
+  padding-top: 10px;
+  bottom: 10px;
+}
+.mr-1{margin-left: 0.5rem;}
+.pl-1{padding-left: 1rem;}
+table.incident-list-table  tbody th.dt-body-right, 
+table.incident-list-table  tbody td.dt-body-right {
+    text-align: left;
+}
+table.incident-list-table td.dt-body-right {
+    width: 10%;
+}
+.behaviour-item{    
+  position: relative;
+  background: #f7f7f7;
+  border: 1px solid rgb(221 221 221 / 50%);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 3px;
+}
+.d-flex{display: flex;} 
+.justify-content-between {
+    justify-content: space-between;
+}
+.align-items-center {
+    align-items: center;
+}
+.behaviour-item input{vertical-align: top; margin-left: 1rem;}
+@media(min-width: 768px){
+	.pl-lg-2{padding-left: 2rem;}
+}
+@media(max-width: 767px){
+.point-md{min-width: 95px;}
+}
+.user-progress{ padding-left: 0; margin-bottom: 0;}
+li.forum-list {
+    list-style: none;;
+}
+
+.gap-1{gap: 1rem;}
+.gap-3{gap: 3rem;}
+.forum-list {
+    position: relative;
+    border-radius: 5px;
+    vertical-align: middle;
+    padding: 10px 10px 0;
+    margin-bottom: 10px;
+    background: #f5f5f5;
+}   
+.forum-list img{    
+    width: 40px;
+    height: 40px !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    position: absolute;
+    left: 10px;
+}
+.forum-set-flex{padding-left: 60px;}
+.forum-ms-auto {
+    margin-left: auto;
+    padding-left: 60px;
+    padding-bottom: 10px;
+}
+@media(max-width: 767px){
+    .forum-ms-auto {
+        white-space: initial;
+    }
+    .pull-sm-left{float: left;}
+}
+
+.mb-3-5{margin-bottom: 3.5rem}
+.msg_cotainer:before {
+   width: 0;
+    height: 0;
+    content: "";
+    top: 0px;
+    left: -20px;
+    position: absolute;
+    border-style: solid;
+    border-width: 20px 0px 0px 20px;
+    border-color: #f5f5f5 transparent transparent transparent;
+   
+}
+.msg_cotainer_send:after {
+   width: 0;
+    height: 0;
+    content: "";
+    top: 0px;
+    right: -20px;
+    position: absolute;
+    border-style: solid;
+    border-width: 20px 20px 00px 0px;
+    border-color: #a4a4a4 transparent transparent transparent;
+}
+
+.img_cont_msg {
+    height: 40px;
+    width: 40px;
+}
+
+.img_cont_msg img{border-radius: 100%; width: 40px; height: 40px;flex-shrink: 0;}
+.msg_cotainer {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1.5rem;
+    background-color: #f5f5f5;
+    padding: 10px;
+    position: relative;
+    width: 70%;
+    border-radius: 0px 4px 4px 4px;
+    box-shadow: 0 0 2rem 0 rgb(136 152 170 / 15%);
+}
+.msg_cotainer_send {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 1.5rem;
+    background-color: #a4a4a4;
+    padding: 10px;
+    color: #fff;
+    position: relative;
+    width: 70%;
+     border-radius: 4px 0px 4px 4px;
+    box-shadow: 0 0 2rem 0 rgb(136 152 170 / 15%);
+}
+.msg_time {
+    position: absolute;
+    left: 0;
+    bottom: -1.75rem;
+    font-size: 10px;
+    color: #777
+}
+
+.msg_time_send {
+    position: absolute;
+    right: 0;
+    bottom: -1.75rem;
+    font-size: 10px;
+    color: #777
+}
+.justify-content-end {
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.justify-content-start {
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.bg-e6{background: #e6e6e6; overflow: hidden;}
+.border-radius-1{border-radius: 4px;}
+.btn-send{background: #66aa18; color: #fff; padding-right: 15px; }
+.btn-send:hover,
+.btn-send:focus{background: #66aa18; color: #fff;} 
+
+.wise-hover-type{    
+    border: 1px solid #f4f4f4 !important;
+    border-radius: 2px !important;
+    line-height: normal;
+}
+.d-inline{display: inline;}
+.d-inline-after{position: relative;}
+.d-inline-after:after{display: none;}
+.cursor-pointer{cursor: pointer;}
+ .myChartDiv {
+      width: 370px;
+      height: 370px;
+    }  

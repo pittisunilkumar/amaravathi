@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="php-ckeditor_wiris-7.25.0.1439">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/backend/plugins/ckeditor/plugins/php-ckeditor_wiris-7.25.0.1439.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

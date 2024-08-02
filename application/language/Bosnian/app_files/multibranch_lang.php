@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Dodaj novi";
+$lang['add_new_branch'] ="Dodaj novu granu";
+$lang['alumni_students'] ="Alumni Studenti";
+$lang['branch'] ="Filijala";
+$lang['branch_database_detail'] ="Detalj baze podataka podružnice";
+$lang['branch_list'] ="Lista podružnica";
+$lang['branch_name'] ="Naziv podružnice";
+$lang['click_here'] ="kliknite ovdje";
+$lang['current_session'] ="Trenutna sesija";
+$lang['database'] ="Baza podataka";
+$lang['database_name'] ="Ime baze podataka";
+$lang['edit_branch'] ="Uredi granu";
+$lang['envato_purchase_code'] ="Envato kod kupovine";
+$lang['fees_details'] ="Detalji o naknadama";
+$lang['home_branch'] ="Home Branch";
+$lang['hostname'] ="Ime hosta";
+$lang['invoice_no'] ="Broj fakture";
+$lang['library_details'] ="Detalji o biblioteci";
+$lang['login_date_time'] ="Datum prijave Vrijeme";
+$lang['make_default_login'] ="Postavi kao zadanu prijavu";
+$lang['multi_branch'] ="Multi Branch";
+$lang['net_amount'] ="Neto iznos";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Više nije pronađena podružnica, ako želite dodati novu granu molimo";
+$lang['offline_admission'] ="Offline Admission";
+$lang['overview'] ="Pregled";
+$lang['payroll_generated'] ="Payroll Generated";
+$lang['payroll_not_generated'] ="Platni spisak nije generisan";
+$lang['payroll_paid'] ="Payroll Paid";
+$lang['report'] ="Izvještaj";
+$lang['staff_attendance_details'] ="Detalji o prisustvu osoblja At";
+$lang['staff_payroll_of'] ="Platni spisak osoblja";
+$lang['switch_branch'] ="Switch Branch";
+$lang['total_balance_fees'] ="Ukupne naknade za saldo";
+$lang['total_books'] ="Total Books";
+$lang['total_paid_fees'] ="Ukupno plaćene naknade";
+$lang['total_staff'] ="Total Staff";
+$lang['total_user_log'] ="Total User Log";
+$lang['transport_fees_details'] ="Detalji o naknadama za transport";
+$lang['user_log_details'] ="Detalji korisničkog dnevnika";
+$lang['user_log_report'] ="Izvještaj o korisničkom dnevniku";
+$lang['verify_save'] ="Potvrdi i sačuvaj";

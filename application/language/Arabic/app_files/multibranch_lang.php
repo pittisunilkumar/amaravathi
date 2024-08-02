@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="اضف جديد";
+$lang['add_new_branch'] ="إضافة فرع جديد";
+$lang['alumni_students'] ="طلاب الخريجين";
+$lang['branch'] ="فرع";
+$lang['branch_database_detail'] ="تفاصيل قاعدة بيانات الفرع";
+$lang['branch_list'] ="قائمة الفروع";
+$lang['branch_name'] ="اسم الفرع";
+$lang['click_here'] ="انقر هنا";
+$lang['current_session'] ="الجلسة الحالية";
+$lang['database'] ="قاعدة البيانات";
+$lang['database_name'] ="اسم قاعدة البيانات";
+$lang['edit_branch'] ="تحرير الفرع";
+$lang['envato_purchase_code'] ="كود الشراء Envato";
+$lang['fees_details'] ="تفاصيل الرسوم";
+$lang['home_branch'] ="فرع المنزل";
+$lang['hostname'] ="اسم المضيف";
+$lang['invoice_no'] ="رقم الفاتورة";
+$lang['library_details'] ="تفاصيل المكتبة";
+$lang['login_date_time'] ="وقت تاريخ تسجيل الدخول";
+$lang['make_default_login'] ="جعل تسجيل الدخول الافتراضي";
+$lang['multi_branch'] ="متعدد الفروع";
+$lang['net_amount'] ="كمية الشبكة";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="لم يتم العثور على فرع آخر ، إذا كنت ترغب في إضافة فرع جديد من فضلك";
+$lang['offline_admission'] ="القبول دون اتصال بالإنترنت";
+$lang['overview'] ="ملخص";
+$lang['payroll_generated'] ="إنشاء كشوف المرتبات";
+$lang['payroll_not_generated'] ="لم يتم إنشاء كشوف المرتبات";
+$lang['payroll_paid'] ="كشوف المرتبات المدفوعة";
+$lang['report'] ="نقل";
+$lang['staff_attendance_details'] ="تفاصيل حضور الموظفين في";
+$lang['staff_payroll_of'] ="كشوف مرتبات الموظفين";
+$lang['switch_branch'] ="فرع التبديل";
+$lang['total_balance_fees'] ="إجمالي رسوم الرصيد";
+$lang['total_books'] ="مجموع الكتب";
+$lang['total_paid_fees'] ="إجمالي الرسوم المدفوعة";
+$lang['total_staff'] ="مجموع الموظفين";
+$lang['total_user_log'] ="إجمالي سجل المستخدم";
+$lang['transport_fees_details'] ="تفاصيل رسوم النقل";
+$lang['user_log_details'] ="تفاصيل سجل المستخدم";
+$lang['user_log_report'] ="تقرير سجل المستخدم";
+$lang['verify_save'] ="تحقق وحفظ";

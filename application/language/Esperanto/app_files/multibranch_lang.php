@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Aldonu Novan";
+$lang['add_new_branch'] ="Aldonu Novan Branĉon";
+$lang['alumni_students'] ="Eks-studentoj";
+$lang['branch'] ="Branĉo";
+$lang['branch_database_detail'] ="Branĉo-Datumbaza Detalo";
+$lang['branch_list'] ="Branĉa Listo";
+$lang['branch_name'] ="Nomo de branĉo";
+$lang['click_here'] ="Klaku ĉi tie";
+$lang['current_session'] ="Nuna Sesio";
+$lang['database'] ="Datumbazo";
+$lang['database_name'] ="Nomo de datumbazo";
+$lang['edit_branch'] ="Redakti Branĉon";
+$lang['envato_purchase_code'] ="Envato Aĉeta Kodo";
+$lang['fees_details'] ="Kotizoj Detaloj";
+$lang['home_branch'] ="Hejma Filio";
+$lang['hostname'] ="Gastnomo";
+$lang['invoice_no'] ="Fakturo Nr";
+$lang['library_details'] ="Biblioteko Detaloj";
+$lang['login_date_time'] ="Ensalutu Dato Tempo";
+$lang['make_default_login'] ="Faru defaŭltan ensalutu";
+$lang['multi_branch'] ="Multi Branĉo";
+$lang['net_amount'] ="Neta Kvanto";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="Neniu Plia Branĉo trovita, se vi volas aldoni novan branĉon bonvolu";
+$lang['offline_admission'] ="Senreta Akcepto";
+$lang['overview'] ="Superrigardo";
+$lang['payroll_generated'] ="Salajro Generita";
+$lang['payroll_not_generated'] ="Salajro Ne Generita";
+$lang['payroll_paid'] ="Salajro Pagita";
+$lang['report'] ="Raporto";
+$lang['staff_attendance_details'] ="Detaloj pri partopreno de la personaro Ĉe";
+$lang['staff_payroll_of'] ="Salajro de la dungitaro de";
+$lang['switch_branch'] ="Ŝaltilo Branĉo";
+$lang['total_balance_fees'] ="Totalaj Balancaj Kotizoj";
+$lang['total_books'] ="Totalaj Libroj";
+$lang['total_paid_fees'] ="Totalaj Pagitaj Kotizoj";
+$lang['total_staff'] ="Tuta Personaro";
+$lang['total_user_log'] ="Tuta Uzanto Log";
+$lang['transport_fees_details'] ="Detaloj pri Transportaj Kotizoj";
+$lang['user_log_details'] ="Detaloj pri Uzanto";
+$lang['user_log_report'] ="Raporto pri Uzanto";
+$lang['verify_save'] ="Kontrolu &amp; Konservu";

@@ -1,0 +1,44 @@
+<?php
+#version 1.0.0
+
+$lang['add_new'] ="Żid Ġdid";
+$lang['add_new_branch'] ="Żid Fergħa Ġdida";
+$lang['alumni_students'] ="Studenti Alumni";
+$lang['branch'] ="Fergħa";
+$lang['branch_database_detail'] ="Dettall tad-Database tal-Fergħa";
+$lang['branch_list'] ="Lista tal-Fergħat";
+$lang['branch_name'] ="Isem tal-Fergħa";
+$lang['click_here'] ="għafas hawn";
+$lang['current_session'] ="Sessjoni kurrenti";
+$lang['database'] ="Database";
+$lang['database_name'] ="Isem tad-Database";
+$lang['edit_branch'] ="Edit Fergħa";
+$lang['envato_purchase_code'] ="Kodiċi ta&#39; Xiri ta&#39; Envato";
+$lang['fees_details'] ="Dettalji tal-Miżati";
+$lang['home_branch'] ="Fergħa tad-Dar";
+$lang['hostname'] ="L-isem tal-ospitant";
+$lang['invoice_no'] ="Fattura Nru";
+$lang['library_details'] ="Dettalji tal-Librerija";
+$lang['login_date_time'] ="Login Data Ħin";
+$lang['make_default_login'] ="Agħmel Login Default";
+$lang['multi_branch'] ="Multi Fergħa";
+$lang['net_amount'] ="Ammont Nett";
+$lang['no_more_branch_found_if_you_want_to_add_new_branch_please'] ="No More Fergħa misjuba, jekk trid iżżid fergħa ġdida jekk jogħġbok";
+$lang['offline_admission'] ="Dħul Offline";
+$lang['overview'] ="Ħarsa ġenerali";
+$lang['payroll_generated'] ="Payroll Ġenerat";
+$lang['payroll_not_generated'] ="Payroll Mhux Ġenerat";
+$lang['payroll_paid'] ="Payroll Imħallas";
+$lang['report'] ="Rapport";
+$lang['staff_attendance_details'] ="Dettalji dwar l-Attendenza tal-Persunal At";
+$lang['staff_payroll_of'] ="Paga tal-Persunal ta&#39;";
+$lang['switch_branch'] ="Swiċċ Fergħa";
+$lang['total_balance_fees'] ="Miżati Totali tal-Bilanċ";
+$lang['total_books'] ="Kotba Totali";
+$lang['total_paid_fees'] ="Miżati Totali Mħallsa";
+$lang['total_staff'] ="Total tal-Persunal";
+$lang['total_user_log'] ="Log tal-Utent Totali";
+$lang['transport_fees_details'] ="Dettalji tal-Ħlasijiet tat-Trasport";
+$lang['user_log_details'] ="Dettalji tal-Logg tal-Utent";
+$lang['user_log_report'] ="Rapport tal-Logg tal-Utent";
+$lang['verify_save'] ="Ivverifika u Issejvja";
