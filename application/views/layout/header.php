@@ -1,310 +1,224 @@
 <!DOCTYPE html>
-<html <?php echo $this->customlib->getRTL(); ?>>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title><?php echo $this->customlib->getAppName(); ?></title>
-        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-        <meta http-equiv="Cache-control" content="no-cache">
-        <meta name="theme-color" content="#424242" />
-        <link href="<?php echo $this->customlib->getBaseUrl(); ?>uploads/school_content/admin_small_logo/<?php echo $this->setting_model->getAdminsmalllogo();?>" rel="shortcut icon" type="image/x-icon">
+<html lang="en">
 
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/jquery.mCustomScrollbar.min.css">
-        <?php
-$this->load->view('layout/theme');
-?>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <title>PreSkool Bootstrap Admin Dashboard</title>
+    <link rel="shortcut icon" href="<?php echo base_url(); ?>assets1/img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets1/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets1/plugins/feather/feather.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets1/plugins/icons/flags/flags.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets1/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets1/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets1/css/style.css">
+</head>
 
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/ss-print.css">
+<body>
 
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/font-awesome.min.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/ionicons.min.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/iCheck/flat/blue.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/morris/morris.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/jvectormap/jquery-jvectormap-1.2.2.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/datepicker/datepicker3.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/colorpicker/bootstrap-colorpicker.css">
+    <div class="main-wrapper">
 
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/daterangepicker/daterangepicker-bs3.css">
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
+        <div class="header">
 
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/custom_style.css">
-
-        <!--file dropify-->
-        <link rel="stylesheet" href="<?php echo base_url(); ?>backend/dist/css/dropify.min.css">
-        <!--file nprogress-->
-        <link href="<?php echo base_url(); ?>backend/dist/css/nprogress.css" rel="stylesheet">
-
-        <!--print table-->
-        <link href="<?php echo base_url(); ?>backend/dist/datatables/css/jquery.dataTables.min.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>backend/dist/datatables/css/buttons.dataTables.min.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>backend/dist/datatables/css/dataTables.bootstrap.min.css" rel="stylesheet">
-        <!--print table mobile support-->
-        <link href="<?php echo base_url(); ?>backend/dist/datatables/css/responsive.dataTables.min.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>backend/dist/datatables/css/rowReorder.dataTables.min.css" rel="stylesheet">
-        <!--language css-->
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>backend/dist/css/bootstrap-select.min.css">
-        <script src="<?php echo base_url(); ?>backend/custom/jquery.min.js"></script>
-        <script language="javascript" src="<?php echo base_url(); ?>backend/custom/jquery-2.2.4.js"></script>
-        <script src="<?php echo base_url(); ?>backend/dist/js/moment.min.js"></script>
-
-        <script src="<?php echo base_url(); ?>backend/datepicker/js/bootstrap-datetimepicker.js"></script>
-         <link rel="stylesheet" href="<?php echo base_url(); ?>backend/datepicker/css/bootstrap-datetimepicker.css">
-        <script src="<?php echo base_url(); ?>backend/plugins/colorpicker/bootstrap-colorpicker.js"></script>
-
-        <script src="<?php echo base_url(); ?>backend/dist/js/jquery-ui.min.js"></script>
-        <script src="<?php echo base_url(); ?>backend/js/school-custom.js"></script>
-        <script src="<?php echo base_url(); ?>backend/js/school-admin-custom.js"></script>
-        <script src="<?php echo base_url(); ?>backend/js/sstoast.js"></script>
-
-        <!-- fullCalendar -->
-        <link rel="stylesheet" href="<?php echo base_url() ?>backend/fullcalendar/dist/fullcalendar.min.css">
-        <link rel="stylesheet" href="<?php echo base_url() ?>backend/fullcalendar/dist/fullcalendar.print.min.css" media="print">
-        <script type="text/javascript">
-            var baseurl = "<?php echo base_url(); ?>";
-            var start_week=<?php echo $this->customlib->getStartWeek(); ?>;
-            var chk_validate="<?php echo $this->config->item('SSLK') ?>";
-        </script>
-
-  <style type="text/css">
-        span.flag-icon.flag-icon-us{text-orientation: mixed;}
-  </style>
-    </head>
-    <body class="hold-transition skin-blue fixed sidebar-mini">
-
- <?php
-if ($this->config->item('SSLK') == "") {
-    ?>
- <div class="topaleart">
-    <div class="slidealert">
-    <div class="alert alert-dismissible topaleart-inside">
-   <p class="palert"><strong>Alert!</strong> You are using unregistered version of Smart School. Please <a  href="#" class="purchasemodal">click here</a> to register your purchase code for Smart School.</p>
-</div></div>
-</div>
-                    <?php
-}
-
-?>
-<script>
-
-    function collapseSidebar() {
-
-        if (Boolean(sessionStorage.getItem('sidebar-toggle-collapsed'))) {
-        sessionStorage.setItem('sidebar-toggle-collapsed', '');
-        } else {
-        sessionStorage.setItem('sidebar-toggle-collapsed', '1');
-        }
-
-        }
-
-    function checksidebar() {
-        if (Boolean(sessionStorage.getItem('sidebar-toggle-collapsed'))) {
-        var body = document.getElementsByTagName('body')[0];
-        body.className = body.className + ' sidebar-collapse';
-        }
-    }
-
-    checksidebar();
-
-</script>
-       <div class="wrapper">
-
-            <header class="main-header" id="alert">
+            <div class="header-left">
                 <a href="<?php echo base_url(); ?>admin/admin/dashboard" class="logo">
-                    <span class="logo-mini"><img src="<?php echo $this->customlib->getBaseUrl(); ?>uploads/school_content/admin_small_logo/<?php echo $this->setting_model->getAdminsmalllogo() . img_time();?>" alt="<?php echo $this->customlib->getAppName() ?>" /></span>
-                    <span class="logo-lg"><img src="<?php echo $this->customlib->getBaseUrl(); ?>uploads/school_content/admin_logo/<?php echo $this->setting_model->getAdminlogo() . img_time();?>" alt="<?php echo $this->customlib->getAppName() ?>" /></span>
+                    <img src="<?php echo base_url(); ?>assets1/img/logo.png" alt="Logo">
                 </a>
-                <nav class="navbar navbar-static-top" role="navigation">
-                    <a onclick="collapseSidebar()"  class="sidebar-toggle" data-toggle="offcanvas" role="button">
-                        <span class="sr-only"><?php echo $this->lang->line('toggle_navigation'); ?></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                <a href="<?php echo base_url(); ?>admin/admin/dashboard" class="logo logo-small">
+                    <img src="<?php echo base_url(); ?>assets1/img/logo-small.png" alt="Logo" width="30" height="30">
+                </a>
+            </div>
+            <div class="menu-toggle">
+                <a href="javascript:void(0);" id="toggle_btn">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+
+            <div class="top-nav-search">
+                <form>
+                    <input type="text" class="form-control" placeholder="Search here">
+                    <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+            <a class="mobile_btn" id="mobile_btn">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <ul class="nav user-menu">
+                <li class="nav-item dropdown noti-dropdown language-drop me-2">
+                    <a href="#" class="dropdown-toggle nav-link header-nav-list" data-bs-toggle="dropdown">
+                        <img src="<?php echo base_url(); ?>assets1/img/icons/header-icon-01.svg" alt="">
                     </a>
-                    <div class="col-lg-5 col-md-3 col-sm-2 col-xs-4">
-                        <span href="#"  class="sidebar-session">
-                            <?php echo $this->setting_model->getCurrentSchoolName(); ?>
-                        </span>
-                    </div>
-                    <div class="col-lg-7 col-md-9 col-sm-10 col-xs-8">
-                        <div class="pull-right">
-                            <?php if ($this->rbac->hasPrivilege('student', 'can_view')) {?>
-
-                                <form id="header_search_form" class="navbar-form navbar-left search-form" role="search"  action="<?php echo site_url('admin/admin/search'); ?>" method="POST">
-                                    <?php echo $this->customlib->getCSRF(); ?>
-                                    <div class="input-group">
-                                        <input type="text" value="<?php echo set_value('search_text1'); ?>" name="search_text1" id="search_text1" class="form-control search-form search-form3" placeholder="<?php echo $this->lang->line('search_by_student_name'); ?>">
-                                        <span class="input-group-btn">
-                                            <button type="submit" name="search" id="search-btn" onclick="getstudentlist()" style="" class="btn btn-flat topsidesearchbtn"><i class="fa fa-search"></i></button>
-                                        </span>
-                                    </div>
-
-                                </form>
-                            <?php }?>
-                            <div class="navbar-custom-menu">
-
-                                <?php if ($this->rbac->hasPrivilege('currency_switcher', 'can_view')) {
-    ?>
-                                    <div class="currency-icon-list" data-placement="bottom" data-toggle="tooltip" title="<?php echo $this->lang->line('currency') ?>">
-                                        <select class="languageselectpicker" type="text" id="currencySwitcher" >
-
-                                           <?php $this->load->view('admin/currency/currencySwitcher')?>
-
-                                        </select>
-                                    </div>
-                                    <?php
-}?>
-
-                                <?php if ($this->rbac->hasPrivilege('language_switcher', 'can_view')) {
-    ?>
-                                    <div class="langdiv" data-placement="bottom" data-toggle="tooltip" title="<?php echo $this->lang->line('language') ?>"><select class="languageselectpicker" onchange="set_languages(this.value)"  type="text" id="languageSwitcher" >
-
-                                           <?php $this->load->view('admin/language/languageSwitcher')?>
-
-                                        </select></div>
-                                    <?php
-}?>
-
-                                <ul class="nav navbar-nav headertopmenu">
-                                
-                                    <?php $userdata = $this->customlib->getUserData();
-                                    if($userdata["role_id"] ==7){                                    
-                                        if (($this->module_lib->hasModule('multi_branch') && $this->module_lib->hasActive('multi_branch')) || $this->db->multi_branch) { ?>
-                                    
-                                            <li class="cal15" data-placement="bottom" data-toggle="tooltip" title="<?php echo $this->lang->line('switch_branch'); ?>"><a href="#" data-toggle="modal" data-target="#multiBranchSwitchModal"><i class="fa fa-exchange" aria-hidden="true"></i></a></li>
-                                    
-                                    <?php } 
-                                    }?>
-                                    
- <?php
-if ($this->module_lib->hasActive('calendar_to_do_list')) {
-    if ($this->rbac->hasPrivilege('calendar_to_do_list', 'can_view')) {
-        ?>
-                                            <li class="cal15 d-sm-none"><a data-placement="bottom" data-toggle="tooltip" title="<?php echo $this->lang->line('calendar') ?>" href="<?php echo base_url() ?>admin/calendar/events" ><i class="fa fa-calendar"></i></a>
-
-                                            </li>
-                                            <?php
-}
-}
-?>
-                                    <?php
-if ($this->module_lib->hasActive('calendar_to_do_list')) {
-    if ($this->rbac->hasPrivilege('calendar_to_do_list', 'can_view')) {
-        ?>
-                                            <li class="dropdown" data-placement="bottom" data-toggle="tooltip" title="<?php echo $this->lang->line('task') ?>">
-                                                <a href="#"  class="dropdown-toggle todoicon" data-toggle="dropdown">
-                                                    <i class="fa fa-check-square-o"></i>
-                                                    <?php
-$userdata = $this->customlib->getUserData();
-        $count    = $this->customlib->countincompleteTask($userdata["id"],$userdata["role_id"]);
-        if ($count > 0) {
-            ?>
-
-                                                        <span class="todo-indicator"><?php echo $count ?></span>
-                                                    <?php }?>
-                                                </a>
-                                                <ul class="dropdown-menu menuboxshadow">
-
-                                                    <li class="todoview plr10 ssnoti"><?php echo $this->lang->line('today_you_have'); ?> <?php echo $count; ?> <?php echo $this->lang->line('pending_task'); ?><a href="<?php echo base_url() ?>admin/calendar/events" class="pull-right pt0"><?php echo $this->lang->line('view_all'); ?></a></li>
-                                                    <li>
-                                                        <ul class="todolist">
-                                                            <?php
-$tasklist = $this->customlib->getincompleteTask($userdata["id"],$userdata["role_id"]);
-        foreach ($tasklist as $key => $value) {
-            ?>
-                                                                <li><div class="checkbox">
-                                                                        <label><input type="checkbox" id="newcheck<?php echo $value["id"] ?>" onclick="markc('<?php echo $value["id"] ?>')" name="eventcheck"  value="<?php echo $value["id"]; ?>"><?php echo $value["event_title"] ?></label>
-                                                                    </div></li>
-                                                            <?php }?>
-
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                        <li class="dropdown d-lg-none d-sm-block ellipsis-px-3">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-ellipsis-v"></i>
-                                        </a>
-                                        <ul class="dropdown-menu min-w-full sm-drop-down">
-                                          <li><a href="<?php echo base_url() ?>admin/calendar/events"><i class="fa fa-calendar"></i></a></li>
-                                          <li><a href="<?php echo base_url() ?>admin/chat"><i class="fa fa-whatsapp"></i></a></li>
-                                        </ul>
-                                      </li>
-                                            <?php
-}
-}
-if ($this->module_lib->hasActive('chat')) {
-    if ($this->rbac->hasPrivilege('chat', 'can_view')) {
-        ?>
-                                         <li class="cal15 d-sm-none"><a data-placement="bottom" data-toggle="tooltip" title="" href="<?php echo base_url() ?>admin/chat" data-original-title="<?php echo $this->lang->line('chat') ?>" class="todoicon"><i class="fa fa-whatsapp"></i></a></li>
-                                        <?php
-}
-    ?>
-
-
-                                <?php }
-$file   = "";
-$result = $this->customlib->getLoggedInUserData();
-$role = $this->customlib->getStaffRole();
-
-
-$image = $result["image"];
-$role  = json_decode($role)->name;
-$id    = $result["id"];
-if (!empty($image)) {
-
-    $file = "uploads/staff_images/" . $image . img_time();
-} else {
-    if ($result['gender'] == 'Female') {
-        $file = "uploads/staff_images/default_female.jpg" . img_time();
-    } else {
-        $file = "uploads/staff_images/default_male.jpg" . img_time();
-    }
-
-}
-?>
-
-                                    <li class="dropdown user-menu">
-                                        <a class="dropdown-toggle" style="padding: 15px 12px;" data-toggle="dropdown" href="#" aria-expanded="false">
-                                            <img src="<?php echo base_url($file); ?>" class="topuser-image" alt="User Image">
-                                        </a>
-                                        <ul class="dropdown-menu dropdown-user menuboxshadow">
-                                            <li>
-                                                <div class="sstopuser">
-                                                    <div class="ssuserleft">
-                                                        <a href="<?php echo base_url() . "admin/staff/profile/" . $id ?>"><img src="<?php echo base_url($file); ?>" alt="User Image"></a>
-                                                    </div>
-                                                    <div class="sstopuser-test">
-                                                        <h4 class="text-capitalize"><?php echo $this->customlib->getAdminSessionUserName(); ?></h4>
-                                                        <h5><?php echo $role; ?></h5>
-                                                    </div>
-                                                    <div class="divider"></div>
-                                                    <div class="sspass">
-                                                        <a href="<?php echo base_url() . "admin/staff/profile/" . $id ?>" data-toggle="tooltip" title="" data-original-title="<?php echo $this->lang->line('my_profile'); ?>"><i class="fa fa-user"></i><?php echo $this->lang->line('profile'); ?> </a>
-                                                        <a class="pl25" href="<?php echo base_url(); ?>admin/admin/changepass" data-toggle="tooltip" title="" data-original-title="<?php echo $this->lang->line('change_password'); ?>"><i class="fa fa-key"></i><?php echo $this->lang->line('password'); ?></a> <a class="pull-right" href="<?php echo base_url(); ?>site/logout"><i class="fa fa-sign-out fa-fw"></i><?php echo $this->lang->line('logout'); ?></a>
-                                                    </div>
-                                                </div><!--./sstopuser--></li>
-                                        </ul>
-                                    </li>
-                                </ul>
+                    <div class="dropdown-menu ">
+                        <div class="noti-content">
+                            <div>
+                                <a class="dropdown-item" href="javascript:;"><i
+                                        class="flag flag-lr me-2"></i>English</a>
+                                <a class="dropdown-item" href="javascript:;"><i
+                                        class="flag flag-bl me-2"></i>Francais</a>
+                                <a class="dropdown-item" href="javascript:;"><i class="flag flag-cn me-2"></i>Turkce</a>
                             </div>
                         </div>
                     </div>
-                </nav>
-            </header>
+                </li>
 
-            <?php $this->load->view('layout/sidebar');?>
-<script>
-    function set_languages(lang_id){
-        $.ajax({
-        type: "POST",
-        url: base_url + "admin/language/user_language/"+lang_id,
-        data: {},
-        success: function (data) {
-            successMsg("<?php echo $this->lang->line('status_change_successfully'); ?>");
-            window.location.reload('true');
-        }
-        });
-    }
-</script>
+                <li class="nav-item dropdown noti-dropdown me-2">
+                    <a href="#" class="dropdown-toggle nav-link header-nav-list" data-bs-toggle="dropdown">
+                        <img src="<?php echo base_url(); ?>assets1/img/icons/header-icon-05.svg" alt="">
+                    </a>
+                    <div class="dropdown-menu notifications">
+                        <div class="topnav-dropdown-header">
+                            <span class="notification-title">Notifications</span>
+                            <a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+                        </div>
+                        <div class="noti-content">
+                            <ul class="notification-list">
+                                <li class="notification-message">
+                                    <a href="#">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm flex-shrink-0">
+                                                <img class="avatar-img rounded-circle" alt="User Image"
+                                                    src="<?php echo base_url(); ?>assets1/img/profiles/avatar-02.jpg">
+                                            </span>
+                                            <div class="media-body flex-grow-1">
+                                                <p class="noti-details"><span class="noti-title">Carlson Tech</span> has
+                                                    approved <span class="noti-title">your estimate</span></p>
+                                                <p class="noti-time"><span class="notification-time">4 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="#">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm flex-shrink-0">
+                                                <img class="avatar-img rounded-circle" alt="User Image"
+                                                    src="<?php echo base_url(); ?>assets1/img/profiles/avatar-11.jpg">
+                                            </span>
+                                            <div class="media-body flex-grow-1">
+                                                <p class="noti-details"><span class="noti-title">International Software
+                                                        Inc</span> has sent you a invoice in the amount of <span
+                                                        class="noti-title">$218</span></p>
+                                                <p class="noti-time"><span class="notification-time">6 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="#">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm flex-shrink-0">
+                                                <img class="avatar-img rounded-circle" alt="User Image"
+                                                    src="<?php echo base_url(); ?>assets1/img/profiles/avatar-17.jpg">
+                                            </span>
+                                            <div class="media-body flex-grow-1">
+                                                <p class="noti-details"><span class="noti-title">John Hendry</span> sent
+                                                    a cancellation request <span class="noti-title">Apple iPhone
+                                                        XR</span></p>
+                                                <p class="noti-time"><span class="notification-time">8 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="notification-message">
+                                    <a href="#">
+                                        <div class="media d-flex">
+                                            <span class="avatar avatar-sm flex-shrink-0">
+                                                <img class="avatar-img rounded-circle" alt="User Image"
+                                                    src="<?php echo base_url(); ?>assets1/img/profiles/avatar-13.jpg">
+                                            </span>
+                                            <div class="media-body flex-grow-1">
+                                                <p class="noti-details"><span class="noti-title">Mercury Software
+                                                        Inc</span> added a new product <span class="noti-title">Apple
+                                                        MacBook Pro</span></p>
+                                                <p class="noti-time"><span class="notification-time">12 mins ago</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="topnav-dropdown-footer">
+                            <a href="#">View all Notifications</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="nav-item zoom-screen me-2">
+                    <a href="#" class="nav-link header-nav-list win-maximize">
+                        <img src="<?php echo base_url(); ?>assets1/img/icons/header-icon-04.svg" alt="">
+                    </a>
+                </li>
+
+                <?php 
+                    $file   = "";
+                    $result = $this->customlib->getLoggedInUserData();
+                    $role = $this->customlib->getStaffRole();
+
+
+                    $image = $result["image"];
+                    $role  = json_decode($role)->name;
+                    $id    = $result["id"];
+
+                    if (!empty($image)) {
+                        $file = "uploads/staff_images/" . $image . img_time();
+                    } else {
+                        if ($result['gender'] == 'Female') {
+                            $file = "uploads/staff_images/default_female.jpg" . img_time();
+                        } else {
+                            $file = "uploads/staff_images/default_male.jpg" . img_time();
+                        }
+                    }
+                ?>
+
+                <li class="nav-item dropdown has-arrow new-user-menus">
+                    <a href="#" class="dropdown-toggle nav-link" data-bs-toggle="dropdown">
+                        <span class="user-img">
+                            <img class="rounded-circle" src="<?php echo base_url($file); ?>" width="31"
+                                alt="Soeng Souy">
+                            <div class="user-text">
+                                <h6><?php echo $this->customlib->getAdminSessionUserName(); ?></h6>
+                                <p class="text-muted mb-0"><?php echo $role; ?></p>
+                            </div>
+                        </span>
+                    </a>
+
+
+                    <div class="dropdown-menu">
+                        <div class="user-header">
+                            <div class="avatar avatar-sm">
+                                <img src="<?php echo base_url($file); ?>" alt="User Image"
+                                    class="avatar-img rounded-circle">
+                            </div>
+                            <div class="user-text">
+                                <h6><?php echo $this->customlib->getAdminSessionUserName(); ?></h6>
+                                <p class="text-muted mb-0"><?php echo $role; ?></p>
+                            </div>
+                        </div>
+
+                        <!-- <a class="dropdown-item" href="profile.html">My Profile</a>
+                        <a class="dropdown-item" href="inbox.html">Inbox</a>
+                        <a class="dropdown-item" href="login.html">Logout</a> -->
+
+                         
+                        <a class="dropdown-item" href="<?php echo base_url() . "admin/staff/profile/" . $id ?>" ><?php echo $this->lang->line('profile'); ?> </a>
+                        <a class="dropdown-item" href="<?php echo base_url(); ?>admin/admin/changepass"><?php echo $this->lang->line('password'); ?></a> 
+                        <a class="dropdown-item" href="<?php echo base_url(); ?>site/logout"><?php echo $this->lang->line('logout'); ?></a>
+                    
+
+
+                    </div>
+
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <?php $this->load->view('layout/sidebar');?>
